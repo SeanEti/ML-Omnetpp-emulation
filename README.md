@@ -6,5 +6,7 @@ Emulation of a machine learning algorithm running on a simulated network in Omne
     Omnet++ 6.0.1
     INET Framework 4.3.9
     Docker 20.10.12
+    Python 3.7
+    TensorFlow 1.15.0
     
 
