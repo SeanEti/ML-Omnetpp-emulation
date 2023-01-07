@@ -1,0 +1,57 @@
+WARNING:tensorflow:From ./correct_distri_ps_ver_1.py:37: The name tf.train.Server is deprecated. Please use tf.distribute.Server instead.
+
+2023-01-02 17:04:35.186041: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2023-01-02 17:04:35.211646: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3591685000 Hz
+2023-01-02 17:04:35.212945: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x558e00573fc0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2023-01-02 17:04:35.213009: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2023-01-02 17:04:35.221968: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2023-01-02 17:04:35.222783: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: UNKNOWN ERROR (303)
+2023-01-02 17:04:35.222859: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (f43961d87a18): /proc/driver/nvidia/version does not exist
+2023-01-02 17:04:35.237407: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:258] Initialize GrpcChannelCache for job ps -> {0 -> localhost:4000}
+2023-01-02 17:04:35.237487: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:258] Initialize GrpcChannelCache for job worker -> {0 -> 192.168.2.21:4545, 1 -> 192.168.3.21:4444}
+2023-01-02 17:04:35.241006: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:365] Started server with target: grpc://localhost:4000
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/urllib/request.py", line 1350, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "/usr/local/lib/python3.7/http/client.py", line 1281, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1327, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1276, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.7/http/client.py", line 976, in send
+    self.connect()
+  File "/usr/local/lib/python3.7/http/client.py", line 948, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/usr/local/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./correct_distri_ps_ver_1.py", line 48, in <module>
+    mnist = read_data_sets('MNIST_data', one_hot=True)
+  File "/usr/src/app/input_data.py", line 151, in read_data_sets
+    local_file = maybe_download(TRAIN_IMAGES, train_dir)
+  File "/usr/src/app/input_data.py", line 18, in maybe_download
+    filepath, _ = urllib.request.urlretrieve(SOURCE_URL + filename, filepath)
+  File "/usr/local/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/usr/local/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/local/lib/python3.7/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/local/lib/python3.7/urllib/request.py", line 543, in _open
+    '_open', req)
+  File "/usr/local/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/local/lib/python3.7/urllib/request.py", line 1378, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/usr/local/lib/python3.7/urllib/request.py", line 1352, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 99] Cannot assign requested address>
