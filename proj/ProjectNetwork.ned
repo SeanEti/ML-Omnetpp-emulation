@@ -11,7 +11,7 @@ import inet.visualizer.common.IntegratedVisualizer;
 network ProjectNetwork
 {
     parameters:
-        @display("bgb=1000,400");
+        @display("bgb=998.2425,648.795");
     submodules:
         configurator: Ipv4NetworkConfigurator {
             parameters:
@@ -23,40 +23,55 @@ network ProjectNetwork
         }
         router: Router {
             parameters:
-                @display("p=425.44498,336.34");
+                @display("p=474.69748,165.33");
         }
         router2: Router {
             parameters:
-                @display("p=553.45496,272.335");
+                @display("p=405.81,453.405");
         }
         router3: Router {
             parameters:
-                @display("p=553.45496,272.335");
+                @display("p=543.585,452.1525");
+        }
+        sw1: EthernetSwitch {
+            parameters:
+                @display("p=474.69748,268.035");
+        }
+        sw2: EthernetSwitch {
+            parameters:
+                @display("p=405.81,341.9325");
+        }
+        sw3: EthernetSwitch {
+            parameters:
+                @display("p=542.3325,341.9325");
         }
         host1: StandardHost {
             parameters:
-                @display("p=100,300");
+                @display("p=474.69748,60.12");
         }
         host2: StandardHost {
             parameters:
-                @display("p=900,300");
+                @display("p=278.055,582.4125");
         }
         host3: StandardHost {
             parameters:
-                @display("p=500,400");
+                @display("p=425.85,582.4125");
         }
         host4: StandardHost {
             parameters:
-                @display("p=500,400");
+                @display("p=523.545,582.4125");
         }
         host5: StandardHost {
             parameters:
-                @display("p=500,400");
+                @display("p=670.08746,582.4125");
         }
     connections:
         host1.ethg++ <--> Eth100M <--> router.ethg++;
-        router.ethg++ <--> Eth100M <--> router2.ethg++;
-        router.ethg++ <--> Eth100M <--> router3.ethg++;
+        router.ethg++ <--> Eth100M <--> sw1.ethg++;
+        sw1.ethg++ <--> Eth100M <--> sw2.ethg++;
+        sw1.ethg++ <--> Eth100M <--> sw3.ethg++;
+        sw2.ethg++ <--> Eth100M <--> router2.ethg++;
+        sw3.ethg++ <--> Eth100M <--> router3.ethg++;
         router2.ethg++ <--> Eth100M <--> host2.ethg++;
         router2.ethg++ <--> Eth100M <--> host3.ethg++;
         router3.ethg++ <--> Eth100M <--> host4.ethg++;
