@@ -1,7 +1,7 @@
 # Machine Learning Algorithm Emulation in Omnet++
 Emulation of a machine learning algorithm running on a simulated network in Omnet++
 
-![Topology of the network](https://github.com/SeanEti/ML-Omnetpp-emulation/tree/master/topology.jpeg = 1040x1480)
+![Topology of the network](https://github.com/SeanEti/ML-Omnetpp-emulation/tree/master/topology.jpeg =1040x1480)
 
 ## Run Instructions
 1) Download all the correct versions
