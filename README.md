@@ -18,8 +18,10 @@ According to the studies (which will be mentioned later on), we expect our simul
 2) Download the git depository
 3) Copy the 'proj' folder to {path to main omnet folder}/samples/inet/showcases/emulation/
 4) build docker images from dockerfiles in 'ml-codes' folder with the next commands:
-    sudo docker build -t proj:ps -f ps.Dockerfile .
-    sudo docker build -t proj:work{worker_num} -f work{worker_num}.Dockerfile .
+```
+sudo docker build -t proj:ps -f ps.Dockerfile .
+sudo docker build -t proj:work{worker_num} -f work{worker_num}.Dockerfile .
+```
 
 #### after downloading everything
 5) Go to {OMNET folder}
