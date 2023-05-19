@@ -39,7 +39,7 @@ sudo docker build -t proj:work{worker_num} -f work{worker_num}.Dockerfile .
 ##  Versions:
     Running on Ubuntu 20.04.4
     Omnet++ 6.0.1
-    INET Framework 4.3.9
+    INET Framework ~~4.3.9~~ 4.5
     Docker 20.10.12
     Python 3.7
     TensorFlow 1.15.0
