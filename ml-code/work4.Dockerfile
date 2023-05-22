@@ -1,9 +1,6 @@
 FROM python:3.7-slim
 WORKDIR /usr/src/app
-
-COPY requirements.txt ./for_all/ ./correct_distri_worker4_ver_1.py ./
+COPY ./for_all/ ./
 RUN pip install --no-cache-dir -r requirements.txt \
 && rm -rf /var/lib/apt/lists/*
-
-# ENTRYPOINT [ "/bin/bash", "-l", "-c" ]
-CMD ["python3", "./correct_distri_worker4_ver_1.py"]
+CMD ["python3", "./distri_ml.py", "-j", "worker", "-t", "3", "-a", "workers.txt", "-s", "192.168.4.21:4000", "-m", "SGD"]
