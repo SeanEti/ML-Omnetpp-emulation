@@ -32,12 +32,11 @@ parser.add_argument("-s", "--server", help="ip and port of parameter server")
 args = vars(parser.parse_args())
 
 with open(args["addresses"], 'r') as fd:
-    workers = fd.read().split(',')
+    workers = fd.read().splitlines()[0].split(',')
 
 parameter_servers = [args["server"]]
 
-# parameter_servers = ["192.168.4.21:4000"]
-# workers = ["192.168.2.21:4545", "192.168.3.21:4444", "192.168.5.21:4646", "192.168.6.21:4747"]
+print(f'Received IPs:\nWorkers: {workers}\nParameter Server: {parameter_servers}')
 
 cluster = tf.train.ClusterSpec({"ps": parameter_servers, "worker": workers})
 
@@ -62,7 +61,7 @@ server = tf.train.Server(cluster,
 batch_size = 100
 learning_rate = 0.0001
 dropout_keep_proba = 0.5
-training_epochs = 2000
+training_epochs = 500
 number_of_workers = len(workers)
 # logs_path = "/tmp/mnist/1"
 
@@ -74,6 +73,7 @@ n_input = n_features
 n_classes = 10
 image_width, image_height = 28, 28
 
+print("Reading Data...")
 # load mnist data set
 mnist = read_data_sets('MNIST_data', one_hot=True)
 
@@ -81,8 +81,10 @@ mnist = read_data_sets('MNIST_data', one_hot=True)
 worker_dataset = get_workers_dataset(mnist, num_of_workers=number_of_workers, batchsize=batch_size)[args["task_index"]]
 
 if args["job_name"] == "ps":
+    print("Server joining...")
     server.join()
 elif args["job_name"] == "worker":
+    print("This is a worker!")
     is_chief = (args["task_index"] == 0)
     # Between-graph replication
     with tf.device(tf.train.replica_device_setter(
@@ -93,6 +95,7 @@ elif args["job_name"] == "worker":
         global_step = tf.get_variable('global_step', [], dtype=tf.int32,
                                       initializer=tf.constant_initializer(0),
                                       trainable=False)
+        
 
         # input images
         with tf.name_scope('input'):
@@ -126,6 +129,7 @@ elif args["job_name"] == "worker":
         # implement model
         with tf.name_scope("model"):
             if args["model"] == "SGD":
+                print("Chosen SGD!")
                 # y is our prediction
                 z2 = tf.add(tf.matmul(x, W1), b1)
                 a2 = tf.nn.sigmoid(z2)
@@ -254,10 +258,6 @@ elif args["job_name"] == "worker":
         init_op = tf.global_variables_initializer()
         print("Variables initialized ...")
 
-    # sv = tf.train.Supervisor(is_chief=(FLAGS.task_index == 0),
-    #                         global_step=global_step,
-    #                         init_op=init_op, recovery_wait_secs=1)
-
     run_all = False
     # Session
     sync_replicas_hook = optimizer1.make_session_run_hook(is_chief, num_tokens=0)
@@ -265,6 +265,7 @@ elif args["job_name"] == "worker":
     hooks = [sync_replicas_hook, stop_hook]
 
     # Monitored Training Session
+    print("Trying to start session with server...")
     sess = tf.train.MonitoredTrainingSession(master=server.target,
                                              is_chief=is_chief,
                                              hooks=hooks,
@@ -273,18 +274,10 @@ elif args["job_name"] == "worker":
     print('Starting training on worker %d' % args["task_index"])
 
     begin_time = time.time()
-    frequency = 100
+    frequency = 20
     counter_after_sync = 0
 
     while not sess.should_stop() and counter_after_sync < training_epochs * len(worker_dataset):
-        # is chief
-        # if FLAGS.task_index == 0 and FLAGS.sync_replicas:
-        #    sv.start_queue_runners(sess, [chief_queue_runner])
-        #    sess.run(init_token_op)
-
-        # create log writer object (this will log on every machine)
-        # writer = tf.summary.FileWriter(logs_path, graph=tf.get_default_graph())
-
         # perform training cycles
         start_time = time.time()
         for epoch in range(training_epochs):
@@ -311,7 +304,8 @@ elif args["job_name"] == "worker":
                           "Step: %d," % (step + 1),
                           " Epoch: %2d," % (epoch + 1),
                           " Batch: %3d of %3d," % (i + 1, batch_count),
-                          " Cost: %.4f," % cost)
+                          " Cost: %.4f," % cost,
+                          " Elapsed time: %3.2fs" % elapsed_time)
                     count = 0
 
     val_xent = sess.run(cross_entropy, feed_dict={x: mnist.test.images, y_: mnist.test.labels})
