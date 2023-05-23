@@ -35,7 +35,7 @@ COPY ./for_all/ ./
 RUN pip install --no-cache-dir -r requirements.txt \\
 && rm -rf /var/lib/apt/lists/*
         
-CMD [\"python3\", \"./distri_ml.py\", \"-j\", \"ps\", \"-t\", \"0\", \"-a\", \"$WORKERS_PATH\", \"-s\", \"$PSIP\", \"-m\", \"SGD\"]" > ps.Dockerfile
+CMD [\"python3\", \"./distri_ml.py\", \"-j\", \"ps\", \"-t\", \"0\", \"-a\", \"$WORKERS_PATH\", \"-s\", \"$PSIP\", \"-m\", \"CNN\"]" > ps.Dockerfile
 
 echo "created ps"
 
@@ -52,6 +52,6 @@ do
     echo "RUN pip install --no-cache-dir -r requirements.txt \\" >> work$((i+1)).Dockerfile
     echo "&& rm -rf /var/lib/apt/lists/*" >> work$((i+1)).Dockerfile
 
-    echo "CMD [\"python3\", \"./distri_ml.py\", \"-j\", \"worker\", \"-t\", \"$i\", \"-a\", \"$WORKERS_PATH\", \"-s\", \"$PSIP\", \"-m\", \"SGD\"]" >> work$((i+1)).Dockerfile
+    echo "CMD [\"python3\", \"./distri_ml.py\", \"-j\", \"worker\", \"-t\", \"$i\", \"-a\", \"$WORKERS_PATH\", \"-s\", \"$PSIP\", \"-m\", \"CNN\"]" >> work$((i+1)).Dockerfile
     echo "created $i"
 done

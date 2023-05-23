@@ -1,4 +1,5 @@
 # create TAP interfaces
+echo "Setting up taps..."
 sudo ip tuntap add mode tap dev tapa
 sudo ip tuntap add mode tap dev tapb
 sudo ip tuntap add mode tap dev tapc
@@ -19,6 +20,7 @@ sudo ip link set dev tapc up
 sudo ip link set dev tapd up
 sudo ip link set dev tape up
 
+echo "Setting up docker networks..."
 # create macvlans to connect docker containers to omnet++ network
 sudo docker network  create -d macvlan --subnet=192.168.2.0/24 --gateway=192.168.2.99 -o parent=tapa work1-net
 
@@ -29,3 +31,5 @@ sudo docker network  create -d macvlan --subnet=192.168.5.0/24 --gateway=192.168
 sudo docker network  create -d macvlan --subnet=192.168.6.0/24 --gateway=192.168.6.99 -o parent=tapd work4-net
 
 sudo docker network  create -d macvlan --subnet=192.168.4.0/24 --gateway=192.168.4.99 -o parent=tape ps-net
+
+echo "Setup is complete!"

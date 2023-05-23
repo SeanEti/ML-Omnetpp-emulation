@@ -59,9 +59,9 @@ server = tf.train.Server(cluster,
 
 # config
 batch_size = 100
-learning_rate = 0.0001
+learning_rate = 0.1
 dropout_keep_proba = 0.5
-training_epochs = 500
+training_epochs = 10
 number_of_workers = len(workers)
 # logs_path = "/tmp/mnist/1"
 
@@ -204,7 +204,7 @@ elif args["job_name"] == "worker":
             if args["model"] == "CNN":
                 # Loss and optimizer
                 loss = tf.nn.softmax_cross_entropy_with_logits_v2(logits=out_layer, labels=y_)
-                cost = tf.reduce_mean(loss, name='cost')
+                cross_entropy = tf.reduce_mean(loss, name='cost')
             # actual gradients
             # var_grad = tf.gradients(cross_entropy, [y])[0]
 
@@ -259,6 +259,7 @@ elif args["job_name"] == "worker":
         print("Variables initialized ...")
 
     run_all = False
+    
     # Session
     sync_replicas_hook = optimizer1.make_session_run_hook(is_chief, num_tokens=0)
     stop_hook = tf.train.StopAtStepHook(last_step=training_epochs * len(worker_dataset) + 1)
@@ -308,7 +309,7 @@ elif args["job_name"] == "worker":
                           " Elapsed time: %3.2fs" % elapsed_time)
                     count = 0
 
-    val_xent = sess.run(cross_entropy, feed_dict={x: mnist.test.images, y_: mnist.test.labels})
+    # val_xent = sess.run(cross_entropy, feed_dict={x: mnist.test.images, y_: mnist.test.labels})
     # print("After %d training step(s), validation cross entropy = %g" % (step, val_xent))
     print("The model chosen is ", args["model"])
     print("Test-Accuracy: %2.2f" % sess.run(accuracy, feed_dict={x: mnist.test.images, y_: mnist.test.labels}))
