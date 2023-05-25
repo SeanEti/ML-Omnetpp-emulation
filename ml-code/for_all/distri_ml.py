@@ -61,7 +61,7 @@ server = tf.train.Server(cluster,
 batch_size = 100
 learning_rate = 0.1
 dropout_keep_proba = 0.5
-training_epochs = 10
+training_epochs = 1
 number_of_workers = len(workers)
 # logs_path = "/tmp/mnist/1"
 
