@@ -1,7 +1,7 @@
 import collections
 import operator
 # import os
-# import sys
+import sys
 import torch
 # import torch.distributed as dist
 import torch.nn as nn
@@ -44,6 +44,19 @@ class Net(nn.Module):
 #                     FUNCTIONS
 # ===================================================
 
+def split_dataset(train_loader_data, num_of_workers):
+    # Get the total number of samples in the dataset
+    dataset_size = len(train_loader_data.dataset)
+
+    # Calculate the size of each worker's subset
+    subset_size = dataset_size // num_of_workers
+
+    # Dynamically split the dataset among workers
+    worker_datasets = torch.utils.data.random_split(train_loader_data.dataset, [subset_size] * num_of_workers)
+
+    return worker_datasets
+
+
 def train(epoch_num, net, func_optim, train_loader_data, log_freq=10):
     """
     train model
@@ -62,8 +75,8 @@ def train(epoch_num, net, func_optim, train_loader_data, log_freq=10):
                 100. * batch_idx / len(train_loader_data), loss.item()))
             train_losses.append(loss.item())
             train_counter.append((batch_idx*64) + ((epoch_num-1)*len(train_loader_data.dataset)))
-            torch.save(net.state_dict(), '/results/model.pth')
-            torch.save(func_optim.state_dict(), '/results/optimizer.pth')
+            torch.save(net.state_dict(), 'model.pth')
+            torch.save(func_optim.state_dict(), 'optimizer.pth')
     return net.state_dict()
 
 
@@ -152,14 +165,16 @@ if args["job_name"] == 'worker':
 
     # get data
     train_loader = torch.utils.data.DataLoader(
-    datasets.MNIST('./data/', train=True, download=False,
+    datasets.MNIST('./data', train=True, download=False,
                    transform=transforms.Compose([
                        transforms.ToTensor(),
                        transforms.Normalize((0.1307,), (0.3081,))])),
     batch_size=batch_size_train, shuffle=True)
 
+    train_loader = split_dataset(train_loader, num_of_workers)
+
     test_loader = torch.utils.data.DataLoader(
-        datasets.MNIST('./data/', train=False, download=False,
+        datasets.MNIST('./data', train=False, download=False,
                     transform=transforms.Compose([
                         transforms.ToTensor(),
                         transforms.Normalize((0.1307,), (0.3081,))])),
@@ -181,6 +196,8 @@ if args["job_name"] == 'worker':
         curr_state = train(epoch, network, optimizer, train_loader, log_interval)
         # TODO send gradients to server
         state_string = pickle.dumps(curr_state, -1)
+        print(f"Size of state dict is {sys.getsizeof(state_string)}B")
+
         if sock.sendto(state_string, (serv_ip, serv_port)) == -1:
             print("ERR: Failed to send current state of model in worker :(...")
         print("sent state to server...")

@@ -1,3 +1,0 @@
-numpy==1.21.5
-tensorflow==1.15.0
-protobuf==3.20.*
