@@ -1,20 +1,15 @@
-import collections
-import operator
-# import os
-import sys
+# import sys
 import torch
-# import torch.distributed as dist
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.utils.data.distributed import DistributedSampler
-# from torch.utils.data import DataLoader
 import argparse
-import functools
 import socket
-# import time
-import pickle
+import time
+from threading import Thread
+import pickle as pkl
 
 
 # ===================================================
@@ -44,17 +39,31 @@ class Net(nn.Module):
 #                     FUNCTIONS
 # ===================================================
 
-def split_dataset(train_loader_data, num_of_workers):
+def split_dataset(data, num_of_workers):
     # Get the total number of samples in the dataset
-    dataset_size = len(train_loader_data.dataset)
+    dataset_size = len(data)
 
     # Calculate the size of each worker's subset
     subset_size = dataset_size // num_of_workers
 
     # Dynamically split the dataset among workers
-    worker_datasets = torch.utils.data.random_split(train_loader_data.dataset, [subset_size] * num_of_workers)
+    worker_datasets = torch.utils.data.random_split(data, [subset_size] * num_of_workers)
 
     return worker_datasets
+
+
+def recvall(sock):
+    """
+    Receives and returns a large fragmented message
+    """
+    BUFF_SIZE = 1448
+    data = []
+    while True:
+        part = sock.recv(BUFF_SIZE)
+        data.append(part)
+        if len(part) < BUFF_SIZE:
+            break
+    return b"".join(data)
 
 
 def train(epoch_num, net, func_optim, train_loader_data, log_freq=10):
@@ -106,23 +115,58 @@ def get_new_state(worker_model_dic):
     average value of the given states.
     """
     dicts = list(worker_model_dic.values())
-    new_state = dict(functools.reduce(operator.add,
-                                      map(collections.Counter, dicts)))
-    new_state.update(
-        (key, value / len(dicts)) for key, value in dicts.items()
-    )
-    return new_state
+    model0 = Net()
+    model0.load_state_dict(dicts[0], strict=False)
+
+    for idx, state in enumerate(dicts):
+        if idx == 0: continue
+        model = Net()
+        model.load_state_dict(state, strict=False)
+        for param, param0 in zip(model.parameters(), model0.parameters()):
+            param0.data.copy_(param.data + param0.data)
+
+    for param in model0.parameters():
+        param.data.copy_(param.data / len(dicts))
+
+    return model0.state_dict()
 
 
-def broadcast_state_dict(new_state, workers_addrs, server_sock):
+def broadcast_state_dict(new_state, workers_sockets, all_workers):
     """
     Sending the new state dictionary of the model to all the workers
     """
-    data_string = pickle.dumps(new_state)
-    for addr in workers_addrs:
-        if server_sock.sendto(data_string, addr) == -1:
-            print(f"ERR: Failed to send new state of model to {addr} while broadcasting...")
-    pass
+    workers_who_shared = []
+    to_send = pkl.dumps(new_state)
+    for work_sock, work_addr in workers_sockets:
+        workers_who_shared.append(work_addr[0])
+        print(f"sending to {work_addr}...")
+        if work_sock.sendall(to_send) == -1:
+            print(f"ERR: Failed to send new state of model to {work_addr} while broadcasting...")
+
+    # check if there is a worker who didnt send his model -> need to establish new tcp connection with him
+    workers_who_skipped = [item for item in all_workers if item[0] not in workers_who_shared]
+    if len(workers_who_skipped) > 0:
+        # create connections and send new model
+        for worker_addr in workers_who_skipped:
+            new_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            if new_sock.connect_ex(worker_addr) == 0:
+                print(f"sending to {worker_addr}...")
+                if work_sock.sendall(to_send) == -1:
+                    print(f"ERR: Failed to send new state of model to {worker_addr} while broadcasting...")
+            else:
+                print(f"couldn't send new model to {worker_addr}")
+            new_sock.close()
+
+
+def handle_new_worker_connection(work_sock, addr, worker_model_dict):
+    """
+    Receives model from worker in addr
+    """
+    print(f"Receives model from {addr}...")
+    # receive model of worker
+    data = recvall(work_sock)
+    message = pkl.loads(data)                       # deserialize model state dict
+    worker_model_dict[(work_sock, addr)] = message
 
 
 # ===================================================
@@ -141,12 +185,20 @@ args = vars(parser.parse_args())
 # save IPs and ports of all workers and parameter-server from arguments
 with open(args["addresses"], 'r') as fd:
     workers = fd.read().splitlines()[0].split(',')
+for idx, worker in enumerate(workers):
+    work_ip, work_port = worker.split(':')
+    work_port = int(work_port)
+    workers[idx] = (work_ip, work_port)
 num_of_workers = len(workers)
+
 parameter_server = args["server"]
+serv_ip, serv_port = parameter_server.split(':')    # get IP and port of parameter-server
+serv_port = int(serv_port)
+
 print(f'Received IPs:\nWorkers: {workers}\nParameter Server: {parameter_server}')
 
 # setting up
-num_of_epochs = 1
+num_of_epochs = 2
 batch_size_train = 64
 learning_rate = 0.01
 momentum = 0.5
@@ -156,22 +208,17 @@ batch_size_test = 1000
 torch.backends.cudnn.enabled = False
 torch.manual_seed(696969)
 
-serv_ip, serv_port = parameter_server.split(':')    # get IP and port of parameter-server
-serv_port = int(serv_port)
-sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-
+# ---------------------------- WORKER CODE ----------------------------
 if args["job_name"] == 'worker':
-    print(f'This is worker{args["task_index"]}')
+    print(f'This is worker{args["task_index"] + 1}')
 
     # get data
-    train_loader = torch.utils.data.DataLoader(
-    datasets.MNIST('./data', train=True, download=False,
+    train_data = datasets.MNIST('./data', train=True, download=False,
                    transform=transforms.Compose([
                        transforms.ToTensor(),
-                       transforms.Normalize((0.1307,), (0.3081,))])),
-    batch_size=batch_size_train, shuffle=True)
-
-    train_loader = split_dataset(train_loader, num_of_workers)
+                       transforms.Normalize((0.1307,), (0.3081,))]))
+    train_data = split_dataset(train_data, num_of_workers)[args["task_index"]]
+    train_loader = torch.utils.data.DataLoader(train_data, batch_size=batch_size_train, shuffle=True)
 
     test_loader = torch.utils.data.DataLoader(
         datasets.MNIST('./data', train=False, download=False,
@@ -193,45 +240,83 @@ if args["job_name"] == 'worker':
     # start to train model
     print("Starting training...")
     for epoch in range(1, num_of_epochs + 1):
-        curr_state = train(epoch, network, optimizer, train_loader, log_interval)
-        # TODO send gradients to server
-        state_string = pickle.dumps(curr_state, -1)
-        print(f"Size of state dict is {sys.getsizeof(state_string)}B")
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        curr_state = train(epoch, network, optimizer, train_loader, log_interval)   # train one epoch
 
-        if sock.sendto(state_string, (serv_ip, serv_port)) == -1:
-            print("ERR: Failed to send current state of model in worker :(...")
-        print("sent state to server...")
-        # TODO wait to receive new params from server
-        message = sock.recvfrom(2048)
-        new_state_dict = pickle.loads(message[0])
+        # serialize data to send
+        state_string = pkl.dumps(curr_state, -1)
+        
+        # send gradients to server
+        # TODO need to add timeout maybe for smart switch to work...
+        if sock.connect_ex((serv_ip, serv_port)) == 0:
+            print("sending model to server...")
+            sock.sendall(state_string)
+            print("sent model to server! now waiting to hear back...")
+            data = recvall(sock)
+            sock.shutdown(socket.SHUT_RDWR)
+            sock.close()
+        else:   # listen for server connection
+            print(f'server won\'t connect me so im binding {workers[args["task_index"]]}')
+            sock.bind(workers[args["task_index"]])
+            print("Couldn't connect to server so waiting for connection from server...")
+            sock.listen(1)
+            # TODO maybe need to reset timeout here from first TODO
+            conn, _ = sock.accept()
+            data = recvall(conn)
+            conn.shutdown(socket.SHUT_RDWR)
+            conn.close()
 
-        # TODO update model to new params
-        network.load_state_dict(new_state_dict)
-        print(f"Received new state dictionary from server:\n{new_state_dict}")
+        # wait to receive new params from server
+        print("Received updated model from server...")
+        new_state_dict = pkl.loads(data)
+        network.load_state_dict(new_state_dict)     # update network
 
+        # test new network  
+        test(network, test_loader)
+    print("Program finished successfully!")
+    exit(1)
+
+# ---------------------------- PARAMETER SERVER CODE ----------------------------
 elif args["job_name"] == 'ps':
     print("This is a parameter server!")
     # bind socket
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sock.bind((serv_ip, serv_port))
 
-    num_of_workers_who_shared_model = 0
-    worker_model_dict = {}
+    # num_of_workers_who_shared_model = 0
+    worker_model_dict = dict()
 
     # listen for incoming datagrams
-    print("Listening...")
+    sock.listen(num_of_workers)
+    threads = []
     while True:
-        bytes_and_address = sock.recvfrom(2048)
-        message = pickle.loads(bytes_and_address[0])    # deserialize model state dict
-        address = bytes_and_address[1]                  # save address of worker
+        print("Listening... waiting for workers to train...")
+        worker_model_dict = dict()
+        sock.settimeout(None)
+        conn, addr = sock.accept()
+        worker_t = Thread(target=handle_new_worker_connection, args=(conn, addr, worker_model_dict))
+        threads.append(worker_t)
+        worker_t.start()
+        print("Accepted first worker... now waiting for rest")
+        for i in range(num_of_workers - 1):
+            sock.settimeout(6)
+            try:
+                conn, addr = sock.accept()
+            except socket.timeout:
+                print("timeout...")
+                break
+            print(f"accepting connection from: {addr}")
+            worker_t = Thread(target=handle_new_worker_connection, args=(conn, addr, worker_model_dict))
+            threads.append(worker_t)
+            worker_t.start()
+        
+        print("waiting for threads to finish reading models")
+        for t in threads:
+            t.join()
 
-        worker_model_dict[address] = message            # save received model in dictionary
-        num_of_workers_who_shared_model += 1
-        if num_of_workers_who_shared_model == num_of_workers:
-            new_state_dict = get_new_state(worker_model_dict)
-            broadcast_state_dict(new_state_dict, len(worker_model_dict.keys()))
-            # reset counters and wait for another round of new models
-            num_of_workers_who_shared_model = 0
-            worker_model_dict = {}
+        print("getting new aste dictionary from received dics")
+        new_state = get_new_state(worker_model_dict)
+        broadcast_state_dict(new_state, list(worker_model_dict.keys()), workers)
 else:
     print("ERR: Wrong job entered in argument...")
     exit(-1)
