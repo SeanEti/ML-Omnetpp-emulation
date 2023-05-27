@@ -198,7 +198,7 @@ serv_port = int(serv_port)
 print(f'Received IPs:\nWorkers: {workers}\nParameter Server: {parameter_server}')
 
 # setting up
-num_of_epochs = 2
+num_of_epochs = 10
 batch_size_train = 64
 learning_rate = 0.01
 momentum = 0.5
@@ -236,10 +236,13 @@ if args["job_name"] == 'worker':
     train_counter = []
     test_losses = []
     test_counter = [i * len(train_loader.dataset) for i in range(num_of_epochs + 1)]
+    epoch_times = []
 
     # start to train model
+    start_training_time = time.time()
     print("Starting training...")
     for epoch in range(1, num_of_epochs + 1):
+        epoch_start_time = time.time()
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         curr_state = train(epoch, network, optimizer, train_loader, log_interval)   # train one epoch
 
@@ -271,8 +274,12 @@ if args["job_name"] == 'worker':
         new_state_dict = pkl.loads(data)
         network.load_state_dict(new_state_dict)     # update network
 
+        epoch_times.append(time.time() - epoch_start_time)
+        print(f"Epoch {epoch} took {epoch_times[-1]}s")
         # test new network  
         test(network, test_loader)
+
+    print(f'Average epoch train time: {sum(epoch_times) / len(epoch_times)}\nConvergence time from worker{args["task_index"]+1}: {time.time() - start_training_time}')
     print("Program finished successfully!")
     exit(1)
 

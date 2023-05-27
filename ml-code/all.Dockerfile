@@ -2,7 +2,7 @@ FROM python:3.9-slim
 ENV JOB "ps"
 ENV IDX "0"
 ENV WORKERS "workers.txt"
-ENV SERVER "192.168.4.21:4000"
+ENV SERVER "192.168.0.21:49152"
 ENV MODEL "CNN"
 WORKDIR /usr/src/app
 COPY ./cpy_from/ ./
