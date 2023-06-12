@@ -11,7 +11,7 @@ According to the studies (which will be mentioned later on), we expect our simul
 <sub>Keywords: distributed machine learning, aggregations, smart switch, simulation, network utilization.</sub>
 
 
-<img src="https://github.com/SeanEti/ML-Omnetpp-emulation/blob/master/Project_base_topology.png" width="1220" height="760" class="center"/>
+<img src="https://github.com/SeanEti/ML-Omnetpp-emulation/blob/master/Project_base_topology.png" width="797" height="727" class="center"/>
 
 ## Run Instructions
 1) Download all the correct versions
