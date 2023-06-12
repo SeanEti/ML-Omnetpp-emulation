@@ -1,0 +1,202 @@
+Received IPs:
+Workers: [('192.168.1.21', 49153), ('192.168.2.21', 49154), ('192.168.3.21', 49155), ('192.168.4.21', 49156), ('192.168.5.21', 49157), ('192.168.6.21', 49158), ('192.168.7.21', 49159), ('192.168.8.21', 49160)]
+Parameter Server: 192.168.0.21:49152
+This is worker2
+Starting training...
+/usr/src/app/./distri_ml_ys.py:35: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  return F.log_softmax(x)
+Train Epoch: 1 [0/7500 (0%)]	Loss: 2.289188
+Train Epoch: 1 [640/7500 (8%)]	Loss: 2.315589
+Train Epoch: 1 [1280/7500 (17%)]	Loss: 2.302543
+Train Epoch: 1 [1920/7500 (25%)]	Loss: 2.296413
+Train Epoch: 1 [2560/7500 (34%)]	Loss: 2.260099
+Train Epoch: 1 [3200/7500 (42%)]	Loss: 2.270810
+Train Epoch: 1 [3840/7500 (51%)]	Loss: 2.220004
+Train Epoch: 1 [4480/7500 (59%)]	Loss: 2.231091
+Train Epoch: 1 [5120/7500 (68%)]	Loss: 2.175376
+Train Epoch: 1 [5760/7500 (76%)]	Loss: 2.216883
+Train Epoch: 1 [6400/7500 (85%)]	Loss: 2.063090
+Train Epoch: 1 [7040/7500 (93%)]	Loss: 2.010049
+sending model to server...
+sent model to server! now waiting to hear back...
+Received updated model from server...
+Epoch 1 took 136.37384128570557s
+/usr/local/lib/python3.9/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+
+Test set: Avg. loss: 1.8061, Accuracy: 6504/10000 (65%)
+
+Train Epoch: 2 [0/7500 (0%)]	Loss: 1.978225
+Train Epoch: 2 [640/7500 (8%)]	Loss: 1.810716
+Train Epoch: 2 [1280/7500 (17%)]	Loss: 1.801805
+Train Epoch: 2 [1920/7500 (25%)]	Loss: 1.711354
+Train Epoch: 2 [2560/7500 (34%)]	Loss: 1.518979
+Train Epoch: 2 [3200/7500 (42%)]	Loss: 1.439626
+Train Epoch: 2 [3840/7500 (51%)]	Loss: 1.357801
+Train Epoch: 2 [4480/7500 (59%)]	Loss: 1.260350
+Train Epoch: 2 [5120/7500 (68%)]	Loss: 1.243868
+Train Epoch: 2 [5760/7500 (76%)]	Loss: 1.102005
+Train Epoch: 2 [6400/7500 (85%)]	Loss: 1.092600
+Train Epoch: 2 [7040/7500 (93%)]	Loss: 1.073757
+sending model to server...
+sent model to server! now waiting to hear back...
+Received updated model from server...
+Epoch 2 took 137.183584690094s
+
+Test set: Avg. loss: 0.6046, Accuracy: 8598/10000 (86%)
+
+Train Epoch: 3 [0/7500 (0%)]	Loss: 0.998731
+Train Epoch: 3 [640/7500 (8%)]	Loss: 1.093174
+Train Epoch: 3 [1280/7500 (17%)]	Loss: 1.020241
+Train Epoch: 3 [1920/7500 (25%)]	Loss: 1.037312
+Train Epoch: 3 [2560/7500 (34%)]	Loss: 0.931396
+Train Epoch: 3 [3200/7500 (42%)]	Loss: 1.069142
+Train Epoch: 3 [3840/7500 (51%)]	Loss: 0.804562
+Train Epoch: 3 [4480/7500 (59%)]	Loss: 0.848700
+Train Epoch: 3 [5120/7500 (68%)]	Loss: 0.768323
+Train Epoch: 3 [5760/7500 (76%)]	Loss: 0.973822
+Train Epoch: 3 [6400/7500 (85%)]	Loss: 0.662436
+Train Epoch: 3 [7040/7500 (93%)]	Loss: 0.832421
+sending model to server...
+sent model to server! now waiting to hear back...
+Received updated model from server...
+Epoch 3 took 135.9747564792633s
+
+Test set: Avg. loss: 0.4102, Accuracy: 8944/10000 (89%)
+
+Train Epoch: 4 [0/7500 (0%)]	Loss: 0.767624
+Train Epoch: 4 [640/7500 (8%)]	Loss: 0.765536
+Train Epoch: 4 [1280/7500 (17%)]	Loss: 0.733491
+Train Epoch: 4 [1920/7500 (25%)]	Loss: 1.014982
+Train Epoch: 4 [2560/7500 (34%)]	Loss: 0.980111
+Train Epoch: 4 [3200/7500 (42%)]	Loss: 0.663576
+Train Epoch: 4 [3840/7500 (51%)]	Loss: 0.581308
+Train Epoch: 4 [4480/7500 (59%)]	Loss: 0.474651
+Train Epoch: 4 [5120/7500 (68%)]	Loss: 0.598727
+Train Epoch: 4 [5760/7500 (76%)]	Loss: 0.667773
+Train Epoch: 4 [6400/7500 (85%)]	Loss: 0.597858
+Train Epoch: 4 [7040/7500 (93%)]	Loss: 0.530321
+sending model to server...
+sent model to server! now waiting to hear back...
+Received updated model from server...
+Epoch 4 took 135.63527631759644s
+
+Test set: Avg. loss: 0.3143, Accuracy: 9155/10000 (92%)
+
+Train Epoch: 5 [0/7500 (0%)]	Loss: 0.619973
+Train Epoch: 5 [640/7500 (8%)]	Loss: 0.631889
+Train Epoch: 5 [1280/7500 (17%)]	Loss: 0.593346
+Train Epoch: 5 [1920/7500 (25%)]	Loss: 0.508463
+Train Epoch: 5 [2560/7500 (34%)]	Loss: 0.500860
+Train Epoch: 5 [3200/7500 (42%)]	Loss: 0.527893
+Train Epoch: 5 [3840/7500 (51%)]	Loss: 0.559686
+Train Epoch: 5 [4480/7500 (59%)]	Loss: 0.464651
+Train Epoch: 5 [5120/7500 (68%)]	Loss: 0.334710
+Train Epoch: 5 [5760/7500 (76%)]	Loss: 0.535273
+Train Epoch: 5 [6400/7500 (85%)]	Loss: 0.473325
+Train Epoch: 5 [7040/7500 (93%)]	Loss: 0.403623
+sending model to server...
+sent model to server! now waiting to hear back...
+Received updated model from server...
+Epoch 5 took 136.00270771980286s
+
+Test set: Avg. loss: 0.2622, Accuracy: 9289/10000 (93%)
+
+Train Epoch: 6 [0/7500 (0%)]	Loss: 0.831205
+Train Epoch: 6 [640/7500 (8%)]	Loss: 0.618306
+Train Epoch: 6 [1280/7500 (17%)]	Loss: 0.421855
+Train Epoch: 6 [1920/7500 (25%)]	Loss: 0.463952
+Train Epoch: 6 [2560/7500 (34%)]	Loss: 0.555769
+Train Epoch: 6 [3200/7500 (42%)]	Loss: 0.484825
+Train Epoch: 6 [3840/7500 (51%)]	Loss: 0.529230
+Train Epoch: 6 [4480/7500 (59%)]	Loss: 0.770738
+Train Epoch: 6 [5120/7500 (68%)]	Loss: 0.408033
+Train Epoch: 6 [5760/7500 (76%)]	Loss: 0.410288
+Train Epoch: 6 [6400/7500 (85%)]	Loss: 0.391741
+Train Epoch: 6 [7040/7500 (93%)]	Loss: 0.483338
+sending model to server...
+sent model to server! now waiting to hear back...
+Received updated model from server...
+Epoch 6 took 132.20327973365784s
+
+Test set: Avg. loss: 0.2268, Accuracy: 9367/10000 (94%)
+
+Train Epoch: 7 [0/7500 (0%)]	Loss: 0.653490
+Train Epoch: 7 [640/7500 (8%)]	Loss: 0.352441
+Train Epoch: 7 [1280/7500 (17%)]	Loss: 0.474926
+Train Epoch: 7 [1920/7500 (25%)]	Loss: 0.539508
+Train Epoch: 7 [2560/7500 (34%)]	Loss: 0.728732
+Train Epoch: 7 [3200/7500 (42%)]	Loss: 0.330378
+Train Epoch: 7 [3840/7500 (51%)]	Loss: 0.431520
+Train Epoch: 7 [4480/7500 (59%)]	Loss: 0.613309
+Train Epoch: 7 [5120/7500 (68%)]	Loss: 0.478905
+Train Epoch: 7 [5760/7500 (76%)]	Loss: 0.310594
+Train Epoch: 7 [6400/7500 (85%)]	Loss: 0.455374
+Train Epoch: 7 [7040/7500 (93%)]	Loss: 0.399223
+sending model to server...
+sent model to server! now waiting to hear back...
+Received updated model from server...
+Epoch 7 took 133.8691246509552s
+
+Test set: Avg. loss: 0.2054, Accuracy: 9434/10000 (94%)
+
+Train Epoch: 8 [0/7500 (0%)]	Loss: 0.454856
+Train Epoch: 8 [640/7500 (8%)]	Loss: 0.566629
+Train Epoch: 8 [1280/7500 (17%)]	Loss: 0.372919
+Train Epoch: 8 [1920/7500 (25%)]	Loss: 0.481431
+Train Epoch: 8 [2560/7500 (34%)]	Loss: 0.333863
+Train Epoch: 8 [3200/7500 (42%)]	Loss: 0.792588
+Train Epoch: 8 [3840/7500 (51%)]	Loss: 0.716491
+Train Epoch: 8 [4480/7500 (59%)]	Loss: 0.338770
+Train Epoch: 8 [5120/7500 (68%)]	Loss: 0.563141
+Train Epoch: 8 [5760/7500 (76%)]	Loss: 0.337421
+Train Epoch: 8 [6400/7500 (85%)]	Loss: 0.437248
+Train Epoch: 8 [7040/7500 (93%)]	Loss: 0.558282
+sending model to server...
+sent model to server! now waiting to hear back...
+Received updated model from server...
+Epoch 8 took 131.67708086967468s
+
+Test set: Avg. loss: 0.1854, Accuracy: 9452/10000 (95%)
+
+Train Epoch: 9 [0/7500 (0%)]	Loss: 0.466262
+Train Epoch: 9 [640/7500 (8%)]	Loss: 0.290769
+Train Epoch: 9 [1280/7500 (17%)]	Loss: 0.428904
+Train Epoch: 9 [1920/7500 (25%)]	Loss: 0.383705
+Train Epoch: 9 [2560/7500 (34%)]	Loss: 0.407371
+Train Epoch: 9 [3200/7500 (42%)]	Loss: 0.301886
+Train Epoch: 9 [3840/7500 (51%)]	Loss: 0.413101
+Train Epoch: 9 [4480/7500 (59%)]	Loss: 0.297219
+Train Epoch: 9 [5120/7500 (68%)]	Loss: 0.523962
+Train Epoch: 9 [5760/7500 (76%)]	Loss: 0.626682
+Train Epoch: 9 [6400/7500 (85%)]	Loss: 0.432084
+Train Epoch: 9 [7040/7500 (93%)]	Loss: 0.365730
+sending model to server...
+sent model to server! now waiting to hear back...
+Received updated model from server...
+Epoch 9 took 137.87849617004395s
+
+Test set: Avg. loss: 0.1700, Accuracy: 9500/10000 (95%)
+
+Train Epoch: 10 [0/7500 (0%)]	Loss: 0.255244
+Train Epoch: 10 [640/7500 (8%)]	Loss: 0.458592
+Train Epoch: 10 [1280/7500 (17%)]	Loss: 0.232900
+Train Epoch: 10 [1920/7500 (25%)]	Loss: 0.548343
+Train Epoch: 10 [2560/7500 (34%)]	Loss: 0.299689
+Train Epoch: 10 [3200/7500 (42%)]	Loss: 0.352220
+Train Epoch: 10 [3840/7500 (51%)]	Loss: 0.434287
+Train Epoch: 10 [4480/7500 (59%)]	Loss: 0.220502
+Train Epoch: 10 [5120/7500 (68%)]	Loss: 0.404756
+Train Epoch: 10 [5760/7500 (76%)]	Loss: 0.529836
+Train Epoch: 10 [6400/7500 (85%)]	Loss: 0.334939
+Train Epoch: 10 [7040/7500 (93%)]	Loss: 0.423740
+sending model to server...
+sent model to server! now waiting to hear back...
+Received updated model from server...
+Epoch 10 took 133.51803874969482s
+
+Test set: Avg. loss: 0.1572, Accuracy: 9532/10000 (95%)
+
+Average epoch train time: 135.03161866664885
+Convergence time from worker2: 1456.2228050231934
+Program finished successfully!

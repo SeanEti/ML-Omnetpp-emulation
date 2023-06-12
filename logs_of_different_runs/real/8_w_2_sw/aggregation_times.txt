@@ -1,0 +1,10 @@
+Switch-1: aggregation time is 0s
+Switch-2: aggregation time is 0s
+Switch-2: aggregation time is 0s
+Switch-1: aggregation time is 0s
+Switch-2: aggregation time is 0s
+Switch-1: aggregation time is 0s
+Switch-2: aggregation time is 0s
+Switch-1: aggregation time is 0s
+Switch-1: aggregation time is 0s
+Switch-2: aggregation time is 0s

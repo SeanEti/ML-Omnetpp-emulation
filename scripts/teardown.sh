@@ -1,3 +1,4 @@
+#!/bin/bash
 while [[ $# -gt 0 ]]; do
     case $1 in
         -n|--num-of-workers)
@@ -14,16 +15,18 @@ done
 
 for ((i=0; i <= NUMOFW; i++));
 do
-    sudo ip tuntap del mode tap dev tap$i
+    sudo ip tuntap del mode tap dev tap$i       # delete TAP
     if [ $i = 0 ]; then
-        sudo docker stop ps
-        sudo docker logs ps > ../logs/ps.log
-        sudo docker rm ps
-        sudo docker network rm ps-net
+        sudo docker stop ps                     # stop parameter server container
+        sudo docker logs ps > ../logs/ps.log    # save logs of server
+        sudo docker rm ps                       # delete container
+        sudo docker network rm ps-net           # delete container network
     else
-        sudo docker stop worker$i
-        sudo docker logs worker$i > ../logs/worker$i.log
-        sudo docker rm worker$i
-        sudo docker network rm work$i-net
+        sudo docker stop worker$i                           # stop worker container
+        sudo docker logs worker$i > ../logs/worker$i.log    # save worker logs 
+        sudo docker rm worker$i                             # delete worker container
+        sudo docker network rm work$i-net                   # delete his network
     fi
 done
+
+sudo iptables -F     # reset routing tables

@@ -1,12 +1,12 @@
 FROM python:3.9-slim
 ENV JOB "ps"
 ENV IDX "0"
-ENV WORKERS "workers.txt"
-ENV SERVER "192.168.0.21:49152"
 ENV MODEL "CNN"
+ENV EPOCHS "10"
+ENV NUMOFWORKERS "8"
 WORKDIR /usr/src/app
 COPY ./cpy_from/ ./
 RUN pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
-RUN pip install --no-cache-dir -r requirements.txt --no-deps \
+RUN pip install --no-cache-dir -r requirements.txt \
 && rm -rf /var/lib/apt/lists/*
-CMD python3 ./distri_ml_ys.py -j ${JOB} -t ${IDX} -a ${WORKERS} -s ${SERVER} -m ${MODEL}
+CMD python3 ./distri_ml_ys.py -j ${JOB} -t ${IDX} -e ${EPOCHS} -n ${NUMOFWORKERS} -m ${MODEL}

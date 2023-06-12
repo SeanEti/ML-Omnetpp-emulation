@@ -1,0 +1,188 @@
+This is worker5
+.
+Sent 1 packets.
+Starting training...
+/usr/src/app/./distri_ml_ys.py:45: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  return F.log_softmax(x)
+Train Epoch: 1 [0/7500 (0%)]	Loss: 2.326284
+Train Epoch: 1 [640/7500 (8%)]	Loss: 2.331086
+Train Epoch: 1 [1280/7500 (17%)]	Loss: 2.311119
+Train Epoch: 1 [1920/7500 (25%)]	Loss: 2.278784
+Train Epoch: 1 [2560/7500 (34%)]	Loss: 2.278459
+Train Epoch: 1 [3200/7500 (42%)]	Loss: 2.249863
+Train Epoch: 1 [3840/7500 (51%)]	Loss: 2.224803
+Train Epoch: 1 [4480/7500 (59%)]	Loss: 2.263969
+Train Epoch: 1 [5120/7500 (68%)]	Loss: 2.173842
+Train Epoch: 1 [5760/7500 (76%)]	Loss: 2.112340
+Train Epoch: 1 [6400/7500 (85%)]	Loss: 2.109732
+Train Epoch: 1 [7040/7500 (93%)]	Loss: 1.958400
+finished training...
+writing file...
+sending signal...
+.
+Sent 1 packets.
+waiting for a signal back...
+Recevied signal from omnet++, time to read...
+name conv1.weight
+
+name conv1.bias
+
+name conv2.weight
+
+name conv2.bias
+
+name fc1.weight
+
+name fc1.bias
+
+name fc2.weight
+
+Epoch 1 took 118.65143895149231s
+Train Epoch: 2 [0/7500 (0%)]	Loss: 1.929417
+Train Epoch: 2 [640/7500 (8%)]	Loss: 1.902146
+Train Epoch: 2 [1280/7500 (17%)]	Loss: 1.712396
+Train Epoch: 2 [1920/7500 (25%)]	Loss: 1.454870
+Train Epoch: 2 [2560/7500 (34%)]	Loss: 1.555218
+Train Epoch: 2 [3200/7500 (42%)]	Loss: 1.357934
+Train Epoch: 2 [3840/7500 (51%)]	Loss: 1.158053
+Train Epoch: 2 [4480/7500 (59%)]	Loss: 1.328987
+Train Epoch: 2 [5120/7500 (68%)]	Loss: 1.115775
+Train Epoch: 2 [5760/7500 (76%)]	Loss: 1.123386
+Train Epoch: 2 [6400/7500 (85%)]	Loss: 1.276396
+Train Epoch: 2 [7040/7500 (93%)]	Loss: 0.903862
+finished training...
+writing file...
+sending signal...
+.
+Sent 1 packets.
+waiting for a signal back...
+Recevied signal from omnet++, time to read...
+name conv1.weight
+
+name conv1.bias
+
+name conv2.weight
+
+name conv2.bias
+
+name fc1.weight
+
+name fc1.bias
+
+name fc2.weight
+
+Epoch 2 took 121.09272909164429s
+Train Epoch: 3 [0/7500 (0%)]	Loss: 1.075322
+Train Epoch: 3 [640/7500 (8%)]	Loss: 1.212224
+Train Epoch: 3 [1280/7500 (17%)]	Loss: 1.002713
+Train Epoch: 3 [1920/7500 (25%)]	Loss: 0.900346
+Train Epoch: 3 [2560/7500 (34%)]	Loss: 0.805175
+Train Epoch: 3 [3200/7500 (42%)]	Loss: 0.857088
+Train Epoch: 3 [3840/7500 (51%)]	Loss: 1.139484
+Train Epoch: 3 [4480/7500 (59%)]	Loss: 0.765436
+Train Epoch: 3 [5120/7500 (68%)]	Loss: 0.650736
+Train Epoch: 3 [5760/7500 (76%)]	Loss: 0.747776
+Train Epoch: 3 [6400/7500 (85%)]	Loss: 0.571557
+Train Epoch: 3 [7040/7500 (93%)]	Loss: 0.781956
+finished training...
+writing file...
+sending signal...
+.
+Sent 1 packets.
+waiting for a signal back...
+Recevied signal from omnet++, time to read...
+name conv1.weight
+
+name conv1.bias
+
+name conv2.weight
+
+name conv2.bias
+
+name fc1.weight
+
+name fc1.bias
+
+name fc2.weight
+
+Epoch 3 took 119.80040192604065s
+Train Epoch: 4 [0/7500 (0%)]	Loss: 0.834852
+Train Epoch: 4 [640/7500 (8%)]	Loss: 0.671776
+Train Epoch: 4 [1280/7500 (17%)]	Loss: 0.813132
+Train Epoch: 4 [1920/7500 (25%)]	Loss: 0.960760
+Train Epoch: 4 [2560/7500 (34%)]	Loss: 0.430188
+Train Epoch: 4 [3200/7500 (42%)]	Loss: 0.507264
+Train Epoch: 4 [3840/7500 (51%)]	Loss: 0.617140
+Train Epoch: 4 [4480/7500 (59%)]	Loss: 0.653314
+Train Epoch: 4 [5120/7500 (68%)]	Loss: 0.633420
+Train Epoch: 4 [5760/7500 (76%)]	Loss: 0.655715
+Train Epoch: 4 [6400/7500 (85%)]	Loss: 0.642491
+Train Epoch: 4 [7040/7500 (93%)]	Loss: 0.722867
+finished training...
+writing file...
+sending signal...
+.
+Sent 1 packets.
+waiting for a signal back...
+Recevied signal from omnet++, time to read...
+name conv1.weight
+
+name conv1.bias
+
+name conv2.weight
+
+name conv2.bias
+
+name fc1.weight
+
+name fc1.bias
+
+name fc2.weight
+
+Epoch 4 took 118.37899923324585s
+Train Epoch: 5 [0/7500 (0%)]	Loss: 0.877639
+Train Epoch: 5 [640/7500 (8%)]	Loss: 0.640162
+Train Epoch: 5 [1280/7500 (17%)]	Loss: 0.410335
+Train Epoch: 5 [1920/7500 (25%)]	Loss: 0.575636
+Train Epoch: 5 [2560/7500 (34%)]	Loss: 0.772170
+Train Epoch: 5 [3200/7500 (42%)]	Loss: 0.832545
+Train Epoch: 5 [3840/7500 (51%)]	Loss: 0.331806
+Train Epoch: 5 [4480/7500 (59%)]	Loss: 0.636822
+Train Epoch: 5 [5120/7500 (68%)]	Loss: 0.494358
+Train Epoch: 5 [5760/7500 (76%)]	Loss: 0.624321
+Train Epoch: 5 [6400/7500 (85%)]	Loss: 0.676781
+Train Epoch: 5 [7040/7500 (93%)]	Loss: 0.451014
+finished training...
+writing file...
+sending signal...
+.
+Sent 1 packets.
+waiting for a signal back...
+Recevied signal from omnet++, time to read...
+name conv1.weight
+
+name conv1.bias
+
+name conv2.weight
+
+name conv2.bias
+
+name fc1.weight
+
+name fc1.bias
+
+name fc2.weight
+
+Epoch 5 took 122.91964173316956s
+Average epoch train time: 120.16864218711854
+Convergence time from worker5: 600.871386051178
+Average training time: 119.65975575447082
+Average time it takes worker to receive a new model from when he is done training his model: 0.3117696762084961
+Average amount of time it takes to load the new model received from the parameter server: 0.06036109924316406
+Average time it takes to write trained model to text file: 0.08022837638854981
+Final loss: 0.47447335720062256
+
+Loss: [1.765885353088379, 1.082968831062317, 1.037767767906189, 1.1807687282562256, 0.47447335720062256]
+
+Train Times: [118.38049221038818, 120.70567536354065, 119.48500442504883, 117.16497707366943, 122.56262969970703]
+Program finished successfully!

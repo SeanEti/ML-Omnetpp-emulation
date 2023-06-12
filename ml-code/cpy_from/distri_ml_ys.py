@@ -1,3 +1,9 @@
+#
+#   Code by Sean Etinger and Yahel Sar-Shalom
+#
+# ===================================================
+#                       IMPORTS
+# ===================================================
 # import sys
 import torch
 import torch.nn as nn
@@ -8,8 +14,12 @@ from torch.utils.data.distributed import DistributedSampler
 import argparse
 import socket
 import time
-from threading import Thread
-import pickle as pkl
+import collections
+import numpy as np
+import glob
+import os
+import scapy.all as scapy
+from matplotlib import pyplot as plt
 
 
 # ===================================================
@@ -66,7 +76,7 @@ def recvall(sock):
     return b"".join(data)
 
 
-def train(epoch_num, net, func_optim, train_loader_data, log_freq=10):
+def train(epoch_num, net, func_optim, train_loader_data, train_counter, loss_per_epoch, log_freq=10):
     """
     train model
     """
@@ -82,14 +92,12 @@ def train(epoch_num, net, func_optim, train_loader_data, log_freq=10):
             print('Train Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(
                 epoch_num, batch_idx * len(data), len(train_loader_data.dataset),
                 100. * batch_idx / len(train_loader_data), loss.item()))
-            train_losses.append(loss.item())
             train_counter.append((batch_idx*64) + ((epoch_num-1)*len(train_loader_data.dataset)))
-            torch.save(net.state_dict(), 'model.pth')
-            torch.save(func_optim.state_dict(), 'optimizer.pth')
-    return net.state_dict()
+    loss_per_epoch.append(loss.item())
+    return net.state_dict(), train_counter, loss_per_epoch
 
 
-def test(net, test_loader_data):
+def test(net, test_loader_data, test_losses):
     """
     test model
     """
@@ -107,14 +115,15 @@ def test(net, test_loader_data):
     print('\nTest set: Avg. loss: {:.4f}, Accuracy: {}/{} ({:.0f}%)\n'.format(
         test_loss, correct, len(test_loader_data.dataset),
         100. * correct / len(test_loader_data.dataset)))
+    return 100. * correct / len(test_loader_data.dataset), test_losses
 
 
 def get_new_state(worker_model_dic):
     """
-    gets a dictionary of ('worker address': 'his state dict') and returns a new state dict where each value is the
+    gets list of received state dictionaries and returns a new state dict where each value is the
     average value of the given states.
     """
-    dicts = list(worker_model_dic.values())
+    dicts = worker_model_dic
     model0 = Net()
     model0.load_state_dict(dicts[0], strict=False)
 
@@ -131,42 +140,129 @@ def get_new_state(worker_model_dic):
     return model0.state_dict()
 
 
-def broadcast_state_dict(new_state, workers_sockets, all_workers):
-    """
-    Sending the new state dictionary of the model to all the workers
-    """
-    workers_who_shared = []
-    to_send = pkl.dumps(new_state)
-    for work_sock, work_addr in workers_sockets:
-        workers_who_shared.append(work_addr[0])
-        print(f"sending to {work_addr}...")
-        if work_sock.sendall(to_send) == -1:
-            print(f"ERR: Failed to send new state of model to {work_addr} while broadcasting...")
-
-    # check if there is a worker who didnt send his model -> need to establish new tcp connection with him
-    workers_who_skipped = [item for item in all_workers if item[0] not in workers_who_shared]
-    if len(workers_who_skipped) > 0:
-        # create connections and send new model
-        for worker_addr in workers_who_skipped:
-            new_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            if new_sock.connect_ex(worker_addr) == 0:
-                print(f"sending to {worker_addr}...")
-                if work_sock.sendall(to_send) == -1:
-                    print(f"ERR: Failed to send new state of model to {worker_addr} while broadcasting...")
-            else:
-                print(f"couldn't send new model to {worker_addr}")
-            new_sock.close()
+def get_average_of_list(lst):
+    return sum(lst) / len(lst)
 
 
-def handle_new_worker_connection(work_sock, addr, worker_model_dict):
+def flatten_list(tensor):
     """
-    Receives model from worker in addr
+    Take evert multimentinal tensor and flatten it to a one dimentional 
     """
-    print(f"Receives model from {addr}...")
-    # receive model of worker
-    data = recvall(work_sock)
-    message = pkl.loads(data)                       # deserialize model state dict
-    worker_model_dict[(work_sock, addr)] = message
+    flattened_list = []
+    for item in tensor:
+        if isinstance(item, list):
+            flattened_list.extend(flatten_list(item))
+        else:
+            flattened_list.append(item)
+    return flattened_list
+
+
+def writeFileInFormat(statedict, filename):
+    """
+    This function wirtes the statedict in a specified format in filename file
+    In general for each parameter:
+    name <name-of-parameter>
+    <Parameter-value>
+    """
+    with open(filename, 'w', encoding='utf-8') as my_file:
+        for (key, value) in statedict.items():
+            #    writing the name of param in a new line
+            my_file.write('name ' + key + '\n')
+            #    writing the flatten tensor (1D) of every parameter
+            for item in torch.flatten(value).tolist():
+                my_file.write(f'{item} ')
+            my_file.write("\n")
+            # my_file.write(str(flatten_list(value)).strip('[,]') + '\n')
+
+
+def dim(a):
+    """
+    get the dimentions of every multi-dimensional list
+    """
+    if not type(a) == list:
+        return []
+    return [len(a)] + dim(a[0])
+
+
+def getDimslist(statedict):
+    return [dim(i.tolist()) for i in list(statedict.values())]
+
+
+def readFormatFile(filename, dims_list):
+    """
+    This function takes the file and reading it to a state dict
+    """
+    lines_indices_of_param_name = []
+    data_dict = {}
+    with open(filename) as f:
+        #   Get the rows indices which start with name
+        lines = f.readlines()
+
+        # find the lines which has the parameter and put them in a list
+        for index, line in enumerate(lines):
+            if line.startswith('name'):
+                lines_indices_of_param_name.append(index)
+
+        # print(indices_of_param_line)
+        for i in range(len(lines_indices_of_param_name) - 1):
+            key = lines[lines_indices_of_param_name[i]]
+            print(key)
+            # taking the specific data for the parameter
+            value = (lines[lines_indices_of_param_name[i] + 1:lines_indices_of_param_name[i + 1]])
+            value = [s.rstrip("\n") for s in value]
+            # Splitting the string and converting to a list of numbers
+            numbers = [float(num) for num in value[0].split()]
+            data_dict.update({key.strip('\n name'): numbers})
+        # for last param
+        key = lines[lines_indices_of_param_name[-1]]
+        value = (lines[lines_indices_of_param_name[-1] + 1::])
+        value = [s.rstrip("\n") for s in value]
+        # Splitting the string and converting to a list of numbers
+        numbers = [float(num) for num in value[0].split()]
+        data_dict.update({key.strip('\n name'): numbers})
+
+    # Converting the lists back to tensors withtheir respected sizes
+    for i in data_dict.keys():
+        data_dict[i] = np.array(data_dict[i]).reshape(dims_list[list(data_dict).index(i)]).tolist()
+        data_dict[i] = torch.tensor(data_dict[i])
+
+    # Converting to a state dict type like in the oeiginal state dict
+    return collections.OrderedDict(data_dict)
+
+
+def send_udp_signal(dest_port, ip_octet):
+    mac_l = scapy.Ether(dst="ff:ff:ff:ff:ff:ff", src="02:42:C0:A8:00:42")
+    ip_l = scapy.IP(dst="255.255.255.255", src=f"192.168.{ip_octet}.1")
+    my_frame = mac_l/ip_l/scapy.UDP(dport=dest_port)
+    scapy.sendp(my_frame)
+
+
+def print_statistics(epoch_times, start_training_time, train_times, receive_times, load_times, write_times, losses_per_epoch):
+    print(f'Average epoch train time: {get_average_of_list(epoch_times)}')
+    print(f'Convergence time from worker{args["task_index"]+1}: {time.time() - start_training_time}')
+    print(f'Average training time: {get_average_of_list(train_times)}')
+    print(f'Average time it takes worker to receive a new model from when he is done training his model: {get_average_of_list(receive_times)}')
+    print(f'Average amount of time it takes to load the new model received from the parameter server: {get_average_of_list(load_times)}')
+    print(f'Average time it takes to write trained model to text file: {get_average_of_list(write_times)}')
+    print(f'Final loss: {losses_per_epoch[-1]}')
+
+
+def save_graphs(loss, train_time, epochs, worker_num):
+    plt.plot(range(1, epochs + 1), loss)
+    plt.title("Loss per Epoch")
+    plt.xlabel("Epochs")
+    plt.ylabel("Loss")
+    plt.savefig(f'./logs/loss_{epochs}_epochs_w_{worker_num}.png')
+    plt.close()
+    plt.plot(range(1, epochs + 1), train_time)
+    plt.title("Train Time Each Epoch")
+    plt.xlabel("Epochs")
+    plt.ylabel("Time [sec]")
+    plt.savefig(f'./logs/train_times_{epochs}_epochs_w_{worker_num}.png')
+    plt.close()
+
+    print(f'\nLoss: {loss}')
+    print(f'\nTrain Times: {train_time}')
 
 
 # ===================================================
@@ -177,28 +273,17 @@ parser = argparse.ArgumentParser(description="arguments for project",
                                  formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument("-j", "--job_name", help="Type of job of this worker (ps or worker)")
 parser.add_argument("-t", "--task_index", type=int, default=0, help="Number of worker(ps gets 0)")
-parser.add_argument("-a", "--addresses", help="path to csv file with address for workers")
+parser.add_argument("-n", "--num_of_workers", type=int, default=2, help="number of workers in the distributed ML network")
 parser.add_argument("-m", "--model", help="The ML model to implement")
-parser.add_argument("-s", "--server", help="ip and port of parameter server")
+parser.add_argument("-e", "--epochs", type=int, default=10, help="number of epochs to run")
 args = vars(parser.parse_args())
 
-# save IPs and ports of all workers and parameter-server from arguments
-with open(args["addresses"], 'r') as fd:
-    workers = fd.read().splitlines()[0].split(',')
-for idx, worker in enumerate(workers):
-    work_ip, work_port = worker.split(':')
-    work_port = int(work_port)
-    workers[idx] = (work_ip, work_port)
-num_of_workers = len(workers)
+# TODO add check if correct number of args has been entered
 
-parameter_server = args["server"]
-serv_ip, serv_port = parameter_server.split(':')    # get IP and port of parameter-server
-serv_port = int(serv_port)
-
-print(f'Received IPs:\nWorkers: {workers}\nParameter Server: {parameter_server}')
+num_of_workers = args["num_of_workers"]
 
 # setting up
-num_of_epochs = 10
+num_of_epochs = args["epochs"]
 batch_size_train = 64
 learning_rate = 0.01
 momentum = 0.5
@@ -212,6 +297,10 @@ torch.manual_seed(696969)
 if args["job_name"] == 'worker':
     print(f'This is worker{args["task_index"] + 1}')
 
+    # needed for initialization
+    send_udp_signal(12345, args['task_index'] + 1)
+    #
+
     # get data
     train_data = datasets.MNIST('./data', train=True, download=False,
                    transform=transforms.Compose([
@@ -220,13 +309,6 @@ if args["job_name"] == 'worker':
     train_data = split_dataset(train_data, num_of_workers)[args["task_index"]]
     train_loader = torch.utils.data.DataLoader(train_data, batch_size=batch_size_train, shuffle=True)
 
-    test_loader = torch.utils.data.DataLoader(
-        datasets.MNIST('./data', train=False, download=False,
-                    transform=transforms.Compose([
-                        transforms.ToTensor(),
-                        transforms.Normalize((0.1307,), (0.3081,))])),
-        batch_size=batch_size_test, shuffle=True)
-
     # initialize model to train:
     network = Net()
     optimizer = optim.SGD(network.parameters(), lr=learning_rate, momentum=momentum)
@@ -234,96 +316,161 @@ if args["job_name"] == 'worker':
     # track progress init
     train_losses = []
     train_counter = []
-    test_losses = []
     test_counter = [i * len(train_loader.dataset) for i in range(num_of_epochs + 1)]
     epoch_times = []
+    train_times = []            # time it takes to train on batch on model
+    receive_times = []          # time it takes from when model was sent to when it was done receiving
+    load_times = []             # time it takes to load new model
+    write_times = []
+    losses_per_epoch = []
 
+    # ================= TRAIN =================
     # start to train model
     start_training_time = time.time()
     print("Starting training...")
+
     for epoch in range(1, num_of_epochs + 1):
         epoch_start_time = time.time()
-        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        curr_state = train(epoch, network, optimizer, train_loader, log_interval)   # train one epoch
 
-        # serialize data to send
-        state_string = pkl.dumps(curr_state, -1)
+        curr_state, train_counter, losses_per_epoch = train(epoch, network, optimizer, train_loader, train_counter, losses_per_epoch, log_interval)   # train one epoch
+        print("finished training...")
+        dims_list = getDimslist(curr_state)
+        train_times.append(time.time() - epoch_start_time)
+
+        # write state dict to file
+        start_write_to_file_time = time.time()
+        print("writing file...")
+        writeFileInFormat(curr_state, f"/usr/src/app/logs/worker{args['task_index']+1}.txt")
+        write_times.append(time.time() - start_write_to_file_time)
         
-        # send gradients to server
-        # TODO need to add timeout maybe for smart switch to work...
-        if sock.connect_ex((serv_ip, serv_port)) == 0:
-            print("sending model to server...")
-            sock.sendall(state_string)
-            print("sent model to server! now waiting to hear back...")
-            data = recvall(sock)
-            sock.shutdown(socket.SHUT_RDWR)
-            sock.close()
-        else:   # listen for server connection
-            print(f'server won\'t connect me so im binding {workers[args["task_index"]]}')
-            sock.bind(workers[args["task_index"]])
-            print("Couldn't connect to server so waiting for connection from server...")
-            sock.listen(1)
-            # TODO maybe need to reset timeout here from first TODO
-            conn, _ = sock.accept()
-            data = recvall(conn)
-            conn.shutdown(socket.SHUT_RDWR)
-            conn.close()
+        # send UDP broadcast to signal switches that the file is ready to read
+        print("sending signal...")
+        send_udp_signal(12345, args['task_index'] + 1)
 
-        # wait to receive new params from server
-        print("Received updated model from server...")
-        new_state_dict = pkl.loads(data)
-        network.load_state_dict(new_state_dict)     # update network
+        # wait to receive UDP broadcast
+        start_wait_for_new_model_time = time.time()
+        print("waiting for a signal back...")
+        recv_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        recv_sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        recv_sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
+        recv_sock.bind(("", 12345))
+        recv_sock.recvfrom(1024)
+        receive_times.append(time.time() - start_wait_for_new_model_time)
+        print("Recevied signal from omnet++, time to read...")
+
+        # read new model from server text file
+        start_read_file_time = time.time()
+        read_state_dict = readFormatFile("/usr/src/app/logs/ps.txt", dims_list)
+
+        # load new state dictionary
+        network.load_state_dict(read_state_dict)
+        load_times.append(time.time() - start_read_file_time)
 
         epoch_times.append(time.time() - epoch_start_time)
         print(f"Epoch {epoch} took {epoch_times[-1]}s")
-        # test new network  
-        test(network, test_loader)
 
-    print(f'Average epoch train time: {sum(epoch_times) / len(epoch_times)}\nConvergence time from worker{args["task_index"]+1}: {time.time() - start_training_time}')
+    print_statistics(epoch_times, start_training_time, train_times, receive_times, load_times, write_times, losses_per_epoch)
+    save_graphs(losses_per_epoch, train_times, num_of_epochs, args["task_index"])
+
     print("Program finished successfully!")
     exit(1)
 
 # ---------------------------- PARAMETER SERVER CODE ----------------------------
 elif args["job_name"] == 'ps':
     print("This is a parameter server!")
-    # bind socket
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.bind((serv_ip, serv_port))
 
-    # num_of_workers_who_shared_model = 0
-    worker_model_dict = dict()
+    # needed for initialization...
+    send_udp_signal(49152, 0)
+    #
 
-    # listen for incoming datagrams
-    sock.listen(num_of_workers)
-    threads = []
+    test_loader = torch.utils.data.DataLoader(
+        datasets.MNIST('./data', train=False, download=False,
+                    transform=transforms.Compose([
+                        transforms.ToTensor(),
+                        transforms.Normalize((0.1307,), (0.3081,))])),
+        batch_size=batch_size_test, shuffle=True)
+
+    computation_times = []      # times it takess the parameter server to compute new model
+    read_times = []             # times it takes to read all files
+    test_time = []              # time it takes to test new model
+    accuracy_per_epoch = []
+    test_losses = []
+
+    epoch_num = 0
     while True:
-        print("Listening... waiting for workers to train...")
-        worker_model_dict = dict()
-        sock.settimeout(None)
-        conn, addr = sock.accept()
-        worker_t = Thread(target=handle_new_worker_connection, args=(conn, addr, worker_model_dict))
-        threads.append(worker_t)
-        worker_t.start()
-        print("Accepted first worker... now waiting for rest")
-        for i in range(num_of_workers - 1):
-            sock.settimeout(6)
-            try:
-                conn, addr = sock.accept()
-            except socket.timeout:
-                print("timeout...")
-                break
-            print(f"accepting connection from: {addr}")
-            worker_t = Thread(target=handle_new_worker_connection, args=(conn, addr, worker_model_dict))
-            threads.append(worker_t)
-            worker_t.start()
-        
-        print("waiting for threads to finish reading models")
-        for t in threads:
-            t.join()
+        # wait for UDP broadcast
+        print("wating for a signal...")
+        recv_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        recv_sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        recv_sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
+        recv_sock.bind(("", 49152))
+        m, _ = recv_sock.recvfrom(1024)
+        recv_sock.close()
 
-        print("getting new aste dictionary from received dics")
-        new_state = get_new_state(worker_model_dict)
-        broadcast_state_dict(new_state, list(worker_model_dict.keys()), workers)
+        # read received state dictionaries from files
+        print("reading files...")
+        files_to_read_from = glob.glob("./logs/root_switch/dict*.txt")
+        print(f"files to read from:")
+        if files_to_read_from:  # check if there are any files to read from
+            worker_model_dicts = []
+            start_read_time = time.time()
+            for file in files_to_read_from:
+                print(file)
+                dims_list = [[10,1,5,5],[10],[20,10,5,5],[20],[50,320],[50],[10,50],[10]] # TODO temporary fix until dynamic fix is found
+                worker_model_dicts.append(readFormatFile(file, dims_list))
+                os.remove(file)
+            read_times.append(time.time() - start_read_time)
+
+            # aggregate received dicts
+            print("\naggregating received dicts...")
+            start_compute_time = time.time()
+            new_state = get_new_state(worker_model_dicts)
+            computation_times.append(time.time() - start_compute_time)
+
+            # write new state dict to file
+            print("writing file...")
+            writeFileInFormat(new_state, "./logs/ps.txt")
+
+            # broadcast UDP as a signal for switches to start broadcasting state
+            print("signaling switches...")
+            send_udp_signal(49152, 0)
+
+            # test new model
+            start_test_time = time.time()
+            network = Net()
+            network.load_state_dict(new_state, strict=False)
+            test_accuracy, test_losses = test(network, test_loader, test_losses)
+            accuracy_per_epoch.append(test_accuracy.tolist())
+            test_time.append(time.time() - start_test_time)
+
+            epoch_num += 1
+            print(f'Finished Epoch Number {epoch_num}')
+            print(f'Average time to compute new model: {get_average_of_list(computation_times)}s')
+            print(f'Average time it takes the server to read all the new files: {get_average_of_list(read_times)}')
+            print(f'Avergae time to test: {get_average_of_list(test_time)}s')
+
+            print(f'\n\naccuracies: {accuracy_per_epoch}')
+            print(f'\n\ntest losses: {test_losses}')
+
+            if epoch_num == num_of_epochs:
+                print("Simulation is done!")
+                plt.plot(range(1, num_of_epochs + 1), accuracy_per_epoch)
+                plt.title('Accuracy Per Epoch')
+                plt.xlabel('Epochs')
+                plt.ylabel('Accuracy [%]')
+                plt.savefig(f'./logs/accuracy_for_{num_of_epochs}_epochs.png')
+                plt.close()
+                plt.plot(range(1, num_of_epochs + 1), test_losses)
+                plt.title('Test Losses')
+                plt.xlabel('Epochs')
+                plt.ylabel('Loss')
+                plt.savefig(f'./logs/test_losses_for_{num_of_epochs}_epochs.png')
+                plt.close()
+                break
+        else:
+            print("ERR: There are no files to read from... ;(")
+            exit(-1)
+
 else:
     print("ERR: Wrong job entered in argument...")
     exit(-1)

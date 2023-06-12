@@ -1,0 +1,70 @@
+Received IPs:
+Workers: [('192.168.2.21', 4545), ('192.168.3.21', 4444), ('192.168.5.21', 4646), ('192.168.6.21', 4747)]
+Parameter Server: 192.168.4.21:4000
+This is worker4
+Starting training...
+/usr/src/app/./distri_ml_ys.py:36: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  return F.log_softmax(x)
+Train Epoch: 1 [0/15000 (0%)]	Loss: 2.319572
+Train Epoch: 1 [640/15000 (4%)]	Loss: 2.320014
+Train Epoch: 1 [1280/15000 (9%)]	Loss: 2.287562
+Train Epoch: 1 [1920/15000 (13%)]	Loss: 2.281255
+Train Epoch: 1 [2560/15000 (17%)]	Loss: 2.302716
+Train Epoch: 1 [3200/15000 (21%)]	Loss: 2.275536
+Train Epoch: 1 [3840/15000 (26%)]	Loss: 2.221438
+Train Epoch: 1 [4480/15000 (30%)]	Loss: 2.213557
+Train Epoch: 1 [5120/15000 (34%)]	Loss: 2.214132
+Train Epoch: 1 [5760/15000 (38%)]	Loss: 2.106972
+Train Epoch: 1 [6400/15000 (43%)]	Loss: 2.095298
+Train Epoch: 1 [7040/15000 (47%)]	Loss: 2.004205
+Train Epoch: 1 [7680/15000 (51%)]	Loss: 1.934427
+Train Epoch: 1 [8320/15000 (55%)]	Loss: 1.652120
+Train Epoch: 1 [8960/15000 (60%)]	Loss: 1.470018
+Train Epoch: 1 [9600/15000 (64%)]	Loss: 1.534052
+Train Epoch: 1 [10240/15000 (68%)]	Loss: 1.697803
+Train Epoch: 1 [10880/15000 (72%)]	Loss: 1.300472
+Train Epoch: 1 [11520/15000 (77%)]	Loss: 1.253675
+Train Epoch: 1 [12160/15000 (81%)]	Loss: 1.107005
+Train Epoch: 1 [12800/15000 (85%)]	Loss: 1.097566
+Train Epoch: 1 [13440/15000 (89%)]	Loss: 0.927698
+Train Epoch: 1 [14080/15000 (94%)]	Loss: 1.114053
+Train Epoch: 1 [14720/15000 (98%)]	Loss: 0.986236
+sending model to server...
+sent model to server! now waiting to hear back...
+Received updated model from server...
+/usr/local/lib/python3.9/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+
+Test set: Avg. loss: 0.5981, Accuracy: 8596/10000 (86%)
+
+Train Epoch: 2 [0/15000 (0%)]	Loss: 0.945191
+Train Epoch: 2 [640/15000 (4%)]	Loss: 0.922771
+Train Epoch: 2 [1280/15000 (9%)]	Loss: 0.853121
+Train Epoch: 2 [1920/15000 (13%)]	Loss: 0.844859
+Train Epoch: 2 [2560/15000 (17%)]	Loss: 1.245147
+Train Epoch: 2 [3200/15000 (21%)]	Loss: 1.244535
+Train Epoch: 2 [3840/15000 (26%)]	Loss: 0.837091
+Train Epoch: 2 [4480/15000 (30%)]	Loss: 0.869549
+Train Epoch: 2 [5120/15000 (34%)]	Loss: 0.841813
+Train Epoch: 2 [5760/15000 (38%)]	Loss: 0.705884
+Train Epoch: 2 [6400/15000 (43%)]	Loss: 0.911142
+Train Epoch: 2 [7040/15000 (47%)]	Loss: 0.842511
+Train Epoch: 2 [7680/15000 (51%)]	Loss: 0.759907
+Train Epoch: 2 [8320/15000 (55%)]	Loss: 0.648198
+Train Epoch: 2 [8960/15000 (60%)]	Loss: 0.806727
+Train Epoch: 2 [9600/15000 (64%)]	Loss: 0.773488
+Train Epoch: 2 [10240/15000 (68%)]	Loss: 0.664995
+Train Epoch: 2 [10880/15000 (72%)]	Loss: 0.885089
+Train Epoch: 2 [11520/15000 (77%)]	Loss: 0.595179
+Train Epoch: 2 [12160/15000 (81%)]	Loss: 0.864113
+Train Epoch: 2 [12800/15000 (85%)]	Loss: 0.566794
+Train Epoch: 2 [13440/15000 (89%)]	Loss: 0.399865
+Train Epoch: 2 [14080/15000 (94%)]	Loss: 0.647580
+Train Epoch: 2 [14720/15000 (98%)]	Loss: 0.923164
+sending model to server...
+sent model to server! now waiting to hear back...
+Received updated model from server...
+
+Test set: Avg. loss: 0.3166, Accuracy: 9142/10000 (91%)
+
+Program finished successfully!

@@ -1,7 +1,13 @@
+#!/bin/bash
 while [[ $# -gt 0 ]]; do
     case $1 in
         -n|--num-of-workers)
             NUMOFW="$2"
+            shift
+            shift
+            ;;
+        -e|--epochs)
+            EPOCHNUM="$2"
             shift
             shift
             ;;
@@ -12,16 +18,18 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-# start containers
-sudo docker run --name ps --net ps-net --ip 192.168.0.21 -p 49152:49152 -dt proj:img
+echo "starting containers..."
+sudo docker run -v /home/ubuntu/Desktop/project/dicts_to_text:/usr/src/app/logs --env EPOCHS=$EPOCHNUM --name ps --net ps-net --ip 192.168.0.21 -p 49152:49152/udp -dt proj:img
 sleep 2s
 for ((i=1; i <= NUMOFW; i++));
 do
-    sudo docker run --name worker$i --net work$i-net --ip 192.168.$i.21 -p $((i+49152)):$((i+49152)) --env JOB=worker --env IDX=$((i-1)) -dt proj:img
+    sudo docker run -v /home/ubuntu/Desktop/project/dicts_to_text:/usr/src/app/logs \
+    --name worker$i \
+    --net work$i-net --ip 192.168.$i.21 \
+    --env JOB=worker --env IDX=$((i-1)) --env EPOCHS=$EPOCHNUM \
+    -dt proj:img
 done
 
-# start simulation
-inet -u Cmdenv -f  omnetpp.ini
+# save cpu utilization over time
+mpstat 30 90 >> ../logs/cpu.txt
 
-# kill child processes
-trap 'kill $(jobs -pr)' SIGINT SIGTERM EXIT

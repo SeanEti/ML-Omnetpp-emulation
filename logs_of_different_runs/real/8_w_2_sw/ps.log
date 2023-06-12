@@ -1,0 +1,268 @@
+This is a parameter server!
+.
+Sent 1 packets.
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict0.txt
+name conv1.weight
+
+name conv1.bias
+
+name conv2.weight
+
+name conv2.bias
+
+name fc1.weight
+
+name fc1.bias
+
+name fc2.weight
+
+./logs/root_switch/dict1.txt
+name conv1.weight
+
+name conv1.bias
+
+name conv2.weight
+
+name conv2.bias
+
+name fc1.weight
+
+name fc1.bias
+
+name fc2.weight
+
+
+aggregating received dicts...
+writing file...
+signaling switches...
+.
+Sent 1 packets.
+/usr/src/app/./distri_ml_ys.py:45: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  return F.log_softmax(x)
+/usr/local/lib/python3.9/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+
+Test set: Avg. loss: 1.8061, Accuracy: 6504/10000 (65%)
+
+Finished Epoch Number 1
+Average time to compute new model: 0.005757808685302734s
+Average time it takes the server to read all the new files: 0.046360015869140625
+Avergae time to test: 10.099900007247925s
+
+
+accuracies: [65.04000091552734]
+
+
+test losses: [1.8060918212890624]
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict0.txt
+name conv1.weight
+
+name conv1.bias
+
+name conv2.weight
+
+name conv2.bias
+
+name fc1.weight
+
+name fc1.bias
+
+name fc2.weight
+
+./logs/root_switch/dict1.txt
+name conv1.weight
+
+name conv1.bias
+
+name conv2.weight
+
+name conv2.bias
+
+name fc1.weight
+
+name fc1.bias
+
+name fc2.weight
+
+
+aggregating received dicts...
+writing file...
+signaling switches...
+.
+Sent 1 packets.
+
+Test set: Avg. loss: 0.6101, Accuracy: 8477/10000 (85%)
+
+Finished Epoch Number 2
+Average time to compute new model: 0.004072666168212891s
+Average time it takes the server to read all the new files: 0.044129014015197754
+Avergae time to test: 9.971222519874573s
+
+
+accuracies: [65.04000091552734, 84.7699966430664]
+
+
+test losses: [1.8060918212890624, 0.6100936157226563]
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict0.txt
+name conv1.weight
+
+name conv1.bias
+
+name conv2.weight
+
+name conv2.bias
+
+name fc1.weight
+
+name fc1.bias
+
+name fc2.weight
+
+./logs/root_switch/dict1.txt
+name conv1.weight
+
+name conv1.bias
+
+name conv2.weight
+
+name conv2.bias
+
+name fc1.weight
+
+name fc1.bias
+
+name fc2.weight
+
+
+aggregating received dicts...
+writing file...
+signaling switches...
+.
+Sent 1 packets.
+
+Test set: Avg. loss: 0.4054, Accuracy: 8984/10000 (90%)
+
+Finished Epoch Number 3
+Average time to compute new model: 0.003476222356160482s
+Average time it takes the server to read all the new files: 0.04319151242574056
+Avergae time to test: 10.110158522923788s
+
+
+accuracies: [65.04000091552734, 84.7699966430664, 89.83999633789062]
+
+
+test losses: [1.8060918212890624, 0.6100936157226563, 0.4053976348876953]
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict0.txt
+name conv1.weight
+
+name conv1.bias
+
+name conv2.weight
+
+name conv2.bias
+
+name fc1.weight
+
+name fc1.bias
+
+name fc2.weight
+
+./logs/root_switch/dict1.txt
+name conv1.weight
+
+name conv1.bias
+
+name conv2.weight
+
+name conv2.bias
+
+name fc1.weight
+
+name fc1.bias
+
+name fc2.weight
+
+
+aggregating received dicts...
+writing file...
+signaling switches...
+.
+Sent 1 packets.
+
+Test set: Avg. loss: 0.3169, Accuracy: 9170/10000 (92%)
+
+Finished Epoch Number 4
+Average time to compute new model: 0.0031822919845581055s
+Average time it takes the server to read all the new files: 0.04287678003311157
+Avergae time to test: 10.070837080478668s
+
+
+accuracies: [65.04000091552734, 84.7699966430664, 89.83999633789062, 91.69999694824219]
+
+
+test losses: [1.8060918212890624, 0.6100936157226563, 0.4053976348876953, 0.31693355712890625]
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict0.txt
+name conv1.weight
+
+name conv1.bias
+
+name conv2.weight
+
+name conv2.bias
+
+name fc1.weight
+
+name fc1.bias
+
+name fc2.weight
+
+./logs/root_switch/dict1.txt
+name conv1.weight
+
+name conv1.bias
+
+name conv2.weight
+
+name conv2.bias
+
+name fc1.weight
+
+name fc1.bias
+
+name fc2.weight
+
+
+aggregating received dicts...
+writing file...
+signaling switches...
+.
+Sent 1 packets.
+
+Test set: Avg. loss: 0.2593, Accuracy: 9269/10000 (93%)
+
+Finished Epoch Number 5
+Average time to compute new model: 0.0030621051788330077s
+Average time it takes the server to read all the new files: 0.042778730392456055
+Avergae time to test: 9.005447435379029s
+
+
+accuracies: [65.04000091552734, 84.7699966430664, 89.83999633789062, 91.69999694824219, 92.69000244140625]
+
+
+test losses: [1.8060918212890624, 0.6100936157226563, 0.4053976348876953, 0.31693355712890625, 0.25926954193115237]
+Simulation is done!
