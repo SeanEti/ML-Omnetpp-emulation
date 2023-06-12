@@ -32,6 +32,7 @@ According to the studies (which will be mentioned later on), we expect our simul
 10) `right click Project > properties > Project references > tick the inet project` and save
 11) Now copy the project file from the 'proj' folder, in the cloned repository, into th enew project created, replacing everything nedded
 12) build the project
+
 <sub>To change the network size, loads, and placements of smat switches you need to go into the omnet.ini file in the new project</sub>
 #### RUN
 13) Go to scripts folder in the downloaded depository
@@ -52,6 +53,8 @@ According to the studies (which will be mentioned later on), we expect our simul
 18) stop all running scripts using CTRL+C
 19) Run the './teardown.sh -n <number of workers>' script in the 'scripts' folder in the depository
 
+#### Results and logs:
+The results are stored in the 'dicts_to_text' folder of the repository, and logs are stored in the 'logs' folder
     
 ##  Versions:
     Running on Ubuntu 20.04.4
