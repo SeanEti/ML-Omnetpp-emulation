@@ -11,16 +11,14 @@ According to the studies (which will be mentioned later on), we expect our simul
 <sub>Keywords: distributed machine learning, aggregations, smart switch, simulation, network utilization.</sub>
 
 
-<img src="https://github.com/SeanEti/ML-Omnetpp-emulation/blob/master/Project_base_topoloy.png" width="1220" height="760" class="center"/>
+<img src="https://github.com/SeanEti/ML-Omnetpp-emulation/blob/master/Project_base_topology.png" width="1220" height="760" class="center"/>
 
 ## Run Instructions
 1) Download all the correct versions
 2) clone the git depository
 3) create a new OMNeT++ project
-4)  
-`
-right click Project > properties > Project references > tick the inet project
-`
+4)`right click Project > properties > Project references > tick the inet project`
+
 5) build docker images from dockerfiles in 'ml-codes' folder with the next commands:
 `
 ./update_image.sh
