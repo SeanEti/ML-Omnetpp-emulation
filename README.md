@@ -11,13 +11,17 @@ According to the studies (which will be mentioned later on), we expect our simul
 <sub>Keywords: distributed machine learning, aggregations, smart switch, simulation, network utilization.</sub>
 
 
-<img src="https://github.com/SeanEti/ML-Omnetpp-emulation/blob/master/topology.jpeg" width="780" height="1110" class="center"/>
+<img src="https://github.com/SeanEti/ML-Omnetpp-emulation/blob/master/Project_base_topoloy.png" width="1220" height="760" class="center"/>
 
 ## Run Instructions
 1) Download all the correct versions
-2) Download the git depository
-3) Copy the 'proj' folder to {path to main omnet folder}/samples/inet/showcases/emulation/
-4) build docker images from dockerfiles in 'ml-codes' folder with the next commands:
+2) clone the git depository
+3) create a new OMNeT++ project
+4)  
+`
+right click Project > properties > Project references > tick the inet project
+`
+5) build docker images from dockerfiles in 'ml-codes' folder with the next commands:
 `
 ./update_image.sh
 `
@@ -30,7 +34,7 @@ According to the studies (which will be mentioned later on), we expect our simul
 9) Go to scripts folder in the downloaded depository
 10) Run the setup.sh script by entering in terminal: 
 `
-./setup.sh
+./setup.sh -n <number of workers to run>
 `
 11) Go to the copied 'proj' folder in the {OMNET}/samples/inet/showcases/emulation/
 12) Run the 'run.sh' script by entering in the terminal: 
