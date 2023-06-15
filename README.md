@@ -17,17 +17,9 @@ According to the studies (which will be mentioned later on), we expect our simul
 #### Setup
 1) Download all the correct versions
 2) clone the git depository
-<<<<<<< HEAD
-3) create a new OMNeT++ project
-
-4)`right click Project > properties > Project references > tick the inet project`
-
-5) build docker images from dockerfiles in 'ml-codes' folder with the next commands:
-=======
 3) build docker images from dockerfiles in 'ml-codes' folder with the next commands:
->>>>>>> cdfdaeb35dc3199a25e84aec0211feb4f11e646a
 `
-./update_image.sh
+./update_images_all.sh
 `
 #### after downloading everything
 4) Go to {OMNET folder}
@@ -51,7 +43,7 @@ According to the studies (which will be mentioned later on), we expect our simul
 15) Go to the src folder in the OMNeT++ project you created
 16) Run the './run' script by entering in the terminal: 
 `
-./run
+./run -c <config-name>
 `
 17) and then back in the 'scripts' folder type:
 `
