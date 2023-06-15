@@ -31,5 +31,5 @@ do
 done
 
 # save cpu utilization over time
-mpstat 30 90 >> ../logs/cpu.txt
+mpstat 30 30 >> ../logs/cpu.txt &
 

@@ -1,0 +1,122 @@
+This is worker5
+.
+Sent 1 packets.
+Starting training...
+Train Epoch: 1 [0/7500 (0%)]	Loss: 2.303554
+Train Epoch: 1 [640/7500 (8%)]	Loss: 0.806964
+Train Epoch: 1 [1280/7500 (17%)]	Loss: 0.391235
+Train Epoch: 1 [1920/7500 (25%)]	Loss: 0.332108
+Train Epoch: 1 [2560/7500 (34%)]	Loss: 0.411581
+Train Epoch: 1 [3200/7500 (42%)]	Loss: 0.339288
+Train Epoch: 1 [3840/7500 (51%)]	Loss: 0.290174
+Train Epoch: 1 [4480/7500 (59%)]	Loss: 0.268199
+Train Epoch: 1 [5120/7500 (68%)]	Loss: 0.215227
+Train Epoch: 1 [5760/7500 (76%)]	Loss: 0.372160
+Train Epoch: 1 [6400/7500 (85%)]	Loss: 0.451002
+Train Epoch: 1 [7040/7500 (93%)]	Loss: 0.128364
+finished training...
+writing file...
+sending signal at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=14, tm_hour=21, tm_min=45, tm_sec=4, tm_wday=2, tm_yday=165, tm_isdst=0) or 1686779104.5236201 in seconds
+Compute time is : 120.51297950744629
+.
+Sent 1 packets.
+waiting for a signal back...
+Recevied signal from omnet++, time to read...
+Epoch 1 took 267.5039436817169s
+Train Epoch: 2 [0/7500 (0%)]	Loss: 0.047788
+Train Epoch: 2 [640/7500 (8%)]	Loss: 0.550852
+Train Epoch: 2 [1280/7500 (17%)]	Loss: 0.457750
+Train Epoch: 2 [1920/7500 (25%)]	Loss: 0.447940
+Train Epoch: 2 [2560/7500 (34%)]	Loss: 0.265170
+Train Epoch: 2 [3200/7500 (42%)]	Loss: 0.235944
+Train Epoch: 2 [3840/7500 (51%)]	Loss: 0.336111
+Train Epoch: 2 [4480/7500 (59%)]	Loss: 0.368927
+Train Epoch: 2 [5120/7500 (68%)]	Loss: 0.176191
+Train Epoch: 2 [5760/7500 (76%)]	Loss: 0.318008
+Train Epoch: 2 [6400/7500 (85%)]	Loss: 0.159600
+Train Epoch: 2 [7040/7500 (93%)]	Loss: 0.142556
+finished training...
+writing file...
+sending signal at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=14, tm_hour=21, tm_min=49, tm_sec=36, tm_wday=2, tm_yday=165, tm_isdst=0) or 1686779376.4294052 in seconds
+Compute time is : 124.91475820541382
+.
+Sent 1 packets.
+waiting for a signal back...
+Recevied signal from omnet++, time to read...
+Epoch 2 took 271.9590883255005s
+Train Epoch: 3 [0/7500 (0%)]	Loss: 0.093299
+Train Epoch: 3 [640/7500 (8%)]	Loss: 0.201987
+Train Epoch: 3 [1280/7500 (17%)]	Loss: 0.301604
+Train Epoch: 3 [1920/7500 (25%)]	Loss: 0.193333
+Train Epoch: 3 [2560/7500 (34%)]	Loss: 0.115662
+Train Epoch: 3 [3200/7500 (42%)]	Loss: 0.069256
+Train Epoch: 3 [3840/7500 (51%)]	Loss: 0.068983
+Train Epoch: 3 [4480/7500 (59%)]	Loss: 0.035483
+Train Epoch: 3 [5120/7500 (68%)]	Loss: 0.115016
+Train Epoch: 3 [5760/7500 (76%)]	Loss: 0.261825
+Train Epoch: 3 [6400/7500 (85%)]	Loss: 0.293153
+Train Epoch: 3 [7040/7500 (93%)]	Loss: 0.071424
+finished training...
+writing file...
+sending signal at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=14, tm_hour=21, tm_min=54, tm_sec=5, tm_wday=2, tm_yday=165, tm_isdst=0) or 1686779645.925782 in seconds
+Compute time is : 122.45174312591553
+.
+Sent 1 packets.
+waiting for a signal back...
+Recevied signal from omnet++, time to read...
+Epoch 3 took 268.09856629371643s
+Train Epoch: 4 [0/7500 (0%)]	Loss: 0.009751
+Train Epoch: 4 [640/7500 (8%)]	Loss: 0.142682
+Train Epoch: 4 [1280/7500 (17%)]	Loss: 0.176350
+Train Epoch: 4 [1920/7500 (25%)]	Loss: 0.203700
+Train Epoch: 4 [2560/7500 (34%)]	Loss: 0.306110
+Train Epoch: 4 [3200/7500 (42%)]	Loss: 0.383785
+Train Epoch: 4 [3840/7500 (51%)]	Loss: 0.204164
+Train Epoch: 4 [4480/7500 (59%)]	Loss: 0.184448
+Train Epoch: 4 [5120/7500 (68%)]	Loss: 0.217564
+Train Epoch: 4 [5760/7500 (76%)]	Loss: 0.084575
+Train Epoch: 4 [6400/7500 (85%)]	Loss: 0.110455
+Train Epoch: 4 [7040/7500 (93%)]	Loss: 0.251125
+finished training...
+writing file...
+sending signal at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=14, tm_hour=21, tm_min=58, tm_sec=35, tm_wday=2, tm_yday=165, tm_isdst=0) or 1686779915.6494834 in seconds
+Compute time is : 124.07666969299316
+.
+Sent 1 packets.
+waiting for a signal back...
+Recevied signal from omnet++, time to read...
+Epoch 4 took 270.6403257846832s
+Train Epoch: 5 [0/7500 (0%)]	Loss: 0.038736
+Train Epoch: 5 [640/7500 (8%)]	Loss: 0.164597
+Train Epoch: 5 [1280/7500 (17%)]	Loss: 0.047833
+Train Epoch: 5 [1920/7500 (25%)]	Loss: 0.313613
+Train Epoch: 5 [2560/7500 (34%)]	Loss: 0.087455
+Train Epoch: 5 [3200/7500 (42%)]	Loss: 0.054866
+Train Epoch: 5 [3840/7500 (51%)]	Loss: 0.159496
+Train Epoch: 5 [4480/7500 (59%)]	Loss: 0.023461
+Train Epoch: 5 [5120/7500 (68%)]	Loss: 0.083398
+Train Epoch: 5 [5760/7500 (76%)]	Loss: 0.161904
+Train Epoch: 5 [6400/7500 (85%)]	Loss: 0.250876
+Train Epoch: 5 [7040/7500 (93%)]	Loss: 0.491227
+finished training...
+writing file...
+sending signal at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=14, tm_hour=22, tm_min=3, tm_sec=4, tm_wday=2, tm_yday=165, tm_isdst=0) or 1686780184.6687078 in seconds
+Compute time is : 122.45555377006531
+.
+Sent 1 packets.
+waiting for a signal back...
+Recevied signal from omnet++, time to read...
+Epoch 5 took 268.4521572589874s
+Average epoch train time: 269.3308162689209
+Convergence time from worker5: 1346.654792547226
+Average training time: 122.74063339233399
+Average time it takes worker to receive a new model from when he is done training his model: 146.32578520774842
+Average amount of time it takes to load the new model received from the parameter server: 0.06160917282104492
+Average time it takes to write trained model to text file: 0.14170293807983397
+Final loss: 0.03177843615412712
+for 5 epochs and 4 workers:
+Loss: [0.285917729139328, 0.6282004714012146, 0.47796955704689026, 0.08909094333648682, 0.03177843615412712]
+Train Times: [120.3874499797821, 124.71892929077148, 122.38845992088318, 123.86031198501587, 122.34801578521729]
+Computation times of worker5: [120.51297950744629, 124.91475820541382, 122.45174312591553, 124.07666969299316, 122.45555377006531]
+Times it took to receive new model each epoch: [146.8919484615326, 146.91093850135803, 145.5337986946106, 146.4118194580078, 145.88042092323303]
+Program finished successfully!

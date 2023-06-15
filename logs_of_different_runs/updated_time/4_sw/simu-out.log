@@ -1,0 +1,1837 @@
+
+Running configuration Four, run #0...
+Assigned runID=Four-0-20230614-18:51:31-539128
+Setting up network "testnet"...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 1.7e-05s (0m 00s)
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 171   present: 171   in FES: 0
+** Event #512   t=2.375302391   Elapsed: 2.35633s (0m 02s)
+     Speed:     ev/sec=217.712   simsec/sec=1.00806   ev/simsec=215.973
+     Messages:  created: 885   present: 575   in FES: 107
+** Event #1024   t=8.549988719   Elapsed: 8.5305s (0m 08s)
+     Speed:     ev/sec=82.9261   simsec/sec=1.00008   ev/simsec=82.9192
+     Messages:  created: 1707   present: 1193   in FES: 4
+** Event #1280   t=33.358349378   Elapsed: 33.3388s (0m 33s)
+     Speed:     ev/sec=10.3191   simsec/sec=1   ev/simsec=10.3191
+     Messages:  created: 2096   present: 1452   in FES: 7
+** Event #1536   t=144.611518601   Elapsed: 144.592s (2m 24s)
+     Speed:     ev/sec=2.30106   simsec/sec=1   ev/simsec=2.30106
+     Messages:  created: 2493   present: 1725   in FES: 8
+** Event #1792   t=507.991857216   Elapsed: 507.972s (8m 27s)
+     Speed:     ev/sec=0.704496   simsec/sec=0.999999   ev/simsec=0.704496
+     Messages:  created: 2836   present: 1934   in FES: 9
+** Event #2048   t=1019.265281445   Elapsed: 1019.25s (16m 59s)
+     Speed:     ev/sec=0.500711   simsec/sec=1   ev/simsec=0.500711
+     Messages:  created: 3193   present: 2148   in FES: 7
+** Event #2261   t=1453.794877708   Elapsed: 1453.8s (24m 13s)
+     Speed:     ev/sec=0.487853   simsec/sec=0.78402   ev/simsec=0.622246
+     Messages:  created: 3494   present: 2321   in FES: 0
+
+<!> Scheduler interrupted while waiting -- at t=1453.794877708s, event #2261
+
+Calling finish() at end of Run #0...
+[INFO]	============ Switch-0 ============
+[INFO]	Number of signal UDP packets received from the hosts: 5 UDPs caught from hosts
+[INFO]	Number of messages going to the server: 5
+[INFO]	Number of messages from server to workers: 10
+[INFO]	Is this switch smart? 1
+[INFO]	============ Switch-1 ============
+[INFO]	Number of signal UDP packets received from the hosts: 0 UDPs caught from hosts
+[INFO]	Number of messages going to the server: 10
+[INFO]	Number of messages from server to workers: 10
+[INFO]	Is this switch smart? 0
+[INFO]	============ Switch-2 ============
+[INFO]	Number of signal UDP packets received from the hosts: 0 UDPs caught from hosts
+[INFO]	Number of messages going to the server: 5
+[INFO]	Number of messages from server to workers: 10
+[INFO]	Is this switch smart? 1
+[INFO]	============ Switch-3 ============
+[INFO]	Number of signal UDP packets received from the hosts: 0 UDPs caught from hosts
+[INFO]	Number of messages going to the server: 5
+[INFO]	Number of messages from server to workers: 10
+[INFO]	Is this switch smart? 1
+[INFO]	============ Switch-4 ============
+[INFO]	Number of signal UDP packets received from the hosts: 0 UDPs caught from hosts
+[INFO]	Number of messages going to the server: 5
+[INFO]	Number of messages from server to workers: 10
+[INFO]	Is this switch smart? 1
+[INFO]	============ Switch-5 ============
+[INFO]	Number of signal UDP packets received from the hosts: 0 UDPs caught from hosts
+[INFO]	Number of messages going to the server: 10
+[INFO]	Number of messages from server to workers: 10
+[INFO]	Is this switch smart? 0
+[INFO]	============ Switch-6 ============
+[INFO]	Number of signal UDP packets received from the hosts: 0 UDPs caught from hosts
+[INFO]	Number of messages going to the server: 10
+[INFO]	Number of messages from server to workers: 10
+[INFO]	Is this switch smart? 0
+[INFO]	============ Switch-7 ============
+[INFO]	Number of signal UDP packets received from the hosts: 5 UDPs caught from hosts
+[INFO]	Number of messages going to the server: 5
+[INFO]	Number of messages from server to workers: 5
+[INFO]	Is this switch smart? 0
+[INFO]	============ Switch-8 ============
+[INFO]	Number of signal UDP packets received from the hosts: 5 UDPs caught from hosts
+[INFO]	Number of messages going to the server: 5
+[INFO]	Number of messages from server to workers: 5
+[INFO]	Is this switch smart? 0
+[INFO]	============ Switch-9 ============
+[INFO]	Number of signal UDP packets received from the hosts: 5 UDPs caught from hosts
+[INFO]	Number of messages going to the server: 5
+[INFO]	Number of messages from server to workers: 5
+[INFO]	Is this switch smart? 0
+[INFO]	============ Switch-10 ============
+[INFO]	Number of signal UDP packets received from the hosts: 5 UDPs caught from hosts
+[INFO]	Number of messages going to the server: 5
+[INFO]	Number of messages from server to workers: 5
+[INFO]	Is this switch smart? 0
+[INFO]	============ Switch-11 ============
+[INFO]	Number of signal UDP packets received from the hosts: 5 UDPs caught from hosts
+[INFO]	Number of messages going to the server: 5
+[INFO]	Number of messages from server to workers: 5
+[INFO]	Is this switch smart? 0
+[INFO]	============ Switch-12 ============
+[INFO]	Number of signal UDP packets received from the hosts: 5 UDPs caught from hosts
+[INFO]	Number of messages going to the server: 5
+[INFO]	Number of messages from server to workers: 5
+[INFO]	Is this switch smart? 0
+[INFO]	============ Switch-13 ============
+[INFO]	Number of signal UDP packets received from the hosts: 5 UDPs caught from hosts
+[INFO]	Number of messages going to the server: 5
+[INFO]	Number of messages from server to workers: 5
+[INFO]	Is this switch smart? 0
+[INFO]	============ Switch-14 ============
+[INFO]	Number of signal UDP packets received from the hosts: 5 UDPs caught from hosts
+[INFO]	Number of messages going to the server: 5
+[INFO]	Number of messages from server to workers: 5
+[INFO]	Is this switch smart? 0
+[INFO]	5 packets sent, 56 packets received.
+[INFO]	testnet.host[0].tcp: finishing with 0 connections open.
+[INFO]	5 packets sent, 56 packets received.
+[INFO]	testnet.host[1].tcp: finishing with 0 connections open.
+[INFO]	5 packets sent, 56 packets received.
+[INFO]	testnet.host[2].tcp: finishing with 0 connections open.
+[INFO]	5 packets sent, 56 packets received.
+[INFO]	testnet.host[3].tcp: finishing with 0 connections open.
+[INFO]	5 packets sent, 56 packets received.
+[INFO]	testnet.host[4].tcp: finishing with 0 connections open.
+[INFO]	5 packets sent, 56 packets received.
+[INFO]	testnet.host[5].tcp: finishing with 0 connections open.
+[INFO]	5 packets sent, 56 packets received.
+[INFO]	testnet.host[6].tcp: finishing with 0 connections open.
+[INFO]	5 packets sent, 56 packets received.
+[INFO]	testnet.host[7].tcp: finishing with 0 connections open.
+[INFO]	5 packets sent, 56 packets received.
+[INFO]	testnet.host[8].tcp: finishing with 0 connections open.
+[INFO]	** Signal at T=1453.794877708 to testnet.host[0].ipv4.routingTable: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:62-75-AE-19-C0-C7 Ipv4:{inet_addr:10.0.0.1/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[0].ipv4.configurator: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:62-75-AE-19-C0-C7 Ipv4:{inet_addr:10.0.0.1/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[0].ipv4.routingTable: interfaceConfigChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:62-75-AE-19-C0-C7 Ipv4:{inet_addr:10.0.0.1/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 10
+[INFO]	 
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--1 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-IPv6--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-IPv6--2 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-IPv6--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--3 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-ICMPv6--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-IPv6--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-IPv6--8 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-IPv6--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--37 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-ICMPv6--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--38 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--40 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-ICMPv6--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[0].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[0].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[0].smartL.state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--42 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[0].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[0].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[0].smartL.state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[0].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[0].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[0].smartL.state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[0].smartL.state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[0].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[0].smartL.state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[0].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[0].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[0].smartL.state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[0].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[0].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[1].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[1].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[1].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[1].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[1].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[2].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[3].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[3].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[3].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[3].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[3].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[3].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[3].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[3].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[3].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[3].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[3].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[3].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[3].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[3].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[3].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[4].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[4].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[4].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[4].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[4].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[4].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[4].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[4].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[4].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[4].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[4].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[4].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[4].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[4].smartL.state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[4].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[5].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[5].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[5].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[5].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[5].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[6].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[6].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[6].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[6].smartL.new state dict -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[6].smartL.new state dict -- check module destructor
+[INFO]	** Signal at T=1453.794877708 to testnet.host[1].ipv4.routingTable: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:0A-FD-5F-CA-9B-38 Ipv4:{inet_addr:10.0.0.2/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[1].ipv4.configurator: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:0A-FD-5F-CA-9B-38 Ipv4:{inet_addr:10.0.0.2/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[1].ipv4.routingTable: interfaceConfigChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:0A-FD-5F-CA-9B-38 Ipv4:{inet_addr:10.0.0.2/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 10
+[INFO]	 
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--1 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-ICMPv6--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--2 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-IPv6--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-IPv6--3 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-IPv6--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--8 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-IPv6--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-IPv6--11 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-IPv6--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--42 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-ICMPv6--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[7].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[7].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[7].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[7].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[7].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[7].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[7].smartL.new state dict -- check module destructor
+[INFO]	** Signal at T=1453.794877708 to testnet.host[2].ipv4.routingTable: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:A2-99-3B-CE-78-E4 Ipv4:{inet_addr:10.0.0.3/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[2].ipv4.configurator: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:A2-99-3B-CE-78-E4 Ipv4:{inet_addr:10.0.0.3/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[2].ipv4.routingTable: interfaceConfigChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:A2-99-3B-CE-78-E4 Ipv4:{inet_addr:10.0.0.3/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 10
+[INFO]	 
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-IPv6--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-IPv6--1 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-IPv6--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--2 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-ICMPv6--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--3 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-IPv6--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-IPv6--7 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-IPv6--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--8 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--34 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--35 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-ICMPv6--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--42 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-ICMPv6--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[8].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[8].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[8].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[8].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--54 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-UDP--54 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-UDP--54 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--55 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[8].smartL.Ext-ICMPv6--55 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[8].smartL.Ext-ICMPv6--55 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[8].smartL.new state dict -- check module destructor
+[INFO]	** Signal at T=1453.794877708 to testnet.host[3].ipv4.routingTable: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:3A-34-E9-90-9B-79 Ipv4:{inet_addr:10.0.0.4/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[3].ipv4.configurator: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:3A-34-E9-90-9B-79 Ipv4:{inet_addr:10.0.0.4/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[3].ipv4.routingTable: interfaceConfigChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:3A-34-E9-90-9B-79 Ipv4:{inet_addr:10.0.0.4/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 10
+[INFO]	 
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-IPv6--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-IPv6--1 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-IPv6--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--2 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-ICMPv6--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--3 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-IPv6--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-IPv6--8 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-IPv6--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-IPv6--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-IPv6--14 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-IPv6--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--17 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--37 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-ICMPv6--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--38 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--40 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-ICMPv6--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--42 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[9].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[9].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[9].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[9].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[9].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[9].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[9].smartL.new state dict -- check module destructor
+[INFO]	** Signal at T=1453.794877708 to testnet.host[4].ipv4.routingTable: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:D6-84-82-88-C0-C4 Ipv4:{inet_addr:10.0.0.5/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[4].ipv4.configurator: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:D6-84-82-88-C0-C4 Ipv4:{inet_addr:10.0.0.5/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[4].ipv4.routingTable: interfaceConfigChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:D6-84-82-88-C0-C4 Ipv4:{inet_addr:10.0.0.5/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 10
+[INFO]	 
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--1 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-IPv6--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-IPv6--2 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-IPv6--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--3 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-ICMPv6--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-IPv6--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-IPv6--8 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-IPv6--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--41 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--41 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-ICMPv6--41 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--42 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[10].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[10].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[10].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[10].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[10].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[10].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[10].smartL.new state dict -- check module destructor
+[INFO]	** Signal at T=1453.794877708 to testnet.host[5].ipv4.routingTable: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:2A-5A-2F-A2-F2-AF Ipv4:{inet_addr:10.0.0.6/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[5].ipv4.configurator: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:2A-5A-2F-A2-F2-AF Ipv4:{inet_addr:10.0.0.6/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[5].ipv4.routingTable: interfaceConfigChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:2A-5A-2F-A2-F2-AF Ipv4:{inet_addr:10.0.0.6/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 10
+[INFO]	 
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--1 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-ICMPv6--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--2 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-IPv6--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-IPv6--3 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-IPv6--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-IPv6--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-IPv6--8 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-IPv6--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--37 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-ICMPv6--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--38 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--40 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-ICMPv6--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--42 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--43 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-ICMPv6--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--45 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--45 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--45 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[11].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--47 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-ICMPv6--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--49 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--49 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--49 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[11].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[11].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--52 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-ICMPv6--52 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-ICMPv6--52 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--54 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--54 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--54 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[11].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[11].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[11].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[11].smartL.new state dict -- check module destructor
+[INFO]	** Signal at T=1453.794877708 to testnet.host[6].ipv4.routingTable: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:12-4E-C2-6F-50-D9 Ipv4:{inet_addr:10.0.0.7/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[6].ipv4.configurator: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:12-4E-C2-6F-50-D9 Ipv4:{inet_addr:10.0.0.7/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[6].ipv4.routingTable: interfaceConfigChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:12-4E-C2-6F-50-D9 Ipv4:{inet_addr:10.0.0.7/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 10
+[INFO]	 
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-IPv6--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-IPv6--1 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-IPv6--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--2 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--3 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-ICMPv6--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-IPv6--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-IPv6--8 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-IPv6--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-IPv6--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-IPv6--12 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-IPv6--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--17 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--25 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--27 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-ICMPv6--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--34 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--35 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-ICMPv6--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--42 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-ICMPv6--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[12].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[12].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[12].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[12].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--54 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-UDP--54 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-UDP--54 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--55 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[12].smartL.Ext-ICMPv6--55 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[12].smartL.Ext-ICMPv6--55 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[12].smartL.new state dict -- check module destructor
+[INFO]	** Signal at T=1453.794877708 to testnet.host[7].ipv4.routingTable: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:3A-36-14-E6-D8-44 Ipv4:{inet_addr:10.0.0.8/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[7].ipv4.configurator: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:3A-36-14-E6-D8-44 Ipv4:{inet_addr:10.0.0.8/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[7].ipv4.routingTable: interfaceConfigChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:3A-36-14-E6-D8-44 Ipv4:{inet_addr:10.0.0.8/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 10
+[INFO]	 
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--1 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-ICMPv6--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--2 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-IPv6--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-IPv6--3 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-IPv6--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--8 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-IPv6--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-IPv6--13 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-IPv6--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-IPv6--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-IPv6--14 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-IPv6--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--17 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--41 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--41 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-ICMPv6--41 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--42 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[13].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[13].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[13].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[13].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[13].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[13].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[13].smartL.new state dict -- check module destructor
+[INFO]	** Signal at T=1453.794877708 to testnet.host[8].ipv4.routingTable: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:BA-31-37-99-55-50 Ipv4:{inet_addr:10.0.0.9/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[8].ipv4.configurator: interfaceStateChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:BA-31-37-99-55-50 Ipv4:{inet_addr:10.0.0.9/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 0
+[INFO]	 
+[INFO]	** Signal at T=1453.794877708 to testnet.host[8].ipv4.routingTable: interfaceConfigChanged eth0 ID:101 MTU:1500 UP BROADCAST NOCARRIER MULTICAST macAddr:BA-31-37-99-55-50 Ipv4:{inet_addr:10.0.0.9/28 mcastgrps:224.0.0.1,224.0.0.2} changed field: 10
+[INFO]	 
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-IPv6--0 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-IPv6--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-IPv6--1 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-IPv6--1 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--2 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-ICMPv6--2 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--3 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--3 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-IPv6--4 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-ICMPv6--5 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-IPv6--6 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--7 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--8 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--8 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--9 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--10 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-IPv6--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-IPv6--11 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-IPv6--11 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--12 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--13 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--14 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--15 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--16 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-IPv6--17 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--18 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--19 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--20 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--21 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--22 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--23 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--24 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-ICMPv6--25 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--26 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--27 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--28 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--29 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--30 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-ICMPv6--31 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--32 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--33 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-ICMPv6--34 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--35 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--36 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--37 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-ICMPv6--38 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--39 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--40 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--41 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--42 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-ICMPv6--42 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--43 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--44 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[14].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-ICMPv6--45 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--46 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--47 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--48 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[14].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-ICMPv6--49 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--50 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[14].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--51 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--52 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--53 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[14].smartL.new state dict -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-ICMPv6--54 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::physicallayer::EthernetSignal) testnet.sw[14].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::Packet) testnet.sw[14].smartL.Ext-UDP--55 -- check module destructor
+undisposed object: (inet::StateDict) testnet.sw[14].smartL.new state dict -- check module destructor
+[INFO]	Clear all sockets
+[INFO]	Clear all sockets
+[INFO]	Clear all sockets
+[INFO]	Clear all sockets
+[INFO]	Clear all sockets
+[INFO]	Clear all sockets
+[INFO]	Clear all sockets
+[INFO]	Clear all sockets
+[INFO]	Clear all sockets

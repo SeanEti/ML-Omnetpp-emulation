@@ -1,0 +1,126 @@
+This is a parameter server!
+.
+Sent 1 packets.
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict3.txt
+./logs/root_switch/dict5.txt
+./logs/root_switch/dict0.txt
+./logs/root_switch/dict7.txt
+./logs/root_switch/dict1.txt
+./logs/root_switch/dict4.txt
+./logs/root_switch/dict2.txt
+./logs/root_switch/dict6.txt
+
+aggregating received dicts...
+writing file...
+Server is sending signal for epoch 0 at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=14, tm_hour=19, tm_min=56, tm_sec=48, tm_wday=2, tm_yday=165, tm_isdst=0) or 1686772608.8951771 in seconds
+.
+Sent 1 packets.
+
+Test set: Accuracy: 9361/10000 (94%)
+
+Finished Epoch Number 1
+Average time to compute new model: 0.013550281524658203s
+Average time it takes the server to read all the new files: 0.25598692893981934
+Avergae time to test: 1.8051190376281738s
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict3.txt
+./logs/root_switch/dict5.txt
+./logs/root_switch/dict0.txt
+./logs/root_switch/dict7.txt
+./logs/root_switch/dict1.txt
+./logs/root_switch/dict4.txt
+./logs/root_switch/dict2.txt
+./logs/root_switch/dict6.txt
+
+aggregating received dicts...
+writing file...
+Server is sending signal for epoch 1 at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=14, tm_hour=20, tm_min=1, tm_sec=56, tm_wday=2, tm_yday=165, tm_isdst=0) or 1686772916.6217873 in seconds
+.
+Sent 1 packets.
+
+Test set: Accuracy: 9633/10000 (96%)
+
+Finished Epoch Number 2
+Average time to compute new model: 0.012984395027160645s
+Average time it takes the server to read all the new files: 0.25247371196746826
+Avergae time to test: 1.814218282699585s
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict3.txt
+./logs/root_switch/dict5.txt
+./logs/root_switch/dict0.txt
+./logs/root_switch/dict7.txt
+./logs/root_switch/dict1.txt
+./logs/root_switch/dict4.txt
+./logs/root_switch/dict2.txt
+./logs/root_switch/dict6.txt
+
+aggregating received dicts...
+writing file...
+Server is sending signal for epoch 2 at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=14, tm_hour=20, tm_min=7, tm_sec=4, tm_wday=2, tm_yday=165, tm_isdst=0) or 1686773224.3406105 in seconds
+.
+Sent 1 packets.
+
+Test set: Accuracy: 9717/10000 (97%)
+
+Finished Epoch Number 3
+Average time to compute new model: 0.012928088506062826s
+Average time it takes the server to read all the new files: 0.2508219877878825
+Avergae time to test: 1.7933861414591472s
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict3.txt
+./logs/root_switch/dict5.txt
+./logs/root_switch/dict0.txt
+./logs/root_switch/dict7.txt
+./logs/root_switch/dict1.txt
+./logs/root_switch/dict4.txt
+./logs/root_switch/dict2.txt
+./logs/root_switch/dict6.txt
+
+aggregating received dicts...
+writing file...
+Server is sending signal for epoch 3 at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=14, tm_hour=20, tm_min=12, tm_sec=11, tm_wday=2, tm_yday=165, tm_isdst=0) or 1686773531.189705 in seconds
+.
+Sent 1 packets.
+
+Test set: Accuracy: 9755/10000 (98%)
+
+Finished Epoch Number 4
+Average time to compute new model: 0.012807309627532959s
+Average time it takes the server to read all the new files: 0.25064510107040405
+Avergae time to test: 1.802589476108551s
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict3.txt
+./logs/root_switch/dict5.txt
+./logs/root_switch/dict0.txt
+./logs/root_switch/dict7.txt
+./logs/root_switch/dict1.txt
+./logs/root_switch/dict4.txt
+./logs/root_switch/dict2.txt
+./logs/root_switch/dict6.txt
+
+aggregating received dicts...
+writing file...
+Server is sending signal for epoch 4 at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=14, tm_hour=20, tm_min=17, tm_sec=20, tm_wday=2, tm_yday=165, tm_isdst=0) or 1686773840.0102196 in seconds
+.
+Sent 1 packets.
+
+Test set: Accuracy: 9790/10000 (98%)
+
+Finished Epoch Number 5
+Average time to compute new model: 0.012752580642700195s
+Average time it takes the server to read all the new files: 0.249228572845459
+Avergae time to test: 1.7975364685058595s
+Accuracies: [93.61000061035156, 96.33000183105469, 97.16999816894531, 97.55000305175781, 97.9000015258789]
+Test losses: []
+Simulation is done!

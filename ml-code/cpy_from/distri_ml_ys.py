@@ -4,13 +4,11 @@
 # ===================================================
 #                       IMPORTS
 # ===================================================
-# import sys
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
-from torch.utils.data.distributed import DistributedSampler
 import argparse
 import socket
 import time
@@ -19,30 +17,33 @@ import numpy as np
 import glob
 import os
 import scapy.all as scapy
-from matplotlib import pyplot as plt
 
 
 # ===================================================
 #                       CLASSES
 # ===================================================
 
-class Net(nn.Module):
+class LeNet(nn.Module):
     def __init__(self):
-        super(Net, self).__init__()
-        self.conv1 = nn.Conv2d(1, 10, kernel_size=5)
-        self.conv2 = nn.Conv2d(10, 20, kernel_size=5)
-        self.conv2_drop = nn.Dropout2d()
-        self.fc1 = nn.Linear(320, 50)
-        self.fc2 = nn.Linear(50, 10)
+        super(LeNet, self).__init__()
+        self.cnn_model = nn.Sequential(nn.Conv2d(1, 6, 5), 
+                                       nn.Tanh(), 
+                                       nn.AvgPool2d(2, stride=2), 
+                                       nn.Conv2d(6, 16, 5),
+                                       nn.Tanh(), 
+                                       nn.AvgPool2d(2, stride=2))
+
+        self.fc_model = nn.Sequential(nn.Linear(256, 120), 
+                                      nn.Tanh(), 
+                                      nn.Linear(120, 84), 
+                                      nn.Tanh(), 
+                                      nn.Linear(84, 10))
 
     def forward(self, x):
-        x = F.relu(F.max_pool2d(self.conv1(x), 2))
-        x = F.relu(F.max_pool2d(self.conv2_drop(self.conv2(x)), 2))
-        x = x.view(-1, 320)
-        x = F.relu(self.fc1(x))
-        x = F.dropout(x, training=self.training)
-        x = self.fc2(x)
-        return F.log_softmax(x)
+        x = self.cnn_model(x)
+        x = x.view(x.size(0), -1)
+        x = self.fc_model(x)
+        return x
 
 
 # ===================================================
@@ -76,7 +77,7 @@ def recvall(sock):
     return b"".join(data)
 
 
-def train(epoch_num, net, func_optim, train_loader_data, train_counter, loss_per_epoch, log_freq=10):
+def train(epoch_num, net, func_optim, func_loss, train_loader_data, train_counter, loss_per_epoch, log_freq=10):
     """
     train model
     """
@@ -84,7 +85,7 @@ def train(epoch_num, net, func_optim, train_loader_data, train_counter, loss_per
     for batch_idx, (data, target) in enumerate(train_loader_data):
         func_optim.zero_grad()
         output = net(data)
-        loss = F.nll_loss(output, target)
+        loss = func_loss(output, target)
         loss.backward()
         func_optim.step()
 
@@ -97,45 +98,41 @@ def train(epoch_num, net, func_optim, train_loader_data, train_counter, loss_per
     return net.state_dict(), train_counter, loss_per_epoch
 
 
-def test(net, test_loader_data, test_losses):
+def test(net, test_loader_data):
     """
     test model
     """
     net.eval()
-    test_loss = 0
     correct = 0
     with torch.no_grad():
         for data, target in test_loader_data:
             output = net(data)
-            test_loss += F.nll_loss(output, target, size_average=False).item()
             pred = output.data.max(1, keepdim=True)[1]
             correct += pred.eq(target.data.view_as(pred)).sum()
-    test_loss /= len(test_loader_data.dataset)
-    test_losses.append(test_loss)
-    print('\nTest set: Avg. loss: {:.4f}, Accuracy: {}/{} ({:.0f}%)\n'.format(
-        test_loss, correct, len(test_loader_data.dataset),
+    print('\nTest set: Accuracy: {}/{} ({:.0f}%)\n'.format(
+        correct, len(test_loader_data.dataset),
         100. * correct / len(test_loader_data.dataset)))
-    return 100. * correct / len(test_loader_data.dataset), test_losses
+    return 100. * correct / len(test_loader_data.dataset)
 
 
-def get_new_state(worker_model_dic):
+def get_new_state(worker_model_dic, num_of_workers):
     """
     gets list of received state dictionaries and returns a new state dict where each value is the
     average value of the given states.
     """
     dicts = worker_model_dic
-    model0 = Net()
+    model0 = LeNet()
     model0.load_state_dict(dicts[0], strict=False)
 
     for idx, state in enumerate(dicts):
         if idx == 0: continue
-        model = Net()
+        model = LeNet()
         model.load_state_dict(state, strict=False)
         for param, param0 in zip(model.parameters(), model0.parameters()):
             param0.data.copy_(param.data + param0.data)
 
     for param in model0.parameters():
-        param.data.copy_(param.data / len(dicts))
+        param.data.copy_(param.data / num_of_workers)
 
     return model0.state_dict()
 
@@ -206,7 +203,6 @@ def readFormatFile(filename, dims_list):
         # print(indices_of_param_line)
         for i in range(len(lines_indices_of_param_name) - 1):
             key = lines[lines_indices_of_param_name[i]]
-            print(key)
             # taking the specific data for the parameter
             value = (lines[lines_indices_of_param_name[i] + 1:lines_indices_of_param_name[i + 1]])
             value = [s.rstrip("\n") for s in value]
@@ -247,24 +243,6 @@ def print_statistics(epoch_times, start_training_time, train_times, receive_time
     print(f'Final loss: {losses_per_epoch[-1]}')
 
 
-def save_graphs(loss, train_time, epochs, worker_num):
-    plt.plot(range(1, epochs + 1), loss)
-    plt.title("Loss per Epoch")
-    plt.xlabel("Epochs")
-    plt.ylabel("Loss")
-    plt.savefig(f'./logs/loss_{epochs}_epochs_w_{worker_num}.png')
-    plt.close()
-    plt.plot(range(1, epochs + 1), train_time)
-    plt.title("Train Time Each Epoch")
-    plt.xlabel("Epochs")
-    plt.ylabel("Time [sec]")
-    plt.savefig(f'./logs/train_times_{epochs}_epochs_w_{worker_num}.png')
-    plt.close()
-
-    print(f'\nLoss: {loss}')
-    print(f'\nTrain Times: {train_time}')
-
-
 # ===================================================
 #                       MAIN
 # ===================================================
@@ -289,6 +267,7 @@ learning_rate = 0.01
 momentum = 0.5
 log_interval = 10
 batch_size_test = 1000
+fn_loss = nn.CrossEntropyLoss()
 
 torch.backends.cudnn.enabled = False
 torch.manual_seed(696969)
@@ -310,11 +289,11 @@ if args["job_name"] == 'worker':
     train_loader = torch.utils.data.DataLoader(train_data, batch_size=batch_size_train, shuffle=True)
 
     # initialize model to train:
-    network = Net()
-    optimizer = optim.SGD(network.parameters(), lr=learning_rate, momentum=momentum)
+    network = LeNet()
+    # print(f'NETWORK PARAMETERS: {list(network.named_parameters())}')
+    optimizer = optim.Adam(network.parameters(), learning_rate)
 
     # track progress init
-    train_losses = []
     train_counter = []
     test_counter = [i * len(train_loader.dataset) for i in range(num_of_epochs + 1)]
     epoch_times = []
@@ -323,6 +302,7 @@ if args["job_name"] == 'worker':
     load_times = []             # time it takes to load new model
     write_times = []
     losses_per_epoch = []
+    compute_times = []
 
     # ================= TRAIN =================
     # start to train model
@@ -332,7 +312,7 @@ if args["job_name"] == 'worker':
     for epoch in range(1, num_of_epochs + 1):
         epoch_start_time = time.time()
 
-        curr_state, train_counter, losses_per_epoch = train(epoch, network, optimizer, train_loader, train_counter, losses_per_epoch, log_interval)   # train one epoch
+        curr_state, train_counter, losses_per_epoch = train(epoch, network, optimizer, fn_loss, train_loader, train_counter, losses_per_epoch, log_interval)   # train one epoch
         print("finished training...")
         dims_list = getDimslist(curr_state)
         train_times.append(time.time() - epoch_start_time)
@@ -344,7 +324,8 @@ if args["job_name"] == 'worker':
         write_times.append(time.time() - start_write_to_file_time)
         
         # send UDP broadcast to signal switches that the file is ready to read
-        print("sending signal...")
+        compute_times.append(time.time() - epoch_start_time)
+        print(f"sending signal at {time.localtime()} or {time.time()} in seconds\nCompute time is : {compute_times[-1]}")
         send_udp_signal(12345, args['task_index'] + 1)
 
         # wait to receive UDP broadcast
@@ -370,7 +351,11 @@ if args["job_name"] == 'worker':
         print(f"Epoch {epoch} took {epoch_times[-1]}s")
 
     print_statistics(epoch_times, start_training_time, train_times, receive_times, load_times, write_times, losses_per_epoch)
-    save_graphs(losses_per_epoch, train_times, num_of_epochs, args["task_index"])
+    print(f'for {num_of_epochs} epochs and {args["task_index"]} workers:')
+    print(f'Loss: {losses_per_epoch}')
+    print(f'Train Times: {train_times}')
+    print(f'Computation times of worker{args["task_index"]+1}: {compute_times}')
+    print(f'Times it took to receive new model each epoch: {receive_times}')
 
     print("Program finished successfully!")
     exit(1)
@@ -416,7 +401,7 @@ elif args["job_name"] == 'ps':
             start_read_time = time.time()
             for file in files_to_read_from:
                 print(file)
-                dims_list = [[10,1,5,5],[10],[20,10,5,5],[20],[50,320],[50],[10,50],[10]] # TODO temporary fix until dynamic fix is found
+                dims_list = [[6, 1, 5, 5], [6], [16, 6, 5, 5], [16], [120, 256], [120], [84, 120], [84], [10, 84], [10]] # TODO temporary fix until dynamic fix is found
                 worker_model_dicts.append(readFormatFile(file, dims_list))
                 os.remove(file)
             read_times.append(time.time() - start_read_time)
@@ -424,7 +409,7 @@ elif args["job_name"] == 'ps':
             # aggregate received dicts
             print("\naggregating received dicts...")
             start_compute_time = time.time()
-            new_state = get_new_state(worker_model_dicts)
+            new_state = get_new_state(worker_model_dicts, num_of_workers)
             computation_times.append(time.time() - start_compute_time)
 
             # write new state dict to file
@@ -432,14 +417,14 @@ elif args["job_name"] == 'ps':
             writeFileInFormat(new_state, "./logs/ps.txt")
 
             # broadcast UDP as a signal for switches to start broadcasting state
-            print("signaling switches...")
+            print(f"Server is sending signal for epoch {epoch_num} at {time.localtime()} or {time.time()} in seconds")
             send_udp_signal(49152, 0)
 
             # test new model
             start_test_time = time.time()
-            network = Net()
+            network = LeNet()
             network.load_state_dict(new_state, strict=False)
-            test_accuracy, test_losses = test(network, test_loader, test_losses)
+            test_accuracy = test(network, test_loader)
             accuracy_per_epoch.append(test_accuracy.tolist())
             test_time.append(time.time() - start_test_time)
 
@@ -449,27 +434,14 @@ elif args["job_name"] == 'ps':
             print(f'Average time it takes the server to read all the new files: {get_average_of_list(read_times)}')
             print(f'Avergae time to test: {get_average_of_list(test_time)}s')
 
-            print(f'\n\naccuracies: {accuracy_per_epoch}')
-            print(f'\n\ntest losses: {test_losses}')
-
             if epoch_num == num_of_epochs:
-                print("Simulation is done!")
-                plt.plot(range(1, num_of_epochs + 1), accuracy_per_epoch)
-                plt.title('Accuracy Per Epoch')
-                plt.xlabel('Epochs')
-                plt.ylabel('Accuracy [%]')
-                plt.savefig(f'./logs/accuracy_for_{num_of_epochs}_epochs.png')
-                plt.close()
-                plt.plot(range(1, num_of_epochs + 1), test_losses)
-                plt.title('Test Losses')
-                plt.xlabel('Epochs')
-                plt.ylabel('Loss')
-                plt.savefig(f'./logs/test_losses_for_{num_of_epochs}_epochs.png')
-                plt.close()
+                print(f'Accuracies: {accuracy_per_epoch}')
+                print(f'Test losses: {test_losses}')
                 break
         else:
             print("ERR: There are no files to read from... ;(")
             exit(-1)
+    print('Simulation is done!')
 
 else:
     print("ERR: Wrong job entered in argument...")
