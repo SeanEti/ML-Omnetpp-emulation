@@ -1,0 +1,1094 @@
+file 4789931 1686786246                                         
+version 3
+run Eight-0-20230614-19:18:56-574854
+attr configname Eight
+attr datetime 20230614-19:18:56
+attr datetimef 20230614-191856
+attr experiment Eight
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network testnet
+attr processid 574854
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config *.sw[0..7].smartL.is_smart true
+config *.sw[0..6].smartL.num_of_messages_to_expect 2
+config *.sw[*].smartL.num_of_messages_to_expect 1
+config network testnet
+config scheduler-class inet::RealTimeScheduler
+config cmdenv-express-mode true
+config cmdenv-redirect-output true
+config cmdenv-output-file simu-out.log
+config ned-path .:../src;../../inet4.5/src;../../inet4.5/examples;../../inet4.5/showcases;../../inet4.5/tests/validation;../../inet4.5/tests/networks;../../inet4.5/tutorials
+config **.crcMode "\"computed\""
+config **.fcsMode "\"computed\""
+config **.hasOspf true
+config **.promiscuous true
+config *.host*.forwarding true
+config **.duplexMode true
+config **.eth*.bitrate 100Mbps
+config **.host[*].eth[0].typename ExtUpperEthernetInterface
+config **.host[*].eth[0].device "\"tap\" + string(parentIndex())"
+config **.host[*].eth[0].copyConfiguration "\"copyFromExt\""
+config **.height 3
+
+vector 0 testnet.host[0].udp passedUpPk:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetSentToUpper
+attr title "packets passed up, count"
+vector 1 testnet.host[0].udp droppedPkWrongPort:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+vector 2 testnet.host[0].udp droppedPkBadChecksum:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+vector 3 testnet.host[1].udp passedUpPk:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetSentToUpper
+attr title "packets passed up, count"
+vector 4 testnet.host[1].udp droppedPkWrongPort:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+vector 5 testnet.host[1].udp droppedPkBadChecksum:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+vector 6 testnet.host[2].udp passedUpPk:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetSentToUpper
+attr title "packets passed up, count"
+vector 7 testnet.host[2].udp droppedPkWrongPort:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+vector 8 testnet.host[2].udp droppedPkBadChecksum:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+vector 9 testnet.host[3].udp passedUpPk:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetSentToUpper
+attr title "packets passed up, count"
+vector 10 testnet.host[3].udp droppedPkWrongPort:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+vector 11 testnet.host[3].udp droppedPkBadChecksum:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+vector 12 testnet.host[4].udp passedUpPk:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetSentToUpper
+attr title "packets passed up, count"
+vector 13 testnet.host[4].udp droppedPkWrongPort:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+vector 14 testnet.host[4].udp droppedPkBadChecksum:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+vector 15 testnet.host[5].udp passedUpPk:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetSentToUpper
+attr title "packets passed up, count"
+vector 16 testnet.host[5].udp droppedPkWrongPort:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+vector 17 testnet.host[5].udp droppedPkBadChecksum:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+vector 18 testnet.host[6].udp passedUpPk:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetSentToUpper
+attr title "packets passed up, count"
+vector 19 testnet.host[6].udp droppedPkWrongPort:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+vector 20 testnet.host[6].udp droppedPkBadChecksum:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+vector 21 testnet.host[7].udp passedUpPk:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetSentToUpper
+attr title "packets passed up, count"
+vector 22 testnet.host[7].udp droppedPkWrongPort:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+vector 23 testnet.host[7].udp droppedPkBadChecksum:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+vector 24 testnet.host[8].udp passedUpPk:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetSentToUpper
+attr title "packets passed up, count"
+vector 25 testnet.host[8].udp droppedPkWrongPort:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+vector 26 testnet.host[8].udp droppedPkBadChecksum:vector(count) ETV
+attr interpolationmode none
+attr recordingmode vector(count)
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+vector 27 testnet.host[0].eth[0].tap packetReceived:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceived
+attr title "packets received, packetBytes"
+vector 28 testnet.host[0].eth[0].tap packetSentFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets sent to higher layer, packetBytes"
+vector 29 testnet.host[1].eth[0].tap packetReceived:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceived
+attr title "packets received, packetBytes"
+vector 30 testnet.host[1].eth[0].tap packetSentFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets sent to higher layer, packetBytes"
+vector 31 testnet.host[2].eth[0].tap packetReceived:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceived
+attr title "packets received, packetBytes"
+vector 32 testnet.host[2].eth[0].tap packetSentFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets sent to higher layer, packetBytes"
+vector 33 testnet.host[3].eth[0].tap packetReceived:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceived
+attr title "packets received, packetBytes"
+vector 34 testnet.host[3].eth[0].tap packetSentFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets sent to higher layer, packetBytes"
+vector 35 testnet.host[0].eth[0].queue incomingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPushStarted)
+attr title "incoming packet lengths"
+attr unit b
+vector 36 testnet.host[0].eth[0].queue queueingTime:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source queueingTime(packetPulled)
+attr title "queueing times"
+attr unit s
+vector 37 testnet.host[0].eth[0].queue outgoingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPulled)
+attr title "outgoing packet lengths"
+attr unit b
+vector 38 testnet.host[0].eth[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, packetBytes"
+vector 39 testnet.host[0].eth[0].queue queueLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + count(packetPushStarted) - count(packetPulled) - count(packetRemoved) - count(packetDropped)))"
+attr title "queue length"
+attr unit pk
+vector 40 testnet.host[0].eth[0].queue queueBitLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + sum(packetLength(packetPushStarted)) - sum(packetLength(packetPulled)) - sum(packetLength(packetRemoved)) - sum(packetLength(packetDropped))))"
+attr title "queue bit length"
+attr unit b
+vector 41 testnet.host[1].eth[0].queue incomingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPushStarted)
+attr title "incoming packet lengths"
+attr unit b
+vector 42 testnet.host[1].eth[0].queue queueingTime:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source queueingTime(packetPulled)
+attr title "queueing times"
+attr unit s
+vector 43 testnet.host[1].eth[0].queue outgoingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPulled)
+attr title "outgoing packet lengths"
+attr unit b
+vector 44 testnet.host[1].eth[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, packetBytes"
+vector 45 testnet.host[1].eth[0].queue queueLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + count(packetPushStarted) - count(packetPulled) - count(packetRemoved) - count(packetDropped)))"
+attr title "queue length"
+attr unit pk
+vector 46 testnet.host[1].eth[0].queue queueBitLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + sum(packetLength(packetPushStarted)) - sum(packetLength(packetPulled)) - sum(packetLength(packetRemoved)) - sum(packetLength(packetDropped))))"
+attr title "queue bit length"
+attr unit b
+vector 47 testnet.host[2].eth[0].queue incomingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPushStarted)
+attr title "incoming packet lengths"
+attr unit b
+vector 48 testnet.host[2].eth[0].queue queueingTime:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source queueingTime(packetPulled)
+attr title "queueing times"
+attr unit s
+vector 49 testnet.host[2].eth[0].queue outgoingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPulled)
+attr title "outgoing packet lengths"
+attr unit b
+vector 50 testnet.host[2].eth[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, packetBytes"
+vector 51 testnet.host[2].eth[0].queue queueLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + count(packetPushStarted) - count(packetPulled) - count(packetRemoved) - count(packetDropped)))"
+attr title "queue length"
+attr unit pk
+vector 52 testnet.host[2].eth[0].queue queueBitLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + sum(packetLength(packetPushStarted)) - sum(packetLength(packetPulled)) - sum(packetLength(packetRemoved)) - sum(packetLength(packetDropped))))"
+attr title "queue bit length"
+attr unit b
+vector 53 testnet.host[3].eth[0].queue incomingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPushStarted)
+attr title "incoming packet lengths"
+attr unit b
+vector 54 testnet.host[3].eth[0].queue queueingTime:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source queueingTime(packetPulled)
+attr title "queueing times"
+attr unit s
+vector 55 testnet.host[3].eth[0].queue outgoingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPulled)
+attr title "outgoing packet lengths"
+attr unit b
+vector 56 testnet.host[3].eth[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, packetBytes"
+vector 57 testnet.host[3].eth[0].queue queueLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + count(packetPushStarted) - count(packetPulled) - count(packetRemoved) - count(packetDropped)))"
+attr title "queue length"
+attr unit pk
+vector 58 testnet.host[3].eth[0].queue queueBitLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + sum(packetLength(packetPushStarted)) - sum(packetLength(packetPulled)) - sum(packetLength(packetRemoved)) - sum(packetLength(packetDropped))))"
+attr title "queue bit length"
+attr unit b
+vector 59 testnet.host[0].eth[0].mac txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets transmitted, packetBytes"
+vector 60 testnet.host[1].eth[0].mac txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets transmitted, packetBytes"
+vector 61 testnet.host[2].eth[0].mac txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets transmitted, packetBytes"
+vector 62 testnet.host[3].eth[0].mac txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets transmitted, packetBytes"
+vector 63 testnet.host[4].eth[0].tap packetReceived:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceived
+attr title "packets received, packetBytes"
+vector 64 testnet.host[4].eth[0].tap packetSentFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets sent to higher layer, packetBytes"
+vector 65 testnet.host[5].eth[0].tap packetReceived:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceived
+attr title "packets received, packetBytes"
+vector 66 testnet.host[5].eth[0].tap packetSentFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets sent to higher layer, packetBytes"
+vector 67 testnet.host[6].eth[0].tap packetReceived:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceived
+attr title "packets received, packetBytes"
+vector 68 testnet.host[6].eth[0].tap packetSentFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets sent to higher layer, packetBytes"
+vector 69 testnet.host[7].eth[0].tap packetReceived:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceived
+attr title "packets received, packetBytes"
+vector 70 testnet.host[7].eth[0].tap packetSentFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets sent to higher layer, packetBytes"
+vector 71 testnet.host[4].eth[0].queue incomingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPushStarted)
+attr title "incoming packet lengths"
+attr unit b
+vector 72 testnet.host[4].eth[0].queue queueingTime:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source queueingTime(packetPulled)
+attr title "queueing times"
+attr unit s
+vector 73 testnet.host[4].eth[0].queue outgoingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPulled)
+attr title "outgoing packet lengths"
+attr unit b
+vector 74 testnet.host[4].eth[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, packetBytes"
+vector 75 testnet.host[4].eth[0].queue queueLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + count(packetPushStarted) - count(packetPulled) - count(packetRemoved) - count(packetDropped)))"
+attr title "queue length"
+attr unit pk
+vector 76 testnet.host[4].eth[0].queue queueBitLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + sum(packetLength(packetPushStarted)) - sum(packetLength(packetPulled)) - sum(packetLength(packetRemoved)) - sum(packetLength(packetDropped))))"
+attr title "queue bit length"
+attr unit b
+vector 77 testnet.host[5].eth[0].queue incomingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPushStarted)
+attr title "incoming packet lengths"
+attr unit b
+vector 78 testnet.host[5].eth[0].queue queueingTime:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source queueingTime(packetPulled)
+attr title "queueing times"
+attr unit s
+vector 79 testnet.host[5].eth[0].queue outgoingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPulled)
+attr title "outgoing packet lengths"
+attr unit b
+vector 80 testnet.host[5].eth[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, packetBytes"
+vector 81 testnet.host[5].eth[0].queue queueLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + count(packetPushStarted) - count(packetPulled) - count(packetRemoved) - count(packetDropped)))"
+attr title "queue length"
+attr unit pk
+vector 82 testnet.host[5].eth[0].queue queueBitLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + sum(packetLength(packetPushStarted)) - sum(packetLength(packetPulled)) - sum(packetLength(packetRemoved)) - sum(packetLength(packetDropped))))"
+attr title "queue bit length"
+attr unit b
+vector 83 testnet.host[6].eth[0].queue incomingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPushStarted)
+attr title "incoming packet lengths"
+attr unit b
+vector 84 testnet.host[6].eth[0].queue queueingTime:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source queueingTime(packetPulled)
+attr title "queueing times"
+attr unit s
+vector 85 testnet.host[6].eth[0].queue outgoingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPulled)
+attr title "outgoing packet lengths"
+attr unit b
+vector 86 testnet.host[6].eth[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, packetBytes"
+vector 87 testnet.host[6].eth[0].queue queueLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + count(packetPushStarted) - count(packetPulled) - count(packetRemoved) - count(packetDropped)))"
+attr title "queue length"
+attr unit pk
+vector 88 testnet.host[6].eth[0].queue queueBitLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + sum(packetLength(packetPushStarted)) - sum(packetLength(packetPulled)) - sum(packetLength(packetRemoved)) - sum(packetLength(packetDropped))))"
+attr title "queue bit length"
+attr unit b
+vector 89 testnet.host[7].eth[0].queue incomingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPushStarted)
+attr title "incoming packet lengths"
+attr unit b
+vector 90 testnet.host[7].eth[0].queue queueingTime:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source queueingTime(packetPulled)
+attr title "queueing times"
+attr unit s
+vector 91 testnet.host[7].eth[0].queue outgoingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPulled)
+attr title "outgoing packet lengths"
+attr unit b
+vector 92 testnet.host[7].eth[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, packetBytes"
+vector 93 testnet.host[7].eth[0].queue queueLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + count(packetPushStarted) - count(packetPulled) - count(packetRemoved) - count(packetDropped)))"
+attr title "queue length"
+attr unit pk
+vector 94 testnet.host[7].eth[0].queue queueBitLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + sum(packetLength(packetPushStarted)) - sum(packetLength(packetPulled)) - sum(packetLength(packetRemoved)) - sum(packetLength(packetDropped))))"
+attr title "queue bit length"
+attr unit b
+vector 95 testnet.host[4].eth[0].mac txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets transmitted, packetBytes"
+vector 96 testnet.host[5].eth[0].mac txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets transmitted, packetBytes"
+vector 97 testnet.host[6].eth[0].mac txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets transmitted, packetBytes"
+vector 98 testnet.host[7].eth[0].mac txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets transmitted, packetBytes"
+vector 99 testnet.host[8].eth[0].tap packetReceived:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceived
+attr title "packets received, packetBytes"
+vector 100 testnet.host[8].eth[0].tap packetSentFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets sent to higher layer, packetBytes"
+vector 101 testnet.host[8].eth[0].queue incomingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPushStarted)
+attr title "incoming packet lengths"
+attr unit b
+vector 102 testnet.host[8].eth[0].queue queueingTime:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source queueingTime(packetPulled)
+attr title "queueing times"
+attr unit s
+vector 103 testnet.host[8].eth[0].queue outgoingPacketLengths:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source packetLength(packetPulled)
+attr title "outgoing packet lengths"
+attr unit b
+vector 104 testnet.host[8].eth[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, packetBytes"
+vector 105 testnet.host[8].eth[0].queue queueLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + count(packetPushStarted) - count(packetPulled) - count(packetRemoved) - count(packetDropped)))"
+attr title "queue length"
+attr unit pk
+vector 106 testnet.host[8].eth[0].queue queueBitLength:vector ETV
+attr autoWarmupFilter false
+attr interpolationmode sample-hold
+attr recordingmode vector
+attr source "warmup(atomic(constant0(packetPushEnded) + sum(packetLength(packetPushStarted)) - sum(packetLength(packetPulled)) - sum(packetLength(packetRemoved)) - sum(packetLength(packetDropped))))"
+attr title "queue bit length"
+attr unit b
+vector 107 testnet.host[8].eth[0].mac txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToLower
+attr title "packets transmitted, packetBytes"
+vector 108 testnet.host[8].eth[0].queue incomingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPushStarted)
+attr title "incoming datarate"
+attr unit bps
+vector 109 testnet.host[8].eth[0].queue outgoingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPulled)
+attr title "outgoing datarate"
+attr unit bps
+vector 110 testnet.host[2].eth[0].queue incomingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPushStarted)
+attr title "incoming datarate"
+attr unit bps
+vector 111 testnet.host[2].eth[0].queue outgoingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPulled)
+attr title "outgoing datarate"
+attr unit bps
+vector 112 testnet.host[5].eth[0].queue incomingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPushStarted)
+attr title "incoming datarate"
+attr unit bps
+vector 113 testnet.host[5].eth[0].queue outgoingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPulled)
+attr title "outgoing datarate"
+attr unit bps
+vector 114 testnet.host[3].eth[0].queue incomingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPushStarted)
+attr title "incoming datarate"
+attr unit bps
+vector 115 testnet.host[3].eth[0].queue outgoingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPulled)
+attr title "outgoing datarate"
+attr unit bps
+vector 116 testnet.host[4].eth[0].queue incomingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPushStarted)
+attr title "incoming datarate"
+attr unit bps
+vector 117 testnet.host[4].eth[0].queue outgoingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPulled)
+attr title "outgoing datarate"
+attr unit bps
+vector 118 testnet.host[0].eth[0].queue incomingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPushStarted)
+attr title "incoming datarate"
+attr unit bps
+vector 119 testnet.host[0].eth[0].queue outgoingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPulled)
+attr title "outgoing datarate"
+attr unit bps
+vector 120 testnet.host[1].eth[0].queue incomingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPushStarted)
+attr title "incoming datarate"
+attr unit bps
+vector 121 testnet.host[1].eth[0].queue outgoingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPulled)
+attr title "outgoing datarate"
+attr unit bps
+vector 122 testnet.host[6].eth[0].queue incomingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPushStarted)
+attr title "incoming datarate"
+attr unit bps
+vector 123 testnet.host[6].eth[0].queue outgoingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPulled)
+attr title "outgoing datarate"
+attr unit bps
+vector 124 testnet.host[7].eth[0].queue incomingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPushStarted)
+attr title "incoming datarate"
+attr unit bps
+vector 125 testnet.host[7].eth[0].queue outgoingDataRate:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source throughput(packetPulled)
+attr title "outgoing datarate"
+attr unit bps
+vector 126 testnet.host[0].eth[0].mac rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source rxPkOk
+attr title "packets received OK, packetBytes"
+vector 127 testnet.host[0].eth[0].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToUpper
+attr title "packets passed to higher layer, packetBytes"
+vector 128 testnet.host[0].eth[0].tap packetReceivedFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromLower
+attr title "packets received from higher layer, packetBytes"
+vector 129 testnet.host[0].eth[0].tap packetSent:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSent
+attr title "packets sent, packetBytes"
+vector 130 testnet.host[1].eth[0].mac rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source rxPkOk
+attr title "packets received OK, packetBytes"
+vector 131 testnet.host[1].eth[0].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToUpper
+attr title "packets passed to higher layer, packetBytes"
+vector 132 testnet.host[2].eth[0].mac rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source rxPkOk
+attr title "packets received OK, packetBytes"
+vector 133 testnet.host[2].eth[0].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToUpper
+attr title "packets passed to higher layer, packetBytes"
+vector 134 testnet.host[3].eth[0].mac rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source rxPkOk
+attr title "packets received OK, packetBytes"
+vector 135 testnet.host[3].eth[0].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToUpper
+attr title "packets passed to higher layer, packetBytes"
+vector 136 testnet.host[4].eth[0].mac rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source rxPkOk
+attr title "packets received OK, packetBytes"
+vector 137 testnet.host[4].eth[0].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToUpper
+attr title "packets passed to higher layer, packetBytes"
+vector 138 testnet.host[5].eth[0].mac rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source rxPkOk
+attr title "packets received OK, packetBytes"
+vector 139 testnet.host[5].eth[0].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToUpper
+attr title "packets passed to higher layer, packetBytes"
+vector 140 testnet.host[6].eth[0].mac rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source rxPkOk
+attr title "packets received OK, packetBytes"
+vector 141 testnet.host[6].eth[0].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToUpper
+attr title "packets passed to higher layer, packetBytes"
+vector 142 testnet.host[7].eth[0].mac rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source rxPkOk
+attr title "packets received OK, packetBytes"
+vector 143 testnet.host[7].eth[0].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToUpper
+attr title "packets passed to higher layer, packetBytes"
+vector 144 testnet.host[8].eth[0].mac rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source rxPkOk
+attr title "packets received OK, packetBytes"
+vector 145 testnet.host[8].eth[0].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSentToUpper
+attr title "packets passed to higher layer, packetBytes"
+vector 146 testnet.host[1].eth[0].tap packetReceivedFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromLower
+attr title "packets received from higher layer, packetBytes"
+vector 147 testnet.host[1].eth[0].tap packetSent:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSent
+attr title "packets sent, packetBytes"
+vector 148 testnet.host[2].eth[0].tap packetReceivedFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromLower
+attr title "packets received from higher layer, packetBytes"
+vector 149 testnet.host[2].eth[0].tap packetSent:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSent
+attr title "packets sent, packetBytes"
+vector 150 testnet.host[3].eth[0].tap packetReceivedFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromLower
+attr title "packets received from higher layer, packetBytes"
+vector 151 testnet.host[3].eth[0].tap packetSent:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSent
+attr title "packets sent, packetBytes"
+vector 152 testnet.host[4].eth[0].tap packetReceivedFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromLower
+attr title "packets received from higher layer, packetBytes"
+vector 153 testnet.host[4].eth[0].tap packetSent:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSent
+attr title "packets sent, packetBytes"
+vector 154 testnet.host[5].eth[0].tap packetReceivedFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromLower
+attr title "packets received from higher layer, packetBytes"
+vector 155 testnet.host[5].eth[0].tap packetSent:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSent
+attr title "packets sent, packetBytes"
+vector 156 testnet.host[6].eth[0].tap packetReceivedFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromLower
+attr title "packets received from higher layer, packetBytes"
+vector 157 testnet.host[6].eth[0].tap packetSent:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSent
+attr title "packets sent, packetBytes"
+vector 158 testnet.host[7].eth[0].tap packetReceivedFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromLower
+attr title "packets received from higher layer, packetBytes"
+vector 159 testnet.host[7].eth[0].tap packetSent:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSent
+attr title "packets sent, packetBytes"
+vector 160 testnet.host[8].eth[0].tap packetReceivedFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetReceivedFromLower
+attr title "packets received from higher layer, packetBytes"
+vector 161 testnet.host[8].eth[0].tap packetSent:vector(packetBytes) ETV
+attr interpolationmode none
+attr recordingmode vector(packetBytes)
+attr source packetSent
+attr title "packets sent, packetBytes"
+0	39410 8 0 0 0 0 1 0 0 0 0
+1	39418 8 0 0 0 0 1 0 0 0 0
+2	39426 8 0 0 0 0 1 0 0 0 0
+3	39434 8 0 0 0 0 1 0 0 0 0
+4	39442 8 0 0 0 0 1 0 0 0 0
+5	39450 8 0 0 0 0 1 0 0 0 0
+6	39458 8 0 0 0 0 1 0 0 0 0
+7	39466 8 0 0 0 0 1 0 0 0 0
+8	39474 8 0 0 0 0 1 0 0 0 0
+9	39482 8 0 0 0 0 1 0 0 0 0
+10	39490 9 0 0 0 0 1 0 0 0 0
+11	39499 9 0 0 0 0 1 0 0 0 0
+12	39508 9 0 0 0 0 1 0 0 0 0
+13	39517 9 0 0 0 0 1 0 0 0 0
+14	39526 9 0 0 0 0 1 0 0 0 0
+15	39535 9 0 0 0 0 1 0 0 0 0
+16	39544 9 0 0 0 0 1 0 0 0 0
+17	39553 9 0 0 0 0 1 0 0 0 0
+18	39562 9 0 0 0 0 1 0 0 0 0
+19	39571 9 0 0 0 0 1 0 0 0 0
+20	39580 9 0 0 0 0 1 0 0 0 0
+21	39589 9 0 0 0 0 1 0 0 0 0
+22	39598 9 0 0 0 0 1 0 0 0 0
+23	39607 9 0 0 0 0 1 0 0 0 0
+24	39616 9 0 0 0 0 1 0 0 0 0
+25	39625 9 0 0 0 0 1 0 0 0 0
+26	39634 9 0 0 0 0 1 0 0 0 0
+27	39643 1268 0 2172 0.018593061 1197.935763417 54 46 220 6102 837978
+28	40911 1268 0 2172 0.018593061 1197.935763417 54 46 220 6102 837978
+29	42179 1298 0 2152 0.018593061 1152.290580951 55 46 220 6193 846259
+30	43477 1298 0 2152 0.018593061 1152.290580951 55 46 220 6193 846259
+31	44775 1293 0 2141 0.018593061 1134.644451956 55 46 220 6193 846259
+32	46068 1293 0 2141 0.018593061 1134.644451956 55 46 220 6193 846259
+33	47361 1297 0 2123 0.018593061 1134.171987183 55 46 220 6193 846259
+34	48658 1297 0 2123 0.018593061 1134.171987183 55 46 220 6193 846259
+35	49955 1310 1 2173 0.018593061 1197.935763417 54 368 1760 48816 53630592
+36	51265 1190 1 2173 0.018593061 1197.935763417 54 0 0 0 0
+37	52455 1310 1 2173 0.018593061 1197.935763417 54 368 1760 48816 53630592
+38	53765 1268 1 2173 0.018593061 1197.935763417 54 46 220 6102 837978
+39	55033 1190 1 2173 0.018593061 1197.935763417 54 0 0 0 0
+40	56223 1190 1 2173 0.018593061 1197.935763417 54 0 0 0 0
+41	57413 1341 2 2153 0.018593061 1152.290580951 55 368 1760 49544 54160576
+42	58754 1219 2 2153 0.018593061 1152.290580951 55 0 0 0 0
+43	59973 1341 2 2153 0.018593061 1152.290580951 55 368 1760 49544 54160576
+44	61314 1298 2 2153 0.018593061 1152.290580951 55 46 220 6193 846259
+45	62612 1219 2 2153 0.018593061 1152.290580951 55 0 0 0 0
+46	63831 1219 2 2153 0.018593061 1152.290580951 55 0 0 0 0
+47	65050 1336 3 2142 0.018593061 1134.644451956 55 368 1760 49544 54160576
+48	66386 1214 3 2142 0.018593061 1134.644451956 55 0 0 0 0
+49	67600 1336 3 2142 0.018593061 1134.644451956 55 368 1760 49544 54160576
+50	68936 1293 3 2142 0.018593061 1134.644451956 55 46 220 6193 846259
+51	70229 1214 3 2142 0.018593061 1134.644451956 55 0 0 0 0
+52	71443 1214 3 2142 0.018593061 1134.644451956 55 0 0 0 0
+53	72657 1340 4 2124 0.018593061 1134.171987183 55 368 1760 49544 54160576
+54	73997 1218 4 2124 0.018593061 1134.171987183 55 0 0 0 0
+55	75215 1340 4 2124 0.018593061 1134.171987183 55 368 1760 49544 54160576
+56	76555 1297 4 2124 0.018593061 1134.171987183 55 46 220 6193 846259
+57	77852 1218 4 2124 0.018593061 1134.171987183 55 0 0 0 0
+58	79070 1218 4 2124 0.018593061 1134.171987183 55 0 0 0 0
+59	80288 1269 5 2174 0.018601221 1197.935769177 54 64 220 6210 849858
+60	81557 1299 6 2154 0.018601221 1152.290587511 55 64 220 6301 858139
+61	82856 1292 7 2143 0.018601221 1134.644457716 55 64 220 6301 858139
+62	84148 1298 8 2125 0.018601221 1134.171992943 55 64 220 6301 858139
+63	85446 1292 12 2135 0.021144765 1134.600218559 55 46 220 6193 846259
+64	86738 1292 12 2135 0.021144765 1134.600218559 55 46 220 6193 846259
+65	88030 1294 12 2138 0.021144765 1134.620871705 55 46 220 6193 846259
+66	89324 1294 12 2138 0.021144765 1134.620871705 55 46 220 6193 846259
+67	90618 1296 12 2132 0.021144765 1134.572725793 55 46 220 6193 846259
+68	91914 1296 12 2132 0.021144765 1134.572725793 55 46 220 6193 846259
+69	93210 1295 12 2126 0.021144765 1134.179837884 55 46 220 6193 846259
+70	94505 1295 12 2126 0.021144765 1134.179837884 55 46 220 6193 846259
+71	95800 1335 14 2136 0.021144765 1134.600218559 55 368 1760 49544 54160576
+72	97135 1213 14 2136 0.021144765 1134.600218559 55 0 0 0 0
+73	98348 1335 14 2136 0.021144765 1134.600218559 55 368 1760 49544 54160576
+74	99683 1292 14 2136 0.021144765 1134.600218559 55 46 220 6193 846259
+75	100975 1213 14 2136 0.021144765 1134.600218559 55 0 0 0 0
+76	102188 1213 14 2136 0.021144765 1134.600218559 55 0 0 0 0
+77	103401 1338 15 2139 0.021144765 1134.620871705 55 368 1760 49544 54160576
+78	104739 1216 15 2139 0.021144765 1134.620871705 55 0 0 0 0
+79	105955 1338 15 2139 0.021144765 1134.620871705 55 368 1760 49544 54160576
+80	107293 1295 15 2139 0.021144765 1134.620871705 55 46 220 6193 846259
+81	108588 1216 15 2139 0.021144765 1134.620871705 55 0 0 0 0
+82	109804 1216 15 2139 0.021144765 1134.620871705 55 0 0 0 0
+83	111020 1339 16 2133 0.021144765 1134.572725793 55 368 1760 49544 54160576
+84	112359 1217 16 2133 0.021144765 1134.572725793 55 0 0 0 0
+85	113576 1339 16 2133 0.021144765 1134.572725793 55 368 1760 49544 54160576
+86	114915 1296 16 2133 0.021144765 1134.572725793 55 46 220 6193 846259
+87	116211 1217 16 2133 0.021144765 1134.572725793 55 0 0 0 0
+88	117428 1217 16 2133 0.021144765 1134.572725793 55 0 0 0 0
+89	118645 1338 17 2127 0.021144765 1134.179837884 55 368 1760 49544 54160576
+90	119983 1216 17 2127 0.021144765 1134.179837884 55 0 0 0 0
+91	121199 1338 17 2127 0.021144765 1134.179837884 55 368 1760 49544 54160576
+92	122537 1295 17 2127 0.021144765 1134.179837884 55 46 220 6193 846259
+93	123832 1216 17 2127 0.021144765 1134.179837884 55 0 0 0 0
+94	125048 1216 17 2127 0.021144765 1134.179837884 55 0 0 0 0
+95	126264 1294 19 2137 0.021152925 1134.600224319 55 64 220 6301 858139
+96	127558 1296 20 2140 0.021152925 1134.620877465 55 64 220 6301 858139
+97	128854 1300 21 2134 0.021152925 1134.572731553 55 64 220 6301 858139
+98	130154 1298 22 2128 0.021152925 1134.179843644 55 64 220 6301 858139
+99	131452 1297 27 2120 0.022717505 1134.141054656 55 46 220 6193 846259
+100	132749 1352 27 2120 0.022717505 1134.141054656 55 46 220 6193 846259
+101	134101 1395 28 2121 0.022717505 1134.141054656 55 368 1760 49544 54160576
+102	135496 1273 28 2121 0.022717505 1134.141054656 55 0 0 0 0
+103	136769 1395 28 2121 0.022717505 1134.141054656 55 368 1760 49544 54160576
+104	138164 1352 28 2121 0.022717505 1134.141054656 55 46 220 6193 846259
+105	139516 1273 28 2121 0.022717505 1134.141054656 55 0 0 0 0
+106	140789 1273 28 2121 0.022717505 1134.141054656 55 0 0 0 0
+107	142062 1354 29 2122 0.022725665 1134.141060416 55 64 220 6301 858139
+108	143416 257846 37 2206 0.1 1510.530668346 15106 0 49680 495440 10699001600
+109	401262 257846 37 2206 0.1 1510.530668346 15106 0 49680 495440 10699001600
+110	659108 257840 40 2206 0.1 1510.530668346 15106 0 49680 495440 12394860800
+111	916948 257840 40 2206 0.1 1510.530668346 15106 0 49680 495440 12394860800
+112	1174788 257846 46 2206 0.1 1510.530668346 15106 0 40800 495440 10176480000
+113	1432634 257846 46 2206 0.1 1510.530668346 15106 0 40800 495440 10176480000
+114	1690480 257848 49 2206 0.1 1510.530668346 15106 0 40800 495440 10294444800
+115	1948328 257848 49 2206 0.1 1510.530668346 15106 0 40800 495440 10294444800
+116	2206176 257846 52 2206 0.1 1510.530668346 15106 0 49920 495440 10650003200
+117	2464022 257846 52 2206 0.1 1510.530668346 15106 0 49920 495440 10650003200
+118	2721868 257842 55 2206 0.1 1510.530668346 15106 0 40800 488160 10390950400
+119	2979710 257842 55 2206 0.1 1510.530668346 15106 0 40800 488160 10390950400
+120	3237552 257847 64 2206 0.1 1510.530668346 15106 0 49680 495440 10700204800
+121	3495399 257847 64 2206 0.1 1510.530668346 15106 0 49680 495440 10700204800
+122	3753246 257838 70 2206 0.1 1510.530668346 15106 0 49920 495440 11840249600
+123	4011084 257838 70 2206 0.1 1510.530668346 15106 0 49920 495440 11840249600
+124	4268922 257860 76 2206 0.1 1510.530668346 15106 0 49920 495440 11225132800
+125	4526782 257860 76 2206 0.1 1510.530668346 15106 0 49920 495440 11225132800
+126	4784642 146 1519 2171 199.945758780817 1197.826281657817 5 64 64 320 20480
+127	4784788 146 1519 2171 199.945758780817 1197.826281657817 5 64 64 320 20480
+128	4784934 146 1520 2172 199.945758780817 1197.826281657817 5 64 64 320 20480
+129	4785080 146 1520 2172 199.945758780817 1197.826281657817 5 60 60 300 18000
+130	4785226 147 1631 2191 263.242308662817 1261.117593118817 5 64 64 320 20480
+131	4785373 147 1631 2191 263.242308662817 1261.117593118817 5 64 64 320 20480
+132	4785520 147 1632 2192 263.242308662817 1261.117593118817 5 64 64 320 20480
+133	4785667 147 1632 2192 263.242308662817 1261.117593118817 5 64 64 320 20480
+134	4785814 147 1633 2193 263.242308662817 1261.117593118817 5 64 64 320 20480
+135	4785961 147 1633 2193 263.242308662817 1261.117593118817 5 64 64 320 20480
+136	4786108 147 1634 2194 263.242308662817 1261.117593118817 5 64 64 320 20480
+137	4786255 147 1634 2194 263.242308662817 1261.117593118817 5 64 64 320 20480
+138	4786402 147 1635 2195 263.242308662817 1261.117593118817 5 64 64 320 20480
+139	4786549 147 1635 2195 263.242308662817 1261.117593118817 5 64 64 320 20480
+140	4786696 147 1636 2196 263.242308662817 1261.117593118817 5 64 64 320 20480
+141	4786843 147 1636 2196 263.242308662817 1261.117593118817 5 64 64 320 20480
+142	4786990 147 1637 2197 263.242308662817 1261.117593118817 5 64 64 320 20480
+143	4787137 147 1637 2197 263.242308662817 1261.117593118817 5 64 64 320 20480
+144	4787284 147 1638 2198 263.242308662817 1261.117593118817 5 64 64 320 20480
+145	4787431 147 1638 2198 263.242308662817 1261.117593118817 5 64 64 320 20480
+146	4787578 147 1639 2199 263.242308662817 1261.117593118817 5 64 64 320 20480
+147	4787725 147 1639 2199 263.242308662817 1261.117593118817 5 60 60 300 18000
+148	4787872 147 1640 2200 263.242308662817 1261.117593118817 5 64 64 320 20480
+149	4788019 147 1640 2200 263.242308662817 1261.117593118817 5 60 60 300 18000
+150	4788166 147 1641 2201 263.242308662817 1261.117593118817 5 64 64 320 20480
+151	4788313 147 1641 2201 263.242308662817 1261.117593118817 5 60 60 300 18000
+152	4788460 147 1642 2202 263.242308662817 1261.117593118817 5 64 64 320 20480
+153	4788607 147 1642 2202 263.242308662817 1261.117593118817 5 60 60 300 18000
+154	4788754 147 1643 2203 263.242308662817 1261.117593118817 5 64 64 320 20480
+155	4788901 147 1643 2203 263.242308662817 1261.117593118817 5 60 60 300 18000
+156	4789048 147 1644 2204 263.242308662817 1261.117593118817 5 64 64 320 20480
+157	4789195 147 1644 2204 263.242308662817 1261.117593118817 5 60 60 300 18000
+158	4789342 147 1645 2205 263.242308662817 1261.117593118817 5 64 64 320 20480
+159	4789489 147 1645 2205 263.242308662817 1261.117593118817 5 60 60 300 18000
+160	4789636 147 1646 2206 263.242308662817 1261.117593118817 5 64 64 320 20480
+161	4789783 147 1646 2206 263.242308662817 1261.117593118817 5 60 60 300 18000
+

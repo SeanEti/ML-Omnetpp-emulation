@@ -1,4 +1,10 @@
 #!/bin/sh
+while getopts c: flag
+do
+	case "${flag}" in
+		c) config=${OPTARG};;
+	esac
+done
 cd `dirname $0`
-../src/test2 -n .:../src -u Cmdenv $*
+../src/test2 -n .:../src -u Cmdenv -c $config $*
 # for shared lib, use: opp_run -l ../src/test2 -n .:../src;../../inet4.5/src $*

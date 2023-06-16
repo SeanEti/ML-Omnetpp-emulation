@@ -56,9 +56,14 @@ def split_dataset(data, num_of_workers):
 
     # Calculate the size of each worker's subset
     subset_size = dataset_size // num_of_workers
+    subset_sizes = []
+    while dataset_size > subset_size:
+        subset_sizes.append(subset_size)
+        dataset_size -= subset_size
+    subset_sizes.append(dataset_size)
 
     # Dynamically split the dataset among workers
-    worker_datasets = torch.utils.data.random_split(data, [subset_size] * num_of_workers)
+    worker_datasets = torch.utils.data.random_split(data, subset_sizes)
 
     return worker_datasets
 
@@ -98,21 +103,24 @@ def train(epoch_num, net, func_optim, func_loss, train_loader_data, train_counte
     return net.state_dict(), train_counter, loss_per_epoch
 
 
-def test(net, test_loader_data):
+def test(net, test_loader_data, loss_func):
     """
     test model
     """
     net.eval()
     correct = 0
+    test_loss = []
     with torch.no_grad():
         for data, target in test_loader_data:
             output = net(data)
+            test_loss.append(loss_func(output, target))
             pred = output.data.max(1, keepdim=True)[1]
             correct += pred.eq(target.data.view_as(pred)).sum()
+    ret_loss = test_loss[-1]
     print('\nTest set: Accuracy: {}/{} ({:.0f}%)\n'.format(
         correct, len(test_loader_data.dataset),
         100. * correct / len(test_loader_data.dataset)))
-    return 100. * correct / len(test_loader_data.dataset)
+    return 100. * correct / len(test_loader_data.dataset), ret_loss
 
 
 def get_new_state(worker_model_dic, num_of_workers):
@@ -276,8 +284,9 @@ torch.manual_seed(696969)
 if args["job_name"] == 'worker':
     print(f'This is worker{args["task_index"] + 1}')
 
-    # needed for initialization
-    send_udp_signal(12345, args['task_index'] + 1)
+    # needed for initialization (only one host from each load of leaf switch should initialize)
+    if args["task_index"] + 1 in [1, 3, 8, 10, 11, 16, 24, 26]:
+        send_udp_signal(12345, args['task_index'] + 1)
     #
 
     # get data
@@ -424,7 +433,8 @@ elif args["job_name"] == 'ps':
             start_test_time = time.time()
             network = LeNet()
             network.load_state_dict(new_state, strict=False)
-            test_accuracy = test(network, test_loader)
+            test_accuracy, ret_loss = test(network, test_loader, fn_loss)
+            test_losses.append(ret_loss)
             accuracy_per_epoch.append(test_accuracy.tolist())
             test_time.append(time.time() - start_test_time)
 

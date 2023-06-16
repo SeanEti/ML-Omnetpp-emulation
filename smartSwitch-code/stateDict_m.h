@@ -49,18 +49,20 @@ namespace inet {
 /**
  * Class generated from <tt>inet/smart/stateDict.msg:14</tt> by opp_msgtool.
  * <pre>
- * message StateDict extends cMessage
+ * message StateDict extends cPacket
  * {
  *     stateDic dict;
  *     regString src;
+ *     int outgate;
  * }
  * </pre>
  */
-class INET_API StateDict : public ::omnetpp::cMessage
+class INET_API StateDict : public ::omnetpp::cPacket
 {
   protected:
     stateDic dict;
     regString src;
+    int outgate = 0;
 
   private:
     void copy(const StateDict& other);
@@ -84,6 +86,9 @@ class INET_API StateDict : public ::omnetpp::cMessage
     virtual const regString& getSrc() const;
     virtual regString& getSrcForUpdate() { return const_cast<regString&>(const_cast<StateDict*>(this)->getSrc());}
     virtual void setSrc(const regString& src);
+
+    virtual int getOutgate() const;
+    virtual void setOutgate(int outgate);
 };
 
 inline void doParsimPacking(omnetpp::cCommBuffer *b, const StateDict& obj) {obj.parsimPack(b);}

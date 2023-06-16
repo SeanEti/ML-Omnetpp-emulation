@@ -11,7 +11,8 @@ cplusplus{{
 class stateDic { @existingClass; };
 class regString { @existingClass; };
 
-message StateDict extends cMessage{
+message StateDict extends cPacket{
     stateDic dict;
     regString src;
+    int outgate;
 }

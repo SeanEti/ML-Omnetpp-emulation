@@ -59,23 +59,28 @@ class SmartLayer : public cSimpleModule
     virtual void handleMessage(cMessage *msg) override;
     virtual void finish() override;
     void tokenize(std::string const &str, const char delim, std::vector<std::string> &out);
-    void forward(StateDict *sd, bool is_root);
+    void forward(cMessage *sd, bool is_root);
     std::vector<std::pair<std::string, std::vector<double>>> readStateDictFromWorkerFile(std::string filename);
     void writeStateDictToFile(std::string filename, std::vector<std::pair<std::string, std::vector<double>>> state_dict);
     std::vector<std::pair<std::string, std::vector<double>>> aggregateDict();
     std::string createMac(int i);
 
   public:
-      int filtered;
-      int num_of_forwarded_messages;
+    bool debug;
 
-      cMessage *save_to_send;
-      bool got_msg_to_save;
-      bool is_root;
-      bool is_smart;
-      int num_of_messages_to_expect;
-      int num_of_received_workers;
-      std::vector<std::vector<std::pair<std::string,std::vector<double>>>> stored_dicts;
+    int filtered;
+    int num_of_forwarded_messages;
+    int down;
+    int up;
+
+    cMessage *save_to_send;
+    bool got_msg_to_save;
+
+    bool is_root;
+    bool is_smart;
+    int num_of_messages_to_expect;
+    int first_host_in_switch;
+    std::vector<std::vector<std::pair<std::string,std::vector<double>>>> stored_dicts;
 };
 
 } //namespace

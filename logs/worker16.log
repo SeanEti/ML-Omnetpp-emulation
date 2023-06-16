@@ -1,0 +1,15 @@
+This is worker16
+.
+Sent 1 packets.
+Starting training...
+Train Epoch: 1 [0/1935 (0%)]	Loss: 2.292762
+Train Epoch: 1 [640/1935 (32%)]	Loss: 0.842234
+Train Epoch: 1 [1280/1935 (65%)]	Loss: 0.851118
+Train Epoch: 1 [450/1935 (97%)]	Loss: 0.176237
+finished training...
+writing file...
+sending signal at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=16, tm_hour=7, tm_min=52, tm_sec=6, tm_wday=4, tm_yday=167, tm_isdst=0) or 1686901926.214859 in seconds
+Compute time is : 130.85176491737366
+.
+Sent 1 packets.
+waiting for a signal back...

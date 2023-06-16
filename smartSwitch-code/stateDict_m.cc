@@ -724,11 +724,11 @@ void regStringDescriptor::setFieldStructValuePointer(omnetpp::any_ptr object, in
 
 Register_Class(StateDict)
 
-StateDict::StateDict(const char *name, short kind) : ::omnetpp::cMessage(name, kind)
+StateDict::StateDict(const char *name, short kind) : ::omnetpp::cPacket(name, kind)
 {
 }
 
-StateDict::StateDict(const StateDict& other) : ::omnetpp::cMessage(other)
+StateDict::StateDict(const StateDict& other) : ::omnetpp::cPacket(other)
 {
     copy(other);
 }
@@ -740,7 +740,7 @@ StateDict::~StateDict()
 StateDict& StateDict::operator=(const StateDict& other)
 {
     if (this == &other) return *this;
-    ::omnetpp::cMessage::operator=(other);
+    ::omnetpp::cPacket::operator=(other);
     copy(other);
     return *this;
 }
@@ -749,20 +749,23 @@ void StateDict::copy(const StateDict& other)
 {
     this->dict = other.dict;
     this->src = other.src;
+    this->outgate = other.outgate;
 }
 
 void StateDict::parsimPack(omnetpp::cCommBuffer *b) const
 {
-    ::omnetpp::cMessage::parsimPack(b);
+    ::omnetpp::cPacket::parsimPack(b);
     doParsimPacking(b,this->dict);
     doParsimPacking(b,this->src);
+    doParsimPacking(b,this->outgate);
 }
 
 void StateDict::parsimUnpack(omnetpp::cCommBuffer *b)
 {
-    ::omnetpp::cMessage::parsimUnpack(b);
+    ::omnetpp::cPacket::parsimUnpack(b);
     doParsimUnpacking(b,this->dict);
     doParsimUnpacking(b,this->src);
+    doParsimUnpacking(b,this->outgate);
 }
 
 const stateDic& StateDict::getDict() const
@@ -785,6 +788,16 @@ void StateDict::setSrc(const regString& src)
     this->src = src;
 }
 
+int StateDict::getOutgate() const
+{
+    return this->outgate;
+}
+
+void StateDict::setOutgate(int outgate)
+{
+    this->outgate = outgate;
+}
+
 class StateDictDescriptor : public omnetpp::cClassDescriptor
 {
   private:
@@ -792,6 +805,7 @@ class StateDictDescriptor : public omnetpp::cClassDescriptor
     enum FieldConstants {
         FIELD_dict,
         FIELD_src,
+        FIELD_outgate,
     };
   public:
     StateDictDescriptor();
@@ -823,7 +837,7 @@ class StateDictDescriptor : public omnetpp::cClassDescriptor
 
 Register_ClassDescriptor(StateDictDescriptor)
 
-StateDictDescriptor::StateDictDescriptor() : omnetpp::cClassDescriptor(omnetpp::opp_typename(typeid(inet::StateDict)), "omnetpp::cMessage")
+StateDictDescriptor::StateDictDescriptor() : omnetpp::cClassDescriptor(omnetpp::opp_typename(typeid(inet::StateDict)), "omnetpp::cPacket")
 {
     propertyNames = nullptr;
 }
@@ -858,7 +872,7 @@ const char *StateDictDescriptor::getProperty(const char *propertyName) const
 int StateDictDescriptor::getFieldCount() const
 {
     omnetpp::cClassDescriptor *base = getBaseClassDescriptor();
-    return base ? 2+base->getFieldCount() : 2;
+    return base ? 3+base->getFieldCount() : 3;
 }
 
 unsigned int StateDictDescriptor::getFieldTypeFlags(int field) const
@@ -872,8 +886,9 @@ unsigned int StateDictDescriptor::getFieldTypeFlags(int field) const
     static unsigned int fieldTypeFlags[] = {
         FD_ISCOMPOUND,    // FIELD_dict
         FD_ISCOMPOUND,    // FIELD_src
+        FD_ISEDITABLE,    // FIELD_outgate
     };
-    return (field >= 0 && field < 2) ? fieldTypeFlags[field] : 0;
+    return (field >= 0 && field < 3) ? fieldTypeFlags[field] : 0;
 }
 
 const char *StateDictDescriptor::getFieldName(int field) const
@@ -887,8 +902,9 @@ const char *StateDictDescriptor::getFieldName(int field) const
     static const char *fieldNames[] = {
         "dict",
         "src",
+        "outgate",
     };
-    return (field >= 0 && field < 2) ? fieldNames[field] : nullptr;
+    return (field >= 0 && field < 3) ? fieldNames[field] : nullptr;
 }
 
 int StateDictDescriptor::findField(const char *fieldName) const
@@ -897,6 +913,7 @@ int StateDictDescriptor::findField(const char *fieldName) const
     int baseIndex = base ? base->getFieldCount() : 0;
     if (strcmp(fieldName, "dict") == 0) return baseIndex + 0;
     if (strcmp(fieldName, "src") == 0) return baseIndex + 1;
+    if (strcmp(fieldName, "outgate") == 0) return baseIndex + 2;
     return base ? base->findField(fieldName) : -1;
 }
 
@@ -911,8 +928,9 @@ const char *StateDictDescriptor::getFieldTypeString(int field) const
     static const char *fieldTypeStrings[] = {
         "inet::stateDic",    // FIELD_dict
         "inet::regString",    // FIELD_src
+        "int",    // FIELD_outgate
     };
-    return (field >= 0 && field < 2) ? fieldTypeStrings[field] : nullptr;
+    return (field >= 0 && field < 3) ? fieldTypeStrings[field] : nullptr;
 }
 
 const char **StateDictDescriptor::getFieldPropertyNames(int field) const
@@ -997,6 +1015,7 @@ std::string StateDictDescriptor::getFieldValueAsString(omnetpp::any_ptr object, 
     switch (field) {
         case FIELD_dict: return "";
         case FIELD_src: return "";
+        case FIELD_outgate: return long2string(pp->getOutgate());
         default: return "";
     }
 }
@@ -1013,6 +1032,7 @@ void StateDictDescriptor::setFieldValueAsString(omnetpp::any_ptr object, int fie
     }
     StateDict *pp = omnetpp::fromAnyPtr<StateDict>(object); (void)pp;
     switch (field) {
+        case FIELD_outgate: pp->setOutgate(string2long(value)); break;
         default: throw omnetpp::cRuntimeError("Cannot set field %d of class 'StateDict'", field);
     }
 }
@@ -1029,6 +1049,7 @@ omnetpp::cValue StateDictDescriptor::getFieldValue(omnetpp::any_ptr object, int 
     switch (field) {
         case FIELD_dict: return omnetpp::toAnyPtr(&pp->getDict()); break;
         case FIELD_src: return omnetpp::toAnyPtr(&pp->getSrc()); break;
+        case FIELD_outgate: return pp->getOutgate();
         default: throw omnetpp::cRuntimeError("Cannot return field %d of class 'StateDict' as cValue -- field index out of range?", field);
     }
 }
@@ -1045,6 +1066,7 @@ void StateDictDescriptor::setFieldValue(omnetpp::any_ptr object, int field, int 
     }
     StateDict *pp = omnetpp::fromAnyPtr<StateDict>(object); (void)pp;
     switch (field) {
+        case FIELD_outgate: pp->setOutgate(omnetpp::checked_int_cast<int>(value.intValue())); break;
         default: throw omnetpp::cRuntimeError("Cannot set field %d of class 'StateDict'", field);
     }
 }
