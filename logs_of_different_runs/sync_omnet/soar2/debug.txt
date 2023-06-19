@@ -1,0 +1,3705 @@
+0: received UDP from FE-85-AA-84-E1-F9| from gate 0 
+7: received UDP from 7E-12-79-F7-FD-6A| from gate 1 
+7: received UDP from 3A-9B-75-64-DF-4D| from gate 2 
+8: received UDP from 46-A9-E9-BA-2D-78| from gate 1 
+8: received UDP from 62-EF-AF-81-17-0A| from gate 2 
+8: received UDP from 12-2B-17-2E-9D-08| from gate 3 
+8: received UDP from 06-EC-AF-48-92-66| from gate 4 
+8: received UDP from 9E-77-E9-EF-04-11| from gate 5 
+9: received UDP from 7E-0F-C0-7A-19-56| from gate 1 
+9: received UDP from E2-F2-9C-0E-25-04| from gate 2 
+10: received UDP from 42-E2-3E-5F-4C-E6| from gate 1 
+11: received UDP from 4A-A3-ED-E8-5F-6E| from gate 1 
+11: received UDP from 1A-0D-DC-9C-BD-18| from gate 2 
+11: received UDP from 02-E6-96-8F-7B-1D| from gate 3 
+11: received UDP from 0A-1F-AA-42-70-73| from gate 4 
+11: received UDP from B2-CF-06-68-56-75| from gate 5 
+12: received UDP from 9E-A2-BA-8A-55-55| from gate 1 
+12: received UDP from C6-BC-84-4F-C7-8F| from gate 2 
+12: received UDP from D6-1D-3E-4C-40-2B| from gate 3 
+12: received UDP from 1A-DF-4F-CE-87-AF| from gate 4 
+12: received UDP from A6-40-FE-5E-06-DB| from gate 5 
+12: received UDP from 2A-51-73-E8-7C-47| from gate 6 
+12: received UDP from 56-E1-CC-B2-CC-D8| from gate 7 
+12: received UDP from 86-5D-BF-D9-08-EB| from gate 8 
+13: received UDP from F6-9B-4D-CD-56-C8| from gate 1 
+13: received UDP from A2-F1-A3-68-8B-18| from gate 2 
+14: received UDP from 5A-B2-7F-8B-AB-E3| from gate 1 
+14: received UDP from 3E-CC-92-40-D3-E9| from gate 2 
+14: received UDP from 6E-C7-E9-05-F7-8A| from gate 3 
+14: received UDP from 2A-EC-63-97-1E-A6| from gate 4 
+14: received UDP from 4A-E1-9A-02-DA-86| from gate 5 
+14: received UDP from 1E-17-B3-35-BE-55| from gate 6 
+12: received UDP from D6-1D-3E-4C-40-2B| from gate 3 
+11: received UDP from 02-E6-96-8F-7B-1D| from gate 3 
+8: received UDP from 9E-77-E9-EF-04-11| from gate 5 
+11: received UDP from 0A-1F-AA-42-70-73| from gate 4 
+12: received UDP from 9E-A2-BA-8A-55-55| from gate 1 
+0: received UDP from FE-85-AA-84-E1-F9| from gate 0 
+8: received UDP from 46-A9-E9-BA-2D-78| from gate 1 
+7: received UDP from 7E-12-79-F7-FD-6A| from gate 1 
+9: received UDP from 7E-0F-C0-7A-19-56| from gate 1 
+11: received UDP from 02-E6-96-8F-7B-1D| from gate 3 
+14: received UDP from 6E-C7-E9-05-F7-8A| from gate 3 
+12: received UDP from C6-BC-84-4F-C7-8F| from gate 2 
+13: received UDP from F6-9B-4D-CD-56-C8| from gate 1 
+8: received UDP from 62-EF-AF-81-17-0A| from gate 2 
+11: received UDP from 0A-1F-AA-42-70-73| from gate 4 
+14: received UDP from 5A-B2-7F-8B-AB-E3| from gate 1 
+10: received UDP from 42-E2-3E-5F-4C-E6| from gate 1 
+11: received UDP from 4A-A3-ED-E8-5F-6E| from gate 1 
+8: received UDP from 12-2B-17-2E-9D-08| from gate 3 
+14: received UDP from 4A-E1-9A-02-DA-86| from gate 5 
+12: received UDP from 86-5D-BF-D9-08-EB| from gate 8 
+8: received UDP from 06-EC-AF-48-92-66| from gate 4 
+12: received UDP from A6-40-FE-5E-06-DB| from gate 5 
+12: received UDP from 86-5D-BF-D9-08-EB| from gate 8 
+12: received UDP from 2A-51-73-E8-7C-47| from gate 6 
+14: received UDP from 6E-C7-E9-05-F7-8A| from gate 3 
+12: received UDP from 9E-A2-BA-8A-55-55| from gate 1 
+7: received UDP from 7E-12-79-F7-FD-6A| from gate 1 
+9: received UDP from E2-F2-9C-0E-25-04| from gate 2 
+12: received UDP from 56-E1-CC-B2-CC-D8| from gate 7 
+10: received UDP from 42-E2-3E-5F-4C-E6| from gate 1 
+12: received UDP from 1A-DF-4F-CE-87-AF| from gate 4 
+14: received UDP from 3E-CC-92-40-D3-E9| from gate 2 
+8: received UDP from 9E-77-E9-EF-04-11| from gate 5 
+9: received UDP from 7E-0F-C0-7A-19-56| from gate 1 
+9: received UDP from E2-F2-9C-0E-25-04| from gate 2 
+11: received UDP from 1A-0D-DC-9C-BD-18| from gate 2 
+7: received UDP from 3A-9B-75-64-DF-4D| from gate 2 
+14: received UDP from 1E-17-B3-35-BE-55| from gate 6 
+12: received UDP from 1A-DF-4F-CE-87-AF| from gate 4 
+7: received UDP from 3A-9B-75-64-DF-4D| from gate 2 
+14: received UDP from 4A-E1-9A-02-DA-86| from gate 5 
+0: received UDP from FE-85-AA-84-E1-F9| from gate 0 
+8: received UDP from 06-EC-AF-48-92-66| from gate 4 
+14: received UDP from 3E-CC-92-40-D3-E9| from gate 2 
+14: received UDP from 1E-17-B3-35-BE-55| from gate 6 
+11: received UDP from B2-CF-06-68-56-75| from gate 5 
+8: received UDP from 46-A9-E9-BA-2D-78| from gate 1 
+14: received UDP from 2A-EC-63-97-1E-A6| from gate 4 
+11: received UDP from 1A-0D-DC-9C-BD-18| from gate 2 
+13: received UDP from A2-F1-A3-68-8B-18| from gate 2 
+8: received UDP from 62-EF-AF-81-17-0A| from gate 2 
+12: received UDP from D6-1D-3E-4C-40-2B| from gate 3 
+12: received UDP from A6-40-FE-5E-06-DB| from gate 5 
+11: received UDP from B2-CF-06-68-56-75| from gate 5 
+12: received UDP from C6-BC-84-4F-C7-8F| from gate 2 
+14: received UDP from 2A-EC-63-97-1E-A6| from gate 4 
+13: received UDP from F6-9B-4D-CD-56-C8| from gate 1 
+13: received UDP from A2-F1-A3-68-8B-18| from gate 2 
+14: received UDP from 5A-B2-7F-8B-AB-E3| from gate 1 
+12: received UDP from 2A-51-73-E8-7C-47| from gate 6 
+11: received UDP from 4A-A3-ED-E8-5F-6E| from gate 1 
+8: received UDP from 12-2B-17-2E-9D-08| from gate 3 
+12: received UDP from 56-E1-CC-B2-CC-D8| from gate 7 
+12: received UDP from D6-1D-3E-4C-40-2B| from gate 3 
+12: received UDP from D6-1D-3E-4C-40-2B| from gate 3 
+12: received UDP from 9E-A2-BA-8A-55-55| from gate 1 
+12: received UDP from 9E-A2-BA-8A-55-55| from gate 1 
+11: received UDP from 0A-1F-AA-42-70-73| from gate 4 
+11: received UDP from 0A-1F-AA-42-70-73| from gate 4 
+7: received UDP from 7E-12-79-F7-FD-6A| from gate 1 
+7: received UDP from 7E-12-79-F7-FD-6A| from gate 1 
+8: received UDP from 46-A9-E9-BA-2D-78| from gate 1 
+8: received UDP from 46-A9-E9-BA-2D-78| from gate 1 
+7: received UDP from 7E-12-79-F7-FD-6A| from gate 1 
+9: received UDP from 7E-0F-C0-7A-19-56| from gate 1 
+11: received UDP from 02-E6-96-8F-7B-1D| from gate 3 
+9: received UDP from 7E-0F-C0-7A-19-56| from gate 1 
+11: received UDP from 02-E6-96-8F-7B-1D| from gate 3 
+8: received UDP from 62-EF-AF-81-17-0A| from gate 2 
+8: received UDP from 62-EF-AF-81-17-0A| from gate 2 
+13: received UDP from F6-9B-4D-CD-56-C8| from gate 1 
+13: received UDP from F6-9B-4D-CD-56-C8| from gate 1 
+11: received UDP from 4A-A3-ED-E8-5F-6E| from gate 1 
+11: received UDP from 4A-A3-ED-E8-5F-6E| from gate 1 
+10: received UDP from 42-E2-3E-5F-4C-E6| from gate 1 
+14: received UDP from 5A-B2-7F-8B-AB-E3| from gate 1 
+10: received UDP from 42-E2-3E-5F-4C-E6| from gate 1 
+14: received UDP from 5A-B2-7F-8B-AB-E3| from gate 1 
+14: received UDP from 4A-E1-9A-02-DA-86| from gate 5 
+14: received UDP from 4A-E1-9A-02-DA-86| from gate 5 
+8: received UDP from 06-EC-AF-48-92-66| from gate 4 
+8: received UDP from 06-EC-AF-48-92-66| from gate 4 
+12: received UDP from A6-40-FE-5E-06-DB| from gate 5 
+12: received UDP from A6-40-FE-5E-06-DB| from gate 5 
+12: received UDP from 86-5D-BF-D9-08-EB| from gate 8 
+12: received UDP from 86-5D-BF-D9-08-EB| from gate 8 
+9: received UDP from 7E-0F-C0-7A-19-56| from gate 1 
+14: received UDP from 6E-C7-E9-05-F7-8A| from gate 3 
+14: received UDP from 6E-C7-E9-05-F7-8A| from gate 3 
+13: received UDP from F6-9B-4D-CD-56-C8| from gate 1 
+11: received UDP from 0A-1F-AA-42-70-73| from gate 4 
+8: received UDP from 9E-77-E9-EF-04-11| from gate 5 
+8: received UDP from 9E-77-E9-EF-04-11| from gate 5 
+9: received UDP from E2-F2-9C-0E-25-04| from gate 2 
+9: received UDP from E2-F2-9C-0E-25-04| from gate 2 
+11: received UDP from 02-E6-96-8F-7B-1D| from gate 3 
+9: received UDP from E2-F2-9C-0E-25-04| from gate 2 
+7: received UDP from 3A-9B-75-64-DF-4D| from gate 2 
+7: received UDP from 3A-9B-75-64-DF-4D| from gate 2 
+8: received UDP from 46-A9-E9-BA-2D-78| from gate 1 
+12: received UDP from 86-5D-BF-D9-08-EB| from gate 8 
+12: received UDP from 1A-DF-4F-CE-87-AF| from gate 4 
+12: received UDP from 1A-DF-4F-CE-87-AF| from gate 4 
+8: received UDP from 62-EF-AF-81-17-0A| from gate 2 
+0: received UDP from FE-85-AA-84-E1-F9| from gate 0 
+0: received UDP from FE-85-AA-84-E1-F9| from gate 0 
+12: received UDP from 9E-A2-BA-8A-55-55| from gate 1 
+14: received UDP from 3E-CC-92-40-D3-E9| from gate 2 
+14: received UDP from 1E-17-B3-35-BE-55| from gate 6 
+14: received UDP from 3E-CC-92-40-D3-E9| from gate 2 
+14: received UDP from 1E-17-B3-35-BE-55| from gate 6 
+11: received UDP from 4A-A3-ED-E8-5F-6E| from gate 1 
+11: received UDP from 1A-0D-DC-9C-BD-18| from gate 2 
+11: received UDP from 1A-0D-DC-9C-BD-18| from gate 2 
+13: received UDP from A2-F1-A3-68-8B-18| from gate 2 
+13: received UDP from A2-F1-A3-68-8B-18| from gate 2 
+12: received UDP from A6-40-FE-5E-06-DB| from gate 5 
+14: received UDP from 5A-B2-7F-8B-AB-E3| from gate 1 
+8: received UDP from 06-EC-AF-48-92-66| from gate 4 
+11: received UDP from B2-CF-06-68-56-75| from gate 5 
+12: received UDP from C6-BC-84-4F-C7-8F| from gate 2 
+14: received UDP from 2A-EC-63-97-1E-A6| from gate 4 
+11: received UDP from B2-CF-06-68-56-75| from gate 5 
+12: received UDP from C6-BC-84-4F-C7-8F| from gate 2 
+14: received UDP from 2A-EC-63-97-1E-A6| from gate 4 
+12: received UDP from D6-1D-3E-4C-40-2B| from gate 3 
+12: received UDP from 2A-51-73-E8-7C-47| from gate 6 
+12: received UDP from 2A-51-73-E8-7C-47| from gate 6 
+8: received UDP from 12-2B-17-2E-9D-08| from gate 3 
+8: received UDP from 12-2B-17-2E-9D-08| from gate 3 
+12: received UDP from 56-E1-CC-B2-CC-D8| from gate 7 
+12: received UDP from 56-E1-CC-B2-CC-D8| from gate 7 
+0: received UDP from FE-85-AA-84-E1-F9| from gate 0 
+8: received UDP from 12-2B-17-2E-9D-08| from gate 3 
+12: received UDP from 2A-51-73-E8-7C-47| from gate 6 
+10: received UDP from 42-E2-3E-5F-4C-E6| from gate 1 
+14: received UDP from 6E-C7-E9-05-F7-8A| from gate 3 
+14: received UDP from 4A-E1-9A-02-DA-86| from gate 5 
+14: received UDP from 2A-EC-63-97-1E-A6| from gate 4 
+7: received UDP from 3A-9B-75-64-DF-4D| from gate 2 
+12: received UDP from C6-BC-84-4F-C7-8F| from gate 2 
+11: received UDP from 1A-0D-DC-9C-BD-18| from gate 2 
+11: received UDP from B2-CF-06-68-56-75| from gate 5 
+8: received UDP from 9E-77-E9-EF-04-11| from gate 5 
+12: received UDP from 1A-DF-4F-CE-87-AF| from gate 4 
+12: received UDP from 56-E1-CC-B2-CC-D8| from gate 7 
+14: received UDP from 3E-CC-92-40-D3-E9| from gate 2 
+14: received UDP from 1E-17-B3-35-BE-55| from gate 6 
+13: received UDP from A2-F1-A3-68-8B-18| from gate 2 
+13: received UDP from F6-9B-4D-CD-56-C8| from gate 1 
+7: received UDP from 7E-12-79-F7-FD-6A| from gate 1 
+9: received UDP from 7E-0F-C0-7A-19-56| from gate 1 
+12: received UDP from 9E-A2-BA-8A-55-55| from gate 1 
+7: received UDP from 3A-9B-75-64-DF-4D| from gate 2 
+12: received UDP from A6-40-FE-5E-06-DB| from gate 5 
+12: received UDP from 86-5D-BF-D9-08-EB| from gate 8 
+14: received UDP from 4A-E1-9A-02-DA-86| from gate 5 
+8: received UDP from 46-A9-E9-BA-2D-78| from gate 1 
+11: received UDP from 02-E6-96-8F-7B-1D| from gate 3 
+11: received UDP from 0A-1F-AA-42-70-73| from gate 4 
+12: received UDP from D6-1D-3E-4C-40-2B| from gate 3 
+14: received UDP from 5A-B2-7F-8B-AB-E3| from gate 1 
+0: received UDP from 02-42-C0-A8-00-42| from gate 0 
+0: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: received UDP from C6-BC-84-4F-C7-8F| from gate 2 
+14: received UDP from 3E-CC-92-40-D3-E9| from gate 2 
+8: received UDP from 62-EF-AF-81-17-0A| from gate 2 
+8: received UDP from 06-EC-AF-48-92-66| from gate 4 
+9: received UDP from E2-F2-9C-0E-25-04| from gate 2 
+11: received UDP from 4A-A3-ED-E8-5F-6E| from gate 1 
+11: received UDP from 1A-0D-DC-9C-BD-18| from gate 2 
+12: received UDP from 2A-51-73-E8-7C-47| from gate 6 
+13: received UDP from A2-F1-A3-68-8B-18| from gate 2 
+14: received UDP from 1E-17-B3-35-BE-55| from gate 6 
+0: received UDP from FE-85-AA-84-E1-F9| from gate 0 
+8: received UDP from 9E-77-E9-EF-04-11| from gate 5 
+10: received UDP from 42-E2-3E-5F-4C-E6| from gate 1 
+14: received UDP from 6E-C7-E9-05-F7-8A| from gate 3 
+8: received UDP from 12-2B-17-2E-9D-08| from gate 3 
+11: received UDP from B2-CF-06-68-56-75| from gate 5 
+12: received UDP from 1A-DF-4F-CE-87-AF| from gate 4 
+12: received UDP from 56-E1-CC-B2-CC-D8| from gate 7 
+14: received UDP from 2A-EC-63-97-1E-A6| from gate 4 
+7: received UDP from 02-42-C0-A8-00-42| from gate 1 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: received UDP from 02-42-C0-A8-00-42| from gate 1 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: received UDP from 02-42-C0-A8-00-42| from gate 1 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: received UDP from 7E-0F-C0-7A-19-56| from gate 1 
+10: received UDP from 02-42-C0-A8-00-42| from gate 1 
+10: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: received UDP from 3A-9B-75-64-DF-4D| from gate 2 
+12: received UDP from A6-40-FE-5E-06-DB| from gate 5 
+7: received UDP from 7E-12-79-F7-FD-6A| from gate 1 
+13: received UDP from F6-9B-4D-CD-56-C8| from gate 1 
+14: received UDP from 3E-CC-92-40-D3-E9| from gate 2 
+11: received UDP from 02-42-C0-A8-00-42| from gate 1 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: received UDP from E2-F2-9C-0E-25-04| from gate 2 
+11: received UDP from 02-E6-96-8F-7B-1D| from gate 3 
+12: received UDP from 9E-A2-BA-8A-55-55| from gate 1 
+12: received UDP from C6-BC-84-4F-C7-8F| from gate 2 
+12: received UDP from 86-5D-BF-D9-08-EB| from gate 8 
+14: received UDP from 4A-E1-9A-02-DA-86| from gate 5 
+12: received UDP from 2A-51-73-E8-7C-47| from gate 6 
+13: received UDP from A2-F1-A3-68-8B-18| from gate 2 
+8: received UDP from 46-A9-E9-BA-2D-78| from gate 1 
+12: received UDP from D6-1D-3E-4C-40-2B| from gate 3 
+0: received UDP from FE-85-AA-84-E1-F9| from gate 0 
+11: received UDP from 4A-A3-ED-E8-5F-6E| from gate 1 
+11: received UDP from 1A-0D-DC-9C-BD-18| from gate 2 
+14: received UDP from 5A-B2-7F-8B-AB-E3| from gate 1 
+8: received UDP from 62-EF-AF-81-17-0A| from gate 2 
+11: received UDP from 0A-1F-AA-42-70-73| from gate 4 
+14: received UDP from 1E-17-B3-35-BE-55| from gate 6 
+12: received UDP from 1A-DF-4F-CE-87-AF| from gate 4 
+12: received UDP from 56-E1-CC-B2-CC-D8| from gate 7 
+8: received UDP from 12-2B-17-2E-9D-08| from gate 3 
+10: received UDP from 42-E2-3E-5F-4C-E6| from gate 1 
+8: received UDP from 06-EC-AF-48-92-66| from gate 4 
+11: received UDP from B2-CF-06-68-56-75| from gate 5 
+14: received UDP from 6E-C7-E9-05-F7-8A| from gate 3 
+8: received UDP from 9E-77-E9-EF-04-11| from gate 5 
+14: received UDP from 2A-EC-63-97-1E-A6| from gate 4 
+12: received UDP from 02-42-C0-A8-00-42| from gate 1 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: received UDP from 02-42-C0-A8-00-42| from gate 1 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: received UDP from 02-42-C0-A8-00-42| from gate 1 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: received UDP from 7E-0F-C0-7A-19-56| from gate 1 
+7: received UDP from 3A-9B-75-64-DF-4D| from gate 2 
+12: received UDP from C6-BC-84-4F-C7-8F| from gate 2 
+12: received UDP from A6-40-FE-5E-06-DB| from gate 5 
+14: received UDP from 3E-CC-92-40-D3-E9| from gate 2 
+12: received UDP from 86-5D-BF-D9-08-EB| from gate 8 
+7: received UDP from 7E-12-79-F7-FD-6A| from gate 1 
+13: received UDP from F6-9B-4D-CD-56-C8| from gate 1 
+9: received UDP from E2-F2-9C-0E-25-04| from gate 2 
+12: received UDP from 9E-A2-BA-8A-55-55| from gate 1 
+11: received UDP from 02-E6-96-8F-7B-1D| from gate 3 
+12: received UDP from 2A-51-73-E8-7C-47| from gate 6 
+13: received UDP from A2-F1-A3-68-8B-18| from gate 2 
+14: received UDP from 4A-E1-9A-02-DA-86| from gate 5 
+11: received UDP from 1A-0D-DC-9C-BD-18| from gate 2 
+0: received UDP from FE-85-AA-84-E1-F9| from gate 0 
+12: received UDP from 56-E1-CC-B2-CC-D8| from gate 7 
+14: received UDP from 1E-17-B3-35-BE-55| from gate 6 
+8: received UDP from 46-A9-E9-BA-2D-78| from gate 1 
+10: received UDP from 42-E2-3E-5F-4C-E6| from gate 1 
+12: received UDP from 1A-DF-4F-CE-87-AF| from gate 4 
+8: received UDP from 62-EF-AF-81-17-0A| from gate 2 
+8: received UDP from 12-2B-17-2E-9D-08| from gate 3 
+8: received UDP from 06-EC-AF-48-92-66| from gate 4 
+11: received UDP from 4A-A3-ED-E8-5F-6E| from gate 1 
+11: received UDP from 0A-1F-AA-42-70-73| from gate 4 
+11: received UDP from B2-CF-06-68-56-75| from gate 5 
+12: received UDP from D6-1D-3E-4C-40-2B| from gate 3 
+14: received UDP from 5A-B2-7F-8B-AB-E3| from gate 1 
+14: received UDP from 6E-C7-E9-05-F7-8A| from gate 3 
+8: received UDP from 9E-77-E9-EF-04-11| from gate 5 
+14: received UDP from 2A-EC-63-97-1E-A6| from gate 4 
+7: received UDP from 3A-9B-75-64-DF-4D| from gate 2 
+9: received UDP from 7E-0F-C0-7A-19-56| from gate 1 
+12: received UDP from C6-BC-84-4F-C7-8F| from gate 2 
+7: received UDP from 7E-12-79-F7-FD-6A| from gate 1 
+14: received UDP from 3E-CC-92-40-D3-E9| from gate 2 
+12: received UDP from 9E-A2-BA-8A-55-55| from gate 1 
+12: received UDP from A6-40-FE-5E-06-DB| from gate 5 
+12: received UDP from 2A-51-73-E8-7C-47| from gate 6 
+12: received UDP from 86-5D-BF-D9-08-EB| from gate 8 
+13: received UDP from F6-9B-4D-CD-56-C8| from gate 1 
+13: received UDP from A2-F1-A3-68-8B-18| from gate 2 
+0: received UDP from FE-85-AA-84-E1-F9| from gate 0 
+9: received UDP from E2-F2-9C-0E-25-04| from gate 2 
+11: received UDP from 1A-0D-DC-9C-BD-18| from gate 2 
+11: received UDP from 02-E6-96-8F-7B-1D| from gate 3 
+12: received UDP from 56-E1-CC-B2-CC-D8| from gate 7 
+14: received UDP from 4A-E1-9A-02-DA-86| from gate 5 
+10: received UDP from 42-E2-3E-5F-4C-E6| from gate 1 
+14: received UDP from 1E-17-B3-35-BE-55| from gate 6 
+8: received UDP from 46-A9-E9-BA-2D-78| from gate 1 
+8: received UDP from 12-2B-17-2E-9D-08| from gate 3 
+12: received UDP from D6-1D-3E-4C-40-2B| from gate 3 
+12: received UDP from 1A-DF-4F-CE-87-AF| from gate 4 
+14: received UDP from 5A-B2-7F-8B-AB-E3| from gate 1 
+14: received UDP from 6E-C7-E9-05-F7-8A| from gate 3 
+7: received UDP from 02-42-C0-A8-00-42| from gate 1 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: Not first UDP
+Recieved signal to send state dict from 1
+7: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker1.txt
+7: sending vector of tensors with size: 10
+8: received UDP from 62-EF-AF-81-17-0A| from gate 2 
+8: received UDP from 06-EC-AF-48-92-66| from gate 4 
+11: received UDP from 4A-A3-ED-E8-5F-6E| from gate 1 
+11: received UDP from B2-CF-06-68-56-75| from gate 5 
+11: received UDP from 0A-1F-AA-42-70-73| from gate 4 
+8: received UDP from 9E-77-E9-EF-04-11| from gate 5 
+14: received UDP from 2A-EC-63-97-1E-A6| from gate 4 
+8: received UDP from 02-42-C0-A8-00-42| from gate 4 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 6
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker6.txt
+8: sending vector of tensors with size: 10
+7: received UDP from 02-42-C0-A8-00-42| from gate 2 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: Not first UDP
+Recieved signal to send state dict from 2
+7: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker2.txt
+7: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+9: received UDP from 02-42-C0-A8-00-42| from gate 1 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: Not first UDP
+Recieved signal to send state dict from 8
+9: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker8.txt
+9: sending vector of tensors with size: 10
+10: received UDP from 02-42-C0-A8-00-42| from gate 1 
+10: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+10: Not first UDP
+Recieved signal to send state dict from 10
+10: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker10.txt
+10: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+11: received UDP from 02-42-C0-A8-00-42| from gate 1 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 11
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker11.txt
+11: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 2 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 12
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker12.txt
+11: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 4 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 14
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker14.txt
+11: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 1 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 16
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker16.txt
+12: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 1 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 3
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker3.txt
+8: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 2 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 17
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker17.txt
+12: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 4 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 19
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker19.txt
+12: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 7 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 22
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker22.txt
+12: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 2 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 4
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker4.txt
+8: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 2 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 27
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker27.txt
+14: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 3 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 28
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker28.txt
+14: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 3 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 5
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker5.txt
+8: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 5 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 30
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker30.txt
+14: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 5 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 7
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker7.txt
+8: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+11: received UDP from 02-42-C0-A8-00-42| from gate 3 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 13
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker13.txt
+11: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 5 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 15
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker15.txt
+11: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+9: received UDP from 02-42-C0-A8-00-42| from gate 2 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: Not first UDP
+Recieved signal to send state dict from 9
+9: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker9.txt
+9: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+12: received UDP from 02-42-C0-A8-00-42| from gate 3 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 18
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker18.txt
+12: sending vector of tensors with size: 10
+13: received UDP from 02-42-C0-A8-00-42| from gate 1 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: Not first UDP
+Recieved signal to send state dict from 24
+13: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker24.txt
+13: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 8 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 23
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker23.txt
+12: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 6 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 21
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker21.txt
+12: sending vector of tensors with size: 10
+13: received UDP from 02-42-C0-A8-00-42| from gate 2 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: Not first UDP
+Recieved signal to send state dict from 25
+13: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker25.txt
+13: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+12: received UDP from 02-42-C0-A8-00-42| from gate 5 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 20
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker20.txt
+12: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+14: received UDP from 02-42-C0-A8-00-42| from gate 6 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 31
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker31.txt
+14: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 4 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 29
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker29.txt
+14: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 1 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 26
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker26.txt
+14: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+0: sending signal from root to testnet.sw[0].smartL
+0: sending signal from root to testnet.sw[1].smartL
+0: sending signal from root to testnet.sw[2].smartL
+0: sending signal from root to testnet.sw[3].smartL
+0: sending signal from root to testnet.sw[4].smartL
+0: sending signal from root to testnet.sw[5].smartL
+0: sending signal from root to testnet.sw[6].smartL
+0: sending signal from root to testnet.sw[7].smartL
+0: Received a signal from leaf! <<<<<<<<<<<<
+1: sending messages from switch after sync
+2: sending messages from switch after sync
+3: sending messages from switch after sync
+4: sending messages from switch after sync
+5: sending messages from switch after sync
+6: sending messages from switch after sync
+7: sending messages from switch after sync
+3: it is our custom msg| from gate: 1
+3: message is from worker| gate : 1
+3: storing dictionary...
+3: received 1/2
+7: received UDP from 3A-9B-75-64-DF-4D| from gate 2 
+9: received UDP from 7E-0F-C0-7A-19-56| from gate 1 
+12: received UDP from C6-BC-84-4F-C7-8F| from gate 2 
+7: received UDP from 7E-12-79-F7-FD-6A| from gate 1 
+14: received UDP from 3E-CC-92-40-D3-E9| from gate 2 
+12: received UDP from 9E-A2-BA-8A-55-55| from gate 1 
+12: received UDP from 86-5D-BF-D9-08-EB| from gate 8 
+13: received UDP from A2-F1-A3-68-8B-18| from gate 2 
+12: received UDP from A6-40-FE-5E-06-DB| from gate 5 
+12: received UDP from 2A-51-73-E8-7C-47| from gate 6 
+12: received UDP from 56-E1-CC-B2-CC-D8| from gate 7 
+13: received UDP from F6-9B-4D-CD-56-C8| from gate 1 
+10: received UDP from 42-E2-3E-5F-4C-E6| from gate 1 
+11: received UDP from 1A-0D-DC-9C-BD-18| from gate 2 
+9: received UDP from E2-F2-9C-0E-25-04| from gate 2 
+14: received UDP from 6E-C7-E9-05-F7-8A| from gate 3 
+14: received UDP from 4A-E1-9A-02-DA-86| from gate 5 
+0: received UDP from FE-85-AA-84-E1-F9| from gate 0 
+11: received UDP from 02-E6-96-8F-7B-1D| from gate 3 
+14: received UDP from 5A-B2-7F-8B-AB-E3| from gate 1 
+14: received UDP from 1E-17-B3-35-BE-55| from gate 6 
+8: received UDP from 12-2B-17-2E-9D-08| from gate 3 
+8: received UDP from 06-EC-AF-48-92-66| from gate 4 
+12: received UDP from D6-1D-3E-4C-40-2B| from gate 3 
+12: received UDP from 1A-DF-4F-CE-87-AF| from gate 4 
+8: received UDP from 46-A9-E9-BA-2D-78| from gate 1 
+8: received UDP from 62-EF-AF-81-17-0A| from gate 2 
+11: received UDP from 4A-A3-ED-E8-5F-6E| from gate 1 
+11: received UDP from B2-CF-06-68-56-75| from gate 5 
+11: received UDP from 0A-1F-AA-42-70-73| from gate 4 
+8: received UDP from 9E-77-E9-EF-04-11| from gate 5 
+14: received UDP from 2A-EC-63-97-1E-A6| from gate 4 
+7: received UDP from 3A-9B-75-64-DF-4D| from gate 2 
+12: received UDP from E6-37-24-78-7C-98| from gate 3 
+0: received UDP from 9E-6D-C8-28-86-52| from gate 0 
+7: received UDP from 06-14-18-9F-22-D7| from gate 1 
+7: received UDP from 1E-AB-3D-EA-77-1F| from gate 2 
+8: received UDP from B2-5A-91-74-1B-DC| from gate 1 
+8: received UDP from FA-9A-37-05-BB-B9| from gate 2 
+8: received UDP from 2A-C6-62-7E-82-4D| from gate 3 
+8: received UDP from 9A-D6-B3-A1-E1-CE| from gate 4 
+8: received UDP from 6E-18-44-A5-66-E2| from gate 5 
+9: received UDP from 52-51-29-D3-D5-B7| from gate 1 
+9: received UDP from 1A-BD-0C-50-3A-BF| from gate 2 
+10: received UDP from CA-53-65-F6-CF-59| from gate 1 
+11: received UDP from FE-8C-03-D3-E9-1E| from gate 1 
+11: received UDP from 76-41-2A-65-EB-B3| from gate 2 
+11: received UDP from 3A-22-B4-ED-9B-7B| from gate 3 
+11: received UDP from 7E-F1-52-C3-CC-CD| from gate 4 
+11: received UDP from F2-63-5A-38-08-6E| from gate 5 
+12: received UDP from FA-E9-9F-AB-D5-21| from gate 1 
+12: received UDP from 2E-E2-F9-56-FF-D8| from gate 2 
+12: received UDP from 0A-04-52-70-18-8A| from gate 4 
+12: received UDP from A2-78-F7-0D-B4-1F| from gate 5 
+12: received UDP from 42-6E-40-97-52-80| from gate 6 
+12: received UDP from E6-E4-52-D4-E1-9E| from gate 7 
+12: received UDP from 9A-6F-0C-32-BB-ED| from gate 8 
+13: received UDP from 46-0E-7D-9D-87-4D| from gate 1 
+13: received UDP from EA-52-81-43-A3-76| from gate 2 
+14: received UDP from CE-03-FC-24-8F-99| from gate 1 
+14: received UDP from 7E-97-AB-83-AF-E6| from gate 2 
+14: received UDP from 7A-EC-4F-8E-FF-B5| from gate 3 
+14: received UDP from 3A-C5-68-80-FC-E1| from gate 4 
+14: received UDP from 32-02-2A-14-55-D1| from gate 5 
+14: received UDP from 4E-3D-10-23-F1-38| from gate 6 
+10: received UDP from CA-53-65-F6-CF-59| from gate 1 
+12: received UDP from E6-37-24-78-7C-98| from gate 3 
+12: received UDP from 2E-E2-F9-56-FF-D8| from gate 2 
+8: received UDP from 9A-D6-B3-A1-E1-CE| from gate 4 
+9: received UDP from 52-51-29-D3-D5-B7| from gate 1 
+9: received UDP from 52-51-29-D3-D5-B7| from gate 1 
+8: received UDP from 2A-C6-62-7E-82-4D| from gate 3 
+0: received UDP from 9E-6D-C8-28-86-52| from gate 0 
+14: received UDP from 32-02-2A-14-55-D1| from gate 5 
+8: received UDP from B2-5A-91-74-1B-DC| from gate 1 
+12: received UDP from E6-E4-52-D4-E1-9E| from gate 7 
+12: received UDP from 2E-E2-F9-56-FF-D8| from gate 2 
+7: received UDP from 06-14-18-9F-22-D7| from gate 1 
+13: received UDP from EA-52-81-43-A3-76| from gate 2 
+14: received UDP from 7E-97-AB-83-AF-E6| from gate 2 
+7: received UDP from 1E-AB-3D-EA-77-1F| from gate 2 
+11: received UDP from F2-63-5A-38-08-6E| from gate 5 
+14: received UDP from 7A-EC-4F-8E-FF-B5| from gate 3 
+10: received UDP from CA-53-65-F6-CF-59| from gate 1 
+14: received UDP from 7E-97-AB-83-AF-E6| from gate 2 
+14: received UDP from CE-03-FC-24-8F-99| from gate 1 
+11: received UDP from 3A-22-B4-ED-9B-7B| from gate 3 
+14: received UDP from 4E-3D-10-23-F1-38| from gate 6 
+9: received UDP from 1A-BD-0C-50-3A-BF| from gate 2 
+14: received UDP from 3A-C5-68-80-FC-E1| from gate 4 
+14: received UDP from CE-03-FC-24-8F-99| from gate 1 
+12: received UDP from A2-78-F7-0D-B4-1F| from gate 5 
+12: received UDP from 42-6E-40-97-52-80| from gate 6 
+11: received UDP from FE-8C-03-D3-E9-1E| from gate 1 
+8: received UDP from 6E-18-44-A5-66-E2| from gate 5 
+11: received UDP from 3A-22-B4-ED-9B-7B| from gate 3 
+12: received UDP from FA-E9-9F-AB-D5-21| from gate 1 
+12: received UDP from E6-E4-52-D4-E1-9E| from gate 7 
+11: received UDP from 76-41-2A-65-EB-B3| from gate 2 
+8: received UDP from 9A-D6-B3-A1-E1-CE| from gate 4 
+12: received UDP from A2-78-F7-0D-B4-1F| from gate 5 
+12: received UDP from E6-37-24-78-7C-98| from gate 3 
+11: received UDP from F2-63-5A-38-08-6E| from gate 5 
+14: received UDP from 4E-3D-10-23-F1-38| from gate 6 
+11: received UDP from 7E-F1-52-C3-CC-CD| from gate 4 
+12: received UDP from 0A-04-52-70-18-8A| from gate 4 
+14: received UDP from 7A-EC-4F-8E-FF-B5| from gate 3 
+12: received UDP from 0A-04-52-70-18-8A| from gate 4 
+12: received UDP from 9A-6F-0C-32-BB-ED| from gate 8 
+8: received UDP from B2-5A-91-74-1B-DC| from gate 1 
+8: received UDP from FA-9A-37-05-BB-B9| from gate 2 
+13: received UDP from 46-0E-7D-9D-87-4D| from gate 1 
+9: received UDP from 1A-BD-0C-50-3A-BF| from gate 2 
+11: received UDP from 76-41-2A-65-EB-B3| from gate 2 
+13: received UDP from EA-52-81-43-A3-76| from gate 2 
+0: received UDP from 9E-6D-C8-28-86-52| from gate 0 
+11: received UDP from FE-8C-03-D3-E9-1E| from gate 1 
+12: received UDP from FA-E9-9F-AB-D5-21| from gate 1 
+7: received UDP from 06-14-18-9F-22-D7| from gate 1 
+8: received UDP from 6E-18-44-A5-66-E2| from gate 5 
+8: received UDP from FA-9A-37-05-BB-B9| from gate 2 
+12: received UDP from 42-6E-40-97-52-80| from gate 6 
+7: received UDP from 1E-AB-3D-EA-77-1F| from gate 2 
+12: received UDP from 9A-6F-0C-32-BB-ED| from gate 8 
+13: received UDP from 46-0E-7D-9D-87-4D| from gate 1 
+14: received UDP from 3A-C5-68-80-FC-E1| from gate 4 
+8: received UDP from 2A-C6-62-7E-82-4D| from gate 3 
+11: received UDP from 7E-F1-52-C3-CC-CD| from gate 4 
+14: received UDP from 32-02-2A-14-55-D1| from gate 5 
+10: received UDP from CA-53-65-F6-CF-59| from gate 1 
+12: received UDP from E6-37-24-78-7C-98| from gate 3 
+10: received UDP from CA-53-65-F6-CF-59| from gate 1 
+12: received UDP from E6-37-24-78-7C-98| from gate 3 
+12: received UDP from 2E-E2-F9-56-FF-D8| from gate 2 
+12: received UDP from 2E-E2-F9-56-FF-D8| from gate 2 
+9: received UDP from 52-51-29-D3-D5-B7| from gate 1 
+9: received UDP from 52-51-29-D3-D5-B7| from gate 1 
+12: received UDP from E6-E4-52-D4-E1-9E| from gate 7 
+12: received UDP from E6-E4-52-D4-E1-9E| from gate 7 
+14: received UDP from 32-02-2A-14-55-D1| from gate 5 
+14: received UDP from 32-02-2A-14-55-D1| from gate 5 
+12: received UDP from E6-E4-52-D4-E1-9E| from gate 7 
+13: received UDP from EA-52-81-43-A3-76| from gate 2 
+13: received UDP from EA-52-81-43-A3-76| from gate 2 
+14: received UDP from 7E-97-AB-83-AF-E6| from gate 2 
+14: received UDP from 7E-97-AB-83-AF-E6| from gate 2 
+11: received UDP from F2-63-5A-38-08-6E| from gate 5 
+11: received UDP from F2-63-5A-38-08-6E| from gate 5 
+7: received UDP from 1E-AB-3D-EA-77-1F| from gate 2 
+7: received UDP from 1E-AB-3D-EA-77-1F| from gate 2 
+14: received UDP from 7A-EC-4F-8E-FF-B5| from gate 3 
+14: received UDP from 7A-EC-4F-8E-FF-B5| from gate 3 
+11: received UDP from F2-63-5A-38-08-6E| from gate 5 
+14: received UDP from CE-03-FC-24-8F-99| from gate 1 
+14: received UDP from CE-03-FC-24-8F-99| from gate 1 
+14: received UDP from 4E-3D-10-23-F1-38| from gate 6 
+14: received UDP from 4E-3D-10-23-F1-38| from gate 6 
+9: received UDP from 52-51-29-D3-D5-B7| from gate 1 
+14: received UDP from 3A-C5-68-80-FC-E1| from gate 4 
+14: received UDP from 3A-C5-68-80-FC-E1| from gate 4 
+12: received UDP from A2-78-F7-0D-B4-1F| from gate 5 
+12: received UDP from A2-78-F7-0D-B4-1F| from gate 5 
+12: received UDP from 42-6E-40-97-52-80| from gate 6 
+12: received UDP from 42-6E-40-97-52-80| from gate 6 
+10: received UDP from CA-53-65-F6-CF-59| from gate 1 
+13: received UDP from EA-52-81-43-A3-76| from gate 2 
+14: received UDP from 3A-C5-68-80-FC-E1| from gate 4 
+7: received UDP from 1E-AB-3D-EA-77-1F| from gate 2 
+11: received UDP from 76-41-2A-65-EB-B3| from gate 2 
+11: received UDP from 3A-22-B4-ED-9B-7B| from gate 3 
+11: received UDP from 76-41-2A-65-EB-B3| from gate 2 
+11: received UDP from 3A-22-B4-ED-9B-7B| from gate 3 
+8: received UDP from 9A-D6-B3-A1-E1-CE| from gate 4 
+8: received UDP from 9A-D6-B3-A1-E1-CE| from gate 4 
+12: received UDP from 2E-E2-F9-56-FF-D8| from gate 2 
+12: received UDP from E6-37-24-78-7C-98| from gate 3 
+14: received UDP from CE-03-FC-24-8F-99| from gate 1 
+11: received UDP from 7E-F1-52-C3-CC-CD| from gate 4 
+11: received UDP from 7E-F1-52-C3-CC-CD| from gate 4 
+12: received UDP from 42-6E-40-97-52-80| from gate 6 
+12: received UDP from 0A-04-52-70-18-8A| from gate 4 
+12: received UDP from 9A-6F-0C-32-BB-ED| from gate 8 
+12: received UDP from 0A-04-52-70-18-8A| from gate 4 
+12: received UDP from 9A-6F-0C-32-BB-ED| from gate 8 
+8: received UDP from B2-5A-91-74-1B-DC| from gate 1 
+8: received UDP from B2-5A-91-74-1B-DC| from gate 1 
+8: received UDP from FA-9A-37-05-BB-B9| from gate 2 
+8: received UDP from FA-9A-37-05-BB-B9| from gate 2 
+13: received UDP from 46-0E-7D-9D-87-4D| from gate 1 
+13: received UDP from 46-0E-7D-9D-87-4D| from gate 1 
+14: received UDP from 7E-97-AB-83-AF-E6| from gate 2 
+9: received UDP from 1A-BD-0C-50-3A-BF| from gate 2 
+9: received UDP from 1A-BD-0C-50-3A-BF| from gate 2 
+0: received UDP from 9E-6D-C8-28-86-52| from gate 0 
+11: received UDP from FE-8C-03-D3-E9-1E| from gate 1 
+0: received UDP from 9E-6D-C8-28-86-52| from gate 0 
+11: received UDP from FE-8C-03-D3-E9-1E| from gate 1 
+14: received UDP from 4E-3D-10-23-F1-38| from gate 6 
+12: received UDP from FA-E9-9F-AB-D5-21| from gate 1 
+12: received UDP from FA-E9-9F-AB-D5-21| from gate 1 
+7: received UDP from 06-14-18-9F-22-D7| from gate 1 
+7: received UDP from 06-14-18-9F-22-D7| from gate 1 
+8: received UDP from 6E-18-44-A5-66-E2| from gate 5 
+8: received UDP from 6E-18-44-A5-66-E2| from gate 5 
+8: received UDP from 2A-C6-62-7E-82-4D| from gate 3 
+8: received UDP from 2A-C6-62-7E-82-4D| from gate 3 
+8: received UDP from 2A-C6-62-7E-82-4D| from gate 3 
+11: received UDP from 76-41-2A-65-EB-B3| from gate 2 
+14: received UDP from 32-02-2A-14-55-D1| from gate 5 
+11: received UDP from 3A-22-B4-ED-9B-7B| from gate 3 
+12: received UDP from A2-78-F7-0D-B4-1F| from gate 5 
+14: received UDP from 7A-EC-4F-8E-FF-B5| from gate 3 
+12: received UDP from 0A-04-52-70-18-8A| from gate 4 
+12: received UDP from 9A-6F-0C-32-BB-ED| from gate 8 
+11: received UDP from 7E-F1-52-C3-CC-CD| from gate 4 
+12: received UDP from FA-E9-9F-AB-D5-21| from gate 1 
+8: received UDP from 9A-D6-B3-A1-E1-CE| from gate 4 
+8: received UDP from FA-9A-37-05-BB-B9| from gate 2 
+0: received UDP from 9E-6D-C8-28-86-52| from gate 0 
+8: received UDP from B2-5A-91-74-1B-DC| from gate 1 
+8: received UDP from 6E-18-44-A5-66-E2| from gate 5 
+7: received UDP from 06-14-18-9F-22-D7| from gate 1 
+9: received UDP from 1A-BD-0C-50-3A-BF| from gate 2 
+13: received UDP from 46-0E-7D-9D-87-4D| from gate 1 
+11: received UDP from FE-8C-03-D3-E9-1E| from gate 1 
+7: received UDP from 1E-AB-3D-EA-77-1F| from gate 2 
+12: received UDP from 42-6E-40-97-52-80| from gate 6 
+12: received UDP from E6-E4-52-D4-E1-9E| from gate 7 
+13: received UDP from EA-52-81-43-A3-76| from gate 2 
+14: received UDP from CE-03-FC-24-8F-99| from gate 1 
+14: received UDP from 32-02-2A-14-55-D1| from gate 5 
+9: received UDP from 52-51-29-D3-D5-B7| from gate 1 
+10: received UDP from CA-53-65-F6-CF-59| from gate 1 
+11: received UDP from 76-41-2A-65-EB-B3| from gate 2 
+12: received UDP from E6-37-24-78-7C-98| from gate 3 
+12: received UDP from A2-78-F7-0D-B4-1F| from gate 5 
+14: received UDP from 7A-EC-4F-8E-FF-B5| from gate 3 
+14: received UDP from 4E-3D-10-23-F1-38| from gate 6 
+8: received UDP from FA-9A-37-05-BB-B9| from gate 2 
+8: received UDP from 9A-D6-B3-A1-E1-CE| from gate 4 
+11: received UDP from F2-63-5A-38-08-6E| from gate 5 
+12: received UDP from 2E-E2-F9-56-FF-D8| from gate 2 
+13: received UDP from 46-0E-7D-9D-87-4D| from gate 1 
+14: received UDP from 7E-97-AB-83-AF-E6| from gate 2 
+0: received UDP from 9E-6D-C8-28-86-52| from gate 0 
+8: received UDP from 6E-18-44-A5-66-E2| from gate 5 
+11: received UDP from FE-8C-03-D3-E9-1E| from gate 1 
+11: received UDP from 3A-22-B4-ED-9B-7B| from gate 3 
+12: received UDP from 9A-6F-0C-32-BB-ED| from gate 8 
+14: received UDP from 3A-C5-68-80-FC-E1| from gate 4 
+7: received UDP from 06-14-18-9F-22-D7| from gate 1 
+8: received UDP from B2-5A-91-74-1B-DC| from gate 1 
+8: received UDP from 2A-C6-62-7E-82-4D| from gate 3 
+11: received UDP from 7E-F1-52-C3-CC-CD| from gate 4 
+12: received UDP from 0A-04-52-70-18-8A| from gate 4 
+9: received UDP from 1A-BD-0C-50-3A-BF| from gate 2 
+12: received UDP from FA-E9-9F-AB-D5-21| from gate 1 
+0: received UDP from 02-42-C0-A8-00-42| from gate 0 
+0: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: received UDP from 02-42-C0-A8-00-42| from gate 1 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: received UDP from 02-42-C0-A8-00-42| from gate 1 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: received UDP from 42-6E-40-97-52-80| from gate 6 
+14: received UDP from CE-03-FC-24-8F-99| from gate 1 
+13: received UDP from 46-0E-7D-9D-87-4D| from gate 1 
+13: received UDP from EA-52-81-43-A3-76| from gate 2 
+14: received UDP from 32-02-2A-14-55-D1| from gate 5 
+12: received UDP from E6-E4-52-D4-E1-9E| from gate 7 
+14: received UDP from 4E-3D-10-23-F1-38| from gate 6 
+7: received UDP from 1E-AB-3D-EA-77-1F| from gate 2 
+8: received UDP from FA-9A-37-05-BB-B9| from gate 2 
+11: received UDP from 76-41-2A-65-EB-B3| from gate 2 
+14: received UDP from 7A-EC-4F-8E-FF-B5| from gate 3 
+8: received UDP from 6E-18-44-A5-66-E2| from gate 5 
+10: received UDP from CA-53-65-F6-CF-59| from gate 1 
+12: received UDP from A2-78-F7-0D-B4-1F| from gate 5 
+8: received UDP from 9A-D6-B3-A1-E1-CE| from gate 4 
+12: received UDP from E6-37-24-78-7C-98| from gate 3 
+0: received UDP from 9E-6D-C8-28-86-52| from gate 0 
+9: received UDP from 52-51-29-D3-D5-B7| from gate 1 
+11: received UDP from FE-8C-03-D3-E9-1E| from gate 1 
+9: received UDP from 02-42-C0-A8-00-42| from gate 1 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: received UDP from 2A-C6-62-7E-82-4D| from gate 3 
+11: received UDP from 7E-F1-52-C3-CC-CD| from gate 4 
+11: received UDP from F2-63-5A-38-08-6E| from gate 5 
+12: received UDP from 2E-E2-F9-56-FF-D8| from gate 2 
+12: received UDP from 9A-6F-0C-32-BB-ED| from gate 8 
+8: received UDP from B2-5A-91-74-1B-DC| from gate 1 
+11: received UDP from 3A-22-B4-ED-9B-7B| from gate 3 
+12: received UDP from FA-E9-9F-AB-D5-21| from gate 1 
+14: received UDP from 7E-97-AB-83-AF-E6| from gate 2 
+7: received UDP from 06-14-18-9F-22-D7| from gate 1 
+12: received UDP from 0A-04-52-70-18-8A| from gate 4 
+14: received UDP from 3A-C5-68-80-FC-E1| from gate 4 
+10: received UDP from 02-42-C0-A8-00-42| from gate 1 
+10: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: received UDP from 1A-BD-0C-50-3A-BF| from gate 2 
+11: received UDP from 02-42-C0-A8-00-42| from gate 1 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: received UDP from 02-42-C0-A8-00-42| from gate 1 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: received UDP from 02-42-C0-A8-00-42| from gate 1 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: received UDP from 02-42-C0-A8-00-42| from gate 1 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: received UDP from CE-03-FC-24-8F-99| from gate 1 
+12: received UDP from 42-6E-40-97-52-80| from gate 6 
+13: received UDP from 46-0E-7D-9D-87-4D| from gate 1 
+14: received UDP from 4E-3D-10-23-F1-38| from gate 6 
+14: received UDP from 32-02-2A-14-55-D1| from gate 5 
+13: received UDP from EA-52-81-43-A3-76| from gate 2 
+12: received UDP from E6-E4-52-D4-E1-9E| from gate 7 
+7: received UDP from 1E-AB-3D-EA-77-1F| from gate 2 
+8: received UDP from FA-9A-37-05-BB-B9| from gate 2 
+11: received UDP from 76-41-2A-65-EB-B3| from gate 2 
+8: received UDP from 6E-18-44-A5-66-E2| from gate 5 
+14: received UDP from 7A-EC-4F-8E-FF-B5| from gate 3 
+10: received UDP from CA-53-65-F6-CF-59| from gate 1 
+8: received UDP from 9A-D6-B3-A1-E1-CE| from gate 4 
+11: received UDP from 7E-F1-52-C3-CC-CD| from gate 4 
+8: received UDP from 2A-C6-62-7E-82-4D| from gate 3 
+12: received UDP from FA-E9-9F-AB-D5-21| from gate 1 
+0: received UDP from 9E-6D-C8-28-86-52| from gate 0 
+8: received UDP from B2-5A-91-74-1B-DC| from gate 1 
+9: received UDP from 52-51-29-D3-D5-B7| from gate 1 
+11: received UDP from FE-8C-03-D3-E9-1E| from gate 1 
+11: received UDP from 3A-22-B4-ED-9B-7B| from gate 3 
+11: received UDP from F2-63-5A-38-08-6E| from gate 5 
+12: received UDP from 2E-E2-F9-56-FF-D8| from gate 2 
+12: received UDP from E6-37-24-78-7C-98| from gate 3 
+12: received UDP from A2-78-F7-0D-B4-1F| from gate 5 
+12: received UDP from 9A-6F-0C-32-BB-ED| from gate 8 
+7: received UDP from 06-14-18-9F-22-D7| from gate 1 
+9: received UDP from 1A-BD-0C-50-3A-BF| from gate 2 
+12: received UDP from 0A-04-52-70-18-8A| from gate 4 
+14: received UDP from 7E-97-AB-83-AF-E6| from gate 2 
+14: received UDP from 3A-C5-68-80-FC-E1| from gate 4 
+14: received UDP from CE-03-FC-24-8F-99| from gate 1 
+12: received UDP from 42-6E-40-97-52-80| from gate 6 
+13: received UDP from 46-0E-7D-9D-87-4D| from gate 1 
+14: received UDP from 32-02-2A-14-55-D1| from gate 5 
+14: received UDP from 4E-3D-10-23-F1-38| from gate 6 
+7: received UDP from 1E-AB-3D-EA-77-1F| from gate 2 
+12: received UDP from E6-E4-52-D4-E1-9E| from gate 7 
+7: received UDP from 02-42-C0-A8-00-42| from gate 1 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: Not first UDP
+Recieved signal to send state dict from 1
+7: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker1.txt
+7: sending vector of tensors with size: 10
+8: received UDP from FA-9A-37-05-BB-B9| from gate 2 
+8: received UDP from 6E-18-44-A5-66-E2| from gate 5 
+11: received UDP from 76-41-2A-65-EB-B3| from gate 2 
+13: received UDP from EA-52-81-43-A3-76| from gate 2 
+10: received UDP from CA-53-65-F6-CF-59| from gate 1 
+11: received UDP from 7E-F1-52-C3-CC-CD| from gate 4 
+14: received UDP from 7A-EC-4F-8E-FF-B5| from gate 3 
+0: received UDP from 9E-6D-C8-28-86-52| from gate 0 
+8: received UDP from B2-5A-91-74-1B-DC| from gate 1 
+8: received UDP from 2A-C6-62-7E-82-4D| from gate 3 
+8: received UDP from 9A-D6-B3-A1-E1-CE| from gate 4 
+11: received UDP from FE-8C-03-D3-E9-1E| from gate 1 
+11: received UDP from F2-63-5A-38-08-6E| from gate 5 
+12: received UDP from FA-E9-9F-AB-D5-21| from gate 1 
+12: received UDP from 2E-E2-F9-56-FF-D8| from gate 2 
+8: received UDP from 02-42-C0-A8-00-42| from gate 1 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 3
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker3.txt
+8: sending vector of tensors with size: 10
+9: received UDP from 52-51-29-D3-D5-B7| from gate 1 
+11: received UDP from 3A-22-B4-ED-9B-7B| from gate 3 
+12: received UDP from E6-37-24-78-7C-98| from gate 3 
+12: received UDP from A2-78-F7-0D-B4-1F| from gate 5 
+12: received UDP from 9A-6F-0C-32-BB-ED| from gate 8 
+8: received UDP from 02-42-C0-A8-00-42| from gate 2 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 4
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker4.txt
+8: sending vector of tensors with size: 10
+12: received UDP from 0A-04-52-70-18-8A| from gate 4 
+7: received UDP from 06-14-18-9F-22-D7| from gate 1 
+14: received UDP from 7E-97-AB-83-AF-E6| from gate 2 
+14: received UDP from 3A-C5-68-80-FC-E1| from gate 4 
+8: received UDP from 02-42-C0-A8-00-42| from gate 5 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 7
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker7.txt
+8: sending vector of tensors with size: 10
+7: received UDP from 02-42-C0-A8-00-42| from gate 2 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: Not first UDP
+Recieved signal to send state dict from 2
+7: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker2.txt
+7: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+9: received UDP from 1A-BD-0C-50-3A-BF| from gate 2 
+9: received UDP from 02-42-C0-A8-00-42| from gate 1 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: Not first UDP
+Recieved signal to send state dict from 8
+9: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker8.txt
+9: sending vector of tensors with size: 10
+9: received UDP from 02-42-C0-A8-00-42| from gate 2 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: Not first UDP
+Recieved signal to send state dict from 9
+9: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker9.txt
+9: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+11: received UDP from 02-42-C0-A8-00-42| from gate 3 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 13
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker13.txt
+11: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 5 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 15
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker15.txt
+11: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 5 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 20
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker20.txt
+12: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 7 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 22
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker22.txt
+12: sending vector of tensors with size: 10
+13: received UDP from 02-42-C0-A8-00-42| from gate 2 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: Not first UDP
+Recieved signal to send state dict from 25
+13: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker25.txt
+13: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 4 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 29
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker29.txt
+14: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 2 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 12
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker12.txt
+11: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 4 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 6
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker6.txt
+8: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 5 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 30
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker30.txt
+14: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 2 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 27
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker27.txt
+14: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 3 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 5
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker5.txt
+8: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+11: received UDP from 02-42-C0-A8-00-42| from gate 4 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 14
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker14.txt
+11: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 3 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 18
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker18.txt
+12: sending vector of tensors with size: 10
+10: received UDP from 02-42-C0-A8-00-42| from gate 1 
+10: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+10: Not first UDP
+Recieved signal to send state dict from 10
+10: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker10.txt
+10: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+12: received UDP from 02-42-C0-A8-00-42| from gate 4 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 19
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker19.txt
+12: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 1 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 16
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker16.txt
+12: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 1 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 11
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker11.txt
+11: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+13: received UDP from 02-42-C0-A8-00-42| from gate 1 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: Not first UDP
+Recieved signal to send state dict from 24
+13: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker24.txt
+13: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+12: received UDP from 02-42-C0-A8-00-42| from gate 8 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 23
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker23.txt
+12: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 6 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 21
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker21.txt
+12: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 1 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 26
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker26.txt
+14: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 3 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 28
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker28.txt
+14: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 2 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 17
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker17.txt
+12: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+14: received UDP from 02-42-C0-A8-00-42| from gate 6 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 31
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker31.txt
+14: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+0: sending signal from root to testnet.sw[7].smartL
+0: sending signal from root to testnet.sw[8].smartL
+0: sending signal from root to testnet.sw[9].smartL
+0: sending signal from root to testnet.sw[10].smartL
+0: sending signal from root to testnet.sw[11].smartL
+0: sending signal from root to testnet.sw[12].smartL
+0: sending signal from root to testnet.sw[13].smartL
+0: sending signal from root to testnet.sw[14].smartL
+7: sending messages from switch after sync
+8: sending messages from switch after sync
+9: sending messages from switch after sync
+10: sending messages from switch after sync
+11: sending messages from switch after sync
+12: sending messages from switch after sync
+13: sending messages from switch after sync
+14: sending messages from switch after sync
+3: it is our custom msg| from gate: 1
+3: message is from worker| gate : 1
+3: storing dictionary...
+3: received 1/2
+3: it is our custom msg| from gate: 2
+3: message is from worker| gate : 2
+3: storing dictionary...
+3: received 2/2
+4: it is our custom msg| from gate: 1
+4: message is from worker| gate : 1
+4: storing dictionary...
+4: received 1/2
+4: it is our custom msg| from gate: 2
+4: message is from worker| gate : 2
+4: storing dictionary...
+4: received 2/2
+5: it is our custom msg| from gate: 1
+5: message is from worker| gate : 1
+5: storing dictionary...
+5: received 1/2
+5: it is our custom msg| from gate: 2
+5: message is from worker| gate : 2
+5: storing dictionary...
+5: received 2/2
+6: it is our custom msg| from gate: 1
+6: message is from worker| gate : 1
+6: storing dictionary...
+6: received 1/2
+6: it is our custom msg| from gate: 2
+6: message is from worker| gate : 2
+6: storing dictionary...
+6: received 2/2
+1: it is our custom msg| from gate: 1
+1: message is from worker| gate : 1
+1: storing dictionary...
+1: received 1/2
+1: it is our custom msg| from gate: 2
+1: message is from worker| gate : 2
+1: storing dictionary...
+1: received 2/2
+2: it is our custom msg| from gate: 1
+2: message is from worker| gate : 1
+2: storing dictionary...
+2: received 1/2
+2: it is our custom msg| from gate: 2
+2: message is from worker| gate : 2
+2: storing dictionary...
+2: received 2/2
+0: it is our custom msg| from gate: 1
+0: message is from worker| gate : 1
+0: storing dictionary...
+0: received 1/2
+0: it is our custom msg| from gate: 2
+0: message is from worker| gate : 2
+0: storing dictionary...
+0: received 2/2
+12: received UDP from 42-6E-40-97-52-80| from gate 6 
+13: received UDP from 46-0E-7D-9D-87-4D| from gate 1 
+14: received UDP from CE-03-FC-24-8F-99| from gate 1 
+0: received UDP from 02-42-C0-A8-00-42| from gate 0 
+0: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+0: Not first UDP
+14: received UDP from 32-02-2A-14-55-D1| from gate 5 
+14: received UDP from 4E-3D-10-23-F1-38| from gate 6 
+1: it is our custom msg| from gate: 0
+1: message is from server
+1: not a leaf so broadcasting downstream
+2: it is our custom msg| from gate: 0
+2: message is from server
+2: not a leaf so broadcasting downstream
+7: received UDP from 1E-AB-3D-EA-77-1F| from gate 2 
+12: received UDP from E6-E4-52-D4-E1-9E| from gate 7 
+3: it is our custom msg| from gate: 0
+3: message is from server
+3: not a leaf so broadcasting downstream
+4: it is our custom msg| from gate: 0
+4: message is from server
+4: not a leaf so broadcasting downstream
+5: it is our custom msg| from gate: 0
+5: message is from server
+5: not a leaf so broadcasting downstream
+6: it is our custom msg| from gate: 0
+6: message is from server
+6: not a leaf so broadcasting downstream
+8: received UDP from FA-9A-37-05-BB-B9| from gate 2 
+10: received UDP from CA-53-65-F6-CF-59| from gate 1 
+11: received UDP from 76-41-2A-65-EB-B3| from gate 2 
+8: received UDP from 6E-18-44-A5-66-E2| from gate 5 
+7: it is our custom msg| from gate: 0
+7: message is from server
+7: sending signal to hosts
+8: it is our custom msg| from gate: 0
+8: message is from server
+8: sending signal to hosts
+9: it is our custom msg| from gate: 0
+9: message is from server
+9: sending signal to hosts
+10: it is our custom msg| from gate: 0
+10: message is from server
+10: sending signal to hosts
+11: it is our custom msg| from gate: 0
+11: message is from server
+11: sending signal to hosts
+12: it is our custom msg| from gate: 0
+12: message is from server
+12: sending signal to hosts
+13: it is our custom msg| from gate: 0
+13: message is from server
+13: sending signal to hosts
+14: it is our custom msg| from gate: 0
+14: message is from server
+14: sending signal to hosts
+11: received UDP from 7E-F1-52-C3-CC-CD| from gate 4 
+13: received UDP from EA-52-81-43-A3-76| from gate 2 
+12: received UDP from FA-E9-9F-AB-D5-21| from gate 1 
+12: received UDP from 2E-E2-F9-56-FF-D8| from gate 2 
+0: received UDP from 9E-6D-C8-28-86-52| from gate 0 
+11: received UDP from FE-8C-03-D3-E9-1E| from gate 1 
+14: received UDP from 7A-EC-4F-8E-FF-B5| from gate 3 
+8: received UDP from B2-5A-91-74-1B-DC| from gate 1 
+12: received UDP from E6-37-24-78-7C-98| from gate 3 
+8: received UDP from 9A-D6-B3-A1-E1-CE| from gate 4 
+11: received UDP from F2-63-5A-38-08-6E| from gate 5 
+8: received UDP from 2A-C6-62-7E-82-4D| from gate 3 
+9: received UDP from 52-51-29-D3-D5-B7| from gate 1 
+12: received UDP from 0A-04-52-70-18-8A| from gate 4 
+11: received UDP from 3A-22-B4-ED-9B-7B| from gate 3 
+12: received UDP from A2-78-F7-0D-B4-1F| from gate 5 
+12: received UDP from 9A-6F-0C-32-BB-ED| from gate 8 
+14: received UDP from 7E-97-AB-83-AF-E6| from gate 2 
+14: received UDP from 3A-C5-68-80-FC-E1| from gate 4 
+7: received UDP from 06-14-18-9F-22-D7| from gate 1 
+9: received UDP from 1A-BD-0C-50-3A-BF| from gate 2 
+14: received UDP from 02-42-C0-A8-00-42| from gate 4 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 29
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker29.txt
+14: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 1 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 3
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker3.txt
+8: sending vector of tensors with size: 10
+9: received UDP from 02-42-C0-A8-00-42| from gate 1 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: Not first UDP
+Recieved signal to send state dict from 8
+9: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker8.txt
+9: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 2 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 4
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker4.txt
+8: sending vector of tensors with size: 10
+9: received UDP from 02-42-C0-A8-00-42| from gate 2 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: Not first UDP
+Recieved signal to send state dict from 9
+9: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker9.txt
+9: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+14: received UDP from 02-42-C0-A8-00-42| from gate 5 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 30
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker30.txt
+14: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 2 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 12
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker12.txt
+11: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 5 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 15
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker15.txt
+11: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 7 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 22
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker22.txt
+12: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 5 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 20
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker20.txt
+12: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 2 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 27
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker27.txt
+14: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 5 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 7
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker7.txt
+8: sending vector of tensors with size: 10
+13: received UDP from 02-42-C0-A8-00-42| from gate 1 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: Not first UDP
+Recieved signal to send state dict from 24
+13: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker24.txt
+13: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 3 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 13
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker13.txt
+11: sending vector of tensors with size: 10
+13: received UDP from 02-42-C0-A8-00-42| from gate 2 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: Not first UDP
+Recieved signal to send state dict from 25
+13: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker25.txt
+13: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+12: received UDP from 02-42-C0-A8-00-42| from gate 8 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 23
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker23.txt
+12: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 1 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 16
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker16.txt
+12: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 3 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 28
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker28.txt
+14: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 4 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 14
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker14.txt
+11: sending vector of tensors with size: 10
+7: received UDP from 02-42-C0-A8-00-42| from gate 1 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: Not first UDP
+Recieved signal to send state dict from 1
+7: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker1.txt
+7: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 4 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 19
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker19.txt
+12: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 1 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 11
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker11.txt
+11: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+14: received UDP from 02-42-C0-A8-00-42| from gate 6 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 31
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker31.txt
+14: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 1 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 26
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker26.txt
+14: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+12: received UDP from 02-42-C0-A8-00-42| from gate 6 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 21
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker21.txt
+12: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 3 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 5
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker5.txt
+8: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 4 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 6
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker6.txt
+8: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+12: received UDP from 02-42-C0-A8-00-42| from gate 3 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 18
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker18.txt
+12: sending vector of tensors with size: 10
+10: received UDP from 02-42-C0-A8-00-42| from gate 1 
+10: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+10: Not first UDP
+Recieved signal to send state dict from 10
+10: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker10.txt
+10: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+7: received UDP from 02-42-C0-A8-00-42| from gate 2 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: Not first UDP
+Recieved signal to send state dict from 2
+7: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker2.txt
+7: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 2 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 17
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker17.txt
+12: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+0: Received a signal from leaf! <<<<<<<<<<<<
+12: received UDP from 42-6E-40-97-52-80| from gate 6 
+13: received UDP from 46-0E-7D-9D-87-4D| from gate 1 
+14: received UDP from CE-03-FC-24-8F-99| from gate 1 
+14: received UDP from 4E-3D-10-23-F1-38| from gate 6 
+14: received UDP from 32-02-2A-14-55-D1| from gate 5 
+12: received UDP from E6-E4-52-D4-E1-9E| from gate 7 
+8: received UDP from FA-9A-37-05-BB-B9| from gate 2 
+7: received UDP from 1E-AB-3D-EA-77-1F| from gate 2 
+10: received UDP from CA-53-65-F6-CF-59| from gate 1 
+11: received UDP from 76-41-2A-65-EB-B3| from gate 2 
+11: received UDP from 7E-F1-52-C3-CC-CD| from gate 4 
+0: received UDP from 9E-6D-C8-28-86-52| from gate 0 
+12: received UDP from 2E-E2-F9-56-FF-D8| from gate 2 
+13: received UDP from EA-52-81-43-A3-76| from gate 2 
+14: received UDP from 7A-EC-4F-8E-FF-B5| from gate 3 
+11: received UDP from FE-8C-03-D3-E9-1E| from gate 1 
+8: received UDP from 6E-18-44-A5-66-E2| from gate 5 
+12: received UDP from FA-E9-9F-AB-D5-21| from gate 1 
+8: received UDP from B2-5A-91-74-1B-DC| from gate 1 
+12: received UDP from E6-37-24-78-7C-98| from gate 3 
+11: received UDP from F2-63-5A-38-08-6E| from gate 5 
+8: received UDP from 9A-D6-B3-A1-E1-CE| from gate 4 
+9: received UDP from 52-51-29-D3-D5-B7| from gate 1 
+12: received UDP from 0A-04-52-70-18-8A| from gate 4 
+12: received UDP from A2-78-F7-0D-B4-1F| from gate 5 
+14: received UDP from 3A-C5-68-80-FC-E1| from gate 4 
+8: received UDP from 2A-C6-62-7E-82-4D| from gate 3 
+11: received UDP from 3A-22-B4-ED-9B-7B| from gate 3 
+12: received UDP from 9A-6F-0C-32-BB-ED| from gate 8 
+14: received UDP from 7E-97-AB-83-AF-E6| from gate 2 
+7: received UDP from 06-14-18-9F-22-D7| from gate 1 
+9: received UDP from 1A-BD-0C-50-3A-BF| from gate 2 
+0: received UDP from CA-5B-9F-30-F3-5C| from gate 0 
+7: received UDP from 06-08-CB-6D-85-03| from gate 1 
+7: received UDP from 8E-00-1E-03-E9-C5| from gate 2 
+8: received UDP from 0A-D1-1D-09-EA-83| from gate 1 
+8: received UDP from F2-ED-99-96-25-99| from gate 2 
+8: received UDP from 26-7D-62-DD-BB-D0| from gate 3 
+8: received UDP from BA-28-F4-33-87-B2| from gate 4 
+8: received UDP from 6E-BB-7E-A7-F7-1F| from gate 5 
+9: received UDP from 1E-A4-F6-C7-58-59| from gate 1 
+9: received UDP from BE-9F-28-45-51-28| from gate 2 
+10: received UDP from 06-12-3F-3E-E0-EF| from gate 1 
+11: received UDP from 7E-E0-9F-AD-28-8D| from gate 1 
+11: received UDP from 92-2B-03-03-BC-21| from gate 2 
+11: received UDP from E2-71-4F-4F-8F-8B| from gate 3 
+11: received UDP from 86-3B-20-5A-87-75| from gate 4 
+11: received UDP from E6-84-69-43-75-7D| from gate 5 
+12: received UDP from 46-60-C8-45-C9-DD| from gate 1 
+12: received UDP from 8E-07-1C-7D-34-D5| from gate 2 
+12: received UDP from 56-05-B9-37-33-75| from gate 3 
+12: received UDP from 5A-4B-A4-DD-0C-1D| from gate 4 
+12: received UDP from 1E-11-37-35-3F-E5| from gate 5 
+12: received UDP from 02-E1-5C-38-FD-4A| from gate 6 
+12: received UDP from 46-4F-23-27-28-68| from gate 7 
+12: received UDP from 6A-65-13-53-A6-73| from gate 8 
+13: received UDP from AE-FE-90-E2-E4-6D| from gate 1 
+13: received UDP from 66-61-9D-74-73-6C| from gate 2 
+14: received UDP from 12-D5-5D-AD-3A-B1| from gate 1 
+14: received UDP from 5A-6D-B4-BA-51-58| from gate 2 
+14: received UDP from E6-A6-04-5E-02-B9| from gate 3 
+14: received UDP from 86-CB-44-F6-C6-47| from gate 4 
+14: received UDP from AE-4C-13-9C-95-6D| from gate 5 
+14: received UDP from AE-97-AE-16-33-08| from gate 6 
+13: received UDP from AE-FE-90-E2-E4-6D| from gate 1 
+12: received UDP from 5A-4B-A4-DD-0C-1D| from gate 4 
+14: received UDP from 12-D5-5D-AD-3A-B1| from gate 1 
+9: received UDP from BE-9F-28-45-51-28| from gate 2 
+8: received UDP from 26-7D-62-DD-BB-D0| from gate 3 
+8: received UDP from BA-28-F4-33-87-B2| from gate 4 
+12: received UDP from 46-60-C8-45-C9-DD| from gate 1 
+11: received UDP from 7E-E0-9F-AD-28-8D| from gate 1 
+8: received UDP from 6E-BB-7E-A7-F7-1F| from gate 5 
+14: received UDP from 86-CB-44-F6-C6-47| from gate 4 
+11: received UDP from E2-71-4F-4F-8F-8B| from gate 3 
+11: received UDP from E6-84-69-43-75-7D| from gate 5 
+14: received UDP from 86-CB-44-F6-C6-47| from gate 4 
+14: received UDP from E6-A6-04-5E-02-B9| from gate 3 
+8: received UDP from 0A-D1-1D-09-EA-83| from gate 1 
+9: received UDP from 1E-A4-F6-C7-58-59| from gate 1 
+11: received UDP from 86-3B-20-5A-87-75| from gate 4 
+14: received UDP from AE-97-AE-16-33-08| from gate 6 
+12: received UDP from 8E-07-1C-7D-34-D5| from gate 2 
+12: received UDP from 56-05-B9-37-33-75| from gate 3 
+10: received UDP from 06-12-3F-3E-E0-EF| from gate 1 
+13: received UDP from AE-FE-90-E2-E4-6D| from gate 1 
+7: received UDP from 06-08-CB-6D-85-03| from gate 1 
+11: received UDP from E6-84-69-43-75-7D| from gate 5 
+11: received UDP from 86-3B-20-5A-87-75| from gate 4 
+12: received UDP from 02-E1-5C-38-FD-4A| from gate 6 
+8: received UDP from BA-28-F4-33-87-B2| from gate 4 
+9: received UDP from BE-9F-28-45-51-28| from gate 2 
+12: received UDP from 5A-4B-A4-DD-0C-1D| from gate 4 
+12: received UDP from 6A-65-13-53-A6-73| from gate 8 
+14: received UDP from 5A-6D-B4-BA-51-58| from gate 2 
+14: received UDP from 5A-6D-B4-BA-51-58| from gate 2 
+8: received UDP from 6E-BB-7E-A7-F7-1F| from gate 5 
+8: received UDP from F2-ED-99-96-25-99| from gate 2 
+13: received UDP from 66-61-9D-74-73-6C| from gate 2 
+8: received UDP from 26-7D-62-DD-BB-D0| from gate 3 
+12: received UDP from 56-05-B9-37-33-75| from gate 3 
+9: received UDP from 1E-A4-F6-C7-58-59| from gate 1 
+11: received UDP from E2-71-4F-4F-8F-8B| from gate 3 
+12: received UDP from 6A-65-13-53-A6-73| from gate 8 
+7: received UDP from 06-08-CB-6D-85-03| from gate 1 
+14: received UDP from AE-97-AE-16-33-08| from gate 6 
+12: received UDP from 46-4F-23-27-28-68| from gate 7 
+14: received UDP from E6-A6-04-5E-02-B9| from gate 3 
+12: received UDP from 46-60-C8-45-C9-DD| from gate 1 
+11: received UDP from 92-2B-03-03-BC-21| from gate 2 
+8: received UDP from F2-ED-99-96-25-99| from gate 2 
+0: received UDP from CA-5B-9F-30-F3-5C| from gate 0 
+12: received UDP from 8E-07-1C-7D-34-D5| from gate 2 
+12: received UDP from 1E-11-37-35-3F-E5| from gate 5 
+12: received UDP from 02-E1-5C-38-FD-4A| from gate 6 
+14: received UDP from AE-4C-13-9C-95-6D| from gate 5 
+7: received UDP from 8E-00-1E-03-E9-C5| from gate 2 
+7: received UDP from 8E-00-1E-03-E9-C5| from gate 2 
+11: received UDP from 7E-E0-9F-AD-28-8D| from gate 1 
+10: received UDP from 06-12-3F-3E-E0-EF| from gate 1 
+14: received UDP from 12-D5-5D-AD-3A-B1| from gate 1 
+13: received UDP from 66-61-9D-74-73-6C| from gate 2 
+12: received UDP from 1E-11-37-35-3F-E5| from gate 5 
+8: received UDP from 0A-D1-1D-09-EA-83| from gate 1 
+14: received UDP from AE-4C-13-9C-95-6D| from gate 5 
+11: received UDP from 92-2B-03-03-BC-21| from gate 2 
+12: received UDP from 46-4F-23-27-28-68| from gate 7 
+0: received UDP from CA-5B-9F-30-F3-5C| from gate 0 
+12: received UDP from 5A-4B-A4-DD-0C-1D| from gate 4 
+12: received UDP from 5A-4B-A4-DD-0C-1D| from gate 4 
+13: received UDP from AE-FE-90-E2-E4-6D| from gate 1 
+13: received UDP from AE-FE-90-E2-E4-6D| from gate 1 
+14: received UDP from 12-D5-5D-AD-3A-B1| from gate 1 
+14: received UDP from 12-D5-5D-AD-3A-B1| from gate 1 
+8: received UDP from 26-7D-62-DD-BB-D0| from gate 3 
+8: received UDP from 26-7D-62-DD-BB-D0| from gate 3 
+9: received UDP from BE-9F-28-45-51-28| from gate 2 
+9: received UDP from BE-9F-28-45-51-28| from gate 2 
+11: received UDP from 7E-E0-9F-AD-28-8D| from gate 1 
+11: received UDP from 7E-E0-9F-AD-28-8D| from gate 1 
+8: received UDP from BA-28-F4-33-87-B2| from gate 4 
+12: received UDP from 46-60-C8-45-C9-DD| from gate 1 
+8: received UDP from BA-28-F4-33-87-B2| from gate 4 
+12: received UDP from 46-60-C8-45-C9-DD| from gate 1 
+14: received UDP from 86-CB-44-F6-C6-47| from gate 4 
+14: received UDP from 86-CB-44-F6-C6-47| from gate 4 
+8: received UDP from 0A-D1-1D-09-EA-83| from gate 1 
+8: received UDP from 0A-D1-1D-09-EA-83| from gate 1 
+13: received UDP from AE-FE-90-E2-E4-6D| from gate 1 
+11: received UDP from 86-3B-20-5A-87-75| from gate 4 
+14: received UDP from AE-97-AE-16-33-08| from gate 6 
+11: received UDP from 86-3B-20-5A-87-75| from gate 4 
+14: received UDP from AE-97-AE-16-33-08| from gate 6 
+12: received UDP from 8E-07-1C-7D-34-D5| from gate 2 
+12: received UDP from 8E-07-1C-7D-34-D5| from gate 2 
+7: received UDP from 06-08-CB-6D-85-03| from gate 1 
+7: received UDP from 06-08-CB-6D-85-03| from gate 1 
+12: received UDP from 56-05-B9-37-33-75| from gate 3 
+12: received UDP from 56-05-B9-37-33-75| from gate 3 
+11: received UDP from E6-84-69-43-75-7D| from gate 5 
+11: received UDP from E6-84-69-43-75-7D| from gate 5 
+12: received UDP from 02-E1-5C-38-FD-4A| from gate 6 
+12: received UDP from 02-E1-5C-38-FD-4A| from gate 6 
+14: received UDP from 86-CB-44-F6-C6-47| from gate 4 
+14: received UDP from 12-D5-5D-AD-3A-B1| from gate 1 
+14: received UDP from 5A-6D-B4-BA-51-58| from gate 2 
+14: received UDP from 5A-6D-B4-BA-51-58| from gate 2 
+8: received UDP from BA-28-F4-33-87-B2| from gate 4 
+8: received UDP from 6E-BB-7E-A7-F7-1F| from gate 5 
+8: received UDP from 6E-BB-7E-A7-F7-1F| from gate 5 
+8: received UDP from 26-7D-62-DD-BB-D0| from gate 3 
+12: received UDP from 46-60-C8-45-C9-DD| from gate 1 
+9: received UDP from 1E-A4-F6-C7-58-59| from gate 1 
+9: received UDP from 1E-A4-F6-C7-58-59| from gate 1 
+11: received UDP from E2-71-4F-4F-8F-8B| from gate 3 
+12: received UDP from 6A-65-13-53-A6-73| from gate 8 
+11: received UDP from E2-71-4F-4F-8F-8B| from gate 3 
+12: received UDP from 6A-65-13-53-A6-73| from gate 8 
+12: received UDP from 6A-65-13-53-A6-73| from gate 8 
+11: received UDP from 92-2B-03-03-BC-21| from gate 2 
+12: received UDP from 46-4F-23-27-28-68| from gate 7 
+11: received UDP from 92-2B-03-03-BC-21| from gate 2 
+12: received UDP from 46-4F-23-27-28-68| from gate 7 
+14: received UDP from E6-A6-04-5E-02-B9| from gate 3 
+14: received UDP from E6-A6-04-5E-02-B9| from gate 3 
+9: received UDP from BE-9F-28-45-51-28| from gate 2 
+8: received UDP from F2-ED-99-96-25-99| from gate 2 
+8: received UDP from F2-ED-99-96-25-99| from gate 2 
+7: received UDP from 8E-00-1E-03-E9-C5| from gate 2 
+7: received UDP from 8E-00-1E-03-E9-C5| from gate 2 
+12: received UDP from 1E-11-37-35-3F-E5| from gate 5 
+12: received UDP from 1E-11-37-35-3F-E5| from gate 5 
+7: received UDP from 06-08-CB-6D-85-03| from gate 1 
+11: received UDP from E2-71-4F-4F-8F-8B| from gate 3 
+11: received UDP from E6-84-69-43-75-7D| from gate 5 
+12: received UDP from 5A-4B-A4-DD-0C-1D| from gate 4 
+10: received UDP from 06-12-3F-3E-E0-EF| from gate 1 
+10: received UDP from 06-12-3F-3E-E0-EF| from gate 1 
+13: received UDP from 66-61-9D-74-73-6C| from gate 2 
+13: received UDP from 66-61-9D-74-73-6C| from gate 2 
+0: received UDP from CA-5B-9F-30-F3-5C| from gate 0 
+0: received UDP from CA-5B-9F-30-F3-5C| from gate 0 
+14: received UDP from AE-4C-13-9C-95-6D| from gate 5 
+14: received UDP from AE-4C-13-9C-95-6D| from gate 5 
+8: received UDP from 0A-D1-1D-09-EA-83| from gate 1 
+11: received UDP from 7E-E0-9F-AD-28-8D| from gate 1 
+11: received UDP from 86-3B-20-5A-87-75| from gate 4 
+12: received UDP from 46-4F-23-27-28-68| from gate 7 
+8: received UDP from 6E-BB-7E-A7-F7-1F| from gate 5 
+14: received UDP from AE-97-AE-16-33-08| from gate 6 
+12: received UDP from 56-05-B9-37-33-75| from gate 3 
+12: received UDP from 8E-07-1C-7D-34-D5| from gate 2 
+14: received UDP from E6-A6-04-5E-02-B9| from gate 3 
+14: received UDP from 5A-6D-B4-BA-51-58| from gate 2 
+12: received UDP from 02-E1-5C-38-FD-4A| from gate 6 
+0: received UDP from CA-5B-9F-30-F3-5C| from gate 0 
+8: received UDP from F2-ED-99-96-25-99| from gate 2 
+10: received UDP from 06-12-3F-3E-E0-EF| from gate 1 
+9: received UDP from 1E-A4-F6-C7-58-59| from gate 1 
+7: received UDP from 8E-00-1E-03-E9-C5| from gate 2 
+12: received UDP from 1E-11-37-35-3F-E5| from gate 5 
+11: received UDP from 92-2B-03-03-BC-21| from gate 2 
+13: received UDP from 66-61-9D-74-73-6C| from gate 2 
+14: received UDP from AE-4C-13-9C-95-6D| from gate 5 
+8: received UDP from 26-7D-62-DD-BB-D0| from gate 3 
+8: received UDP from BA-28-F4-33-87-B2| from gate 4 
+11: received UDP from 7E-E0-9F-AD-28-8D| from gate 1 
+11: received UDP from 86-3B-20-5A-87-75| from gate 4 
+11: received UDP from E6-84-69-43-75-7D| from gate 5 
+12: received UDP from 56-05-B9-37-33-75| from gate 3 
+14: received UDP from 12-D5-5D-AD-3A-B1| from gate 1 
+14: received UDP from 5A-6D-B4-BA-51-58| from gate 2 
+14: received UDP from 86-CB-44-F6-C6-47| from gate 4 
+12: received UDP from 46-60-C8-45-C9-DD| from gate 1 
+12: received UDP from 8E-07-1C-7D-34-D5| from gate 2 
+12: received UDP from 5A-4B-A4-DD-0C-1D| from gate 4 
+12: received UDP from 02-E1-5C-38-FD-4A| from gate 6 
+12: received UDP from 6A-65-13-53-A6-73| from gate 8 
+14: received UDP from AE-97-AE-16-33-08| from gate 6 
+8: received UDP from 0A-D1-1D-09-EA-83| from gate 1 
+8: received UDP from F2-ED-99-96-25-99| from gate 2 
+9: received UDP from BE-9F-28-45-51-28| from gate 2 
+13: received UDP from AE-FE-90-E2-E4-6D| from gate 1 
+7: received UDP from 06-08-CB-6D-85-03| from gate 1 
+8: received UDP from 6E-BB-7E-A7-F7-1F| from gate 5 
+11: received UDP from 92-2B-03-03-BC-21| from gate 2 
+11: received UDP from E2-71-4F-4F-8F-8B| from gate 3 
+12: received UDP from 1E-11-37-35-3F-E5| from gate 5 
+14: received UDP from E6-A6-04-5E-02-B9| from gate 3 
+14: received UDP from AE-4C-13-9C-95-6D| from gate 5 
+0: received UDP from CA-5B-9F-30-F3-5C| from gate 0 
+12: received UDP from 46-4F-23-27-28-68| from gate 7 
+13: received UDP from 66-61-9D-74-73-6C| from gate 2 
+7: received UDP from 8E-00-1E-03-E9-C5| from gate 2 
+9: received UDP from 1E-A4-F6-C7-58-59| from gate 1 
+10: received UDP from 06-12-3F-3E-E0-EF| from gate 1 
+0: received UDP from 02-42-C0-A8-00-42| from gate 0 
+0: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: received UDP from 26-7D-62-DD-BB-D0| from gate 3 
+8: received UDP from BA-28-F4-33-87-B2| from gate 4 
+11: received UDP from 7E-E0-9F-AD-28-8D| from gate 1 
+11: received UDP from E6-84-69-43-75-7D| from gate 5 
+12: received UDP from 56-05-B9-37-33-75| from gate 3 
+14: received UDP from 12-D5-5D-AD-3A-B1| from gate 1 
+14: received UDP from 5A-6D-B4-BA-51-58| from gate 2 
+11: received UDP from 86-3B-20-5A-87-75| from gate 4 
+12: received UDP from 6A-65-13-53-A6-73| from gate 8 
+14: received UDP from 86-CB-44-F6-C6-47| from gate 4 
+8: received UDP from F2-ED-99-96-25-99| from gate 2 
+12: received UDP from 8E-07-1C-7D-34-D5| from gate 2 
+12: received UDP from 02-E1-5C-38-FD-4A| from gate 6 
+7: received UDP from 02-42-C0-A8-00-42| from gate 1 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: received UDP from 46-60-C8-45-C9-DD| from gate 1 
+14: received UDP from AE-4C-13-9C-95-6D| from gate 5 
+14: received UDP from AE-97-AE-16-33-08| from gate 6 
+12: received UDP from 5A-4B-A4-DD-0C-1D| from gate 4 
+8: received UDP from 0A-D1-1D-09-EA-83| from gate 1 
+14: received UDP from E6-A6-04-5E-02-B9| from gate 3 
+11: received UDP from 92-2B-03-03-BC-21| from gate 2 
+11: received UDP from E2-71-4F-4F-8F-8B| from gate 3 
+8: received UDP from 02-42-C0-A8-00-42| from gate 1 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: received UDP from 8E-00-1E-03-E9-C5| from gate 2 
+13: received UDP from AE-FE-90-E2-E4-6D| from gate 1 
+13: received UDP from 66-61-9D-74-73-6C| from gate 2 
+9: received UDP from BE-9F-28-45-51-28| from gate 2 
+8: received UDP from 6E-BB-7E-A7-F7-1F| from gate 5 
+12: received UDP from 1E-11-37-35-3F-E5| from gate 5 
+0: received UDP from CA-5B-9F-30-F3-5C| from gate 0 
+7: received UDP from 06-08-CB-6D-85-03| from gate 1 
+9: received UDP from 1E-A4-F6-C7-58-59| from gate 1 
+12: received UDP from 46-4F-23-27-28-68| from gate 7 
+10: received UDP from 06-12-3F-3E-E0-EF| from gate 1 
+9: received UDP from 02-42-C0-A8-00-42| from gate 1 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+10: received UDP from 02-42-C0-A8-00-42| from gate 1 
+10: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: received UDP from 02-42-C0-A8-00-42| from gate 1 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: received UDP from 02-42-C0-A8-00-42| from gate 1 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: received UDP from 02-42-C0-A8-00-42| from gate 1 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: received UDP from 26-7D-62-DD-BB-D0| from gate 3 
+11: received UDP from 7E-E0-9F-AD-28-8D| from gate 1 
+11: received UDP from E6-84-69-43-75-7D| from gate 5 
+8: received UDP from BA-28-F4-33-87-B2| from gate 4 
+12: received UDP from 6A-65-13-53-A6-73| from gate 8 
+14: received UDP from 02-42-C0-A8-00-42| from gate 1 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: received UDP from 56-05-B9-37-33-75| from gate 3 
+14: received UDP from 12-D5-5D-AD-3A-B1| from gate 1 
+11: received UDP from 86-3B-20-5A-87-75| from gate 4 
+12: received UDP from 02-E1-5C-38-FD-4A| from gate 6 
+8: received UDP from F2-ED-99-96-25-99| from gate 2 
+14: received UDP from 5A-6D-B4-BA-51-58| from gate 2 
+14: received UDP from AE-4C-13-9C-95-6D| from gate 5 
+14: received UDP from 86-CB-44-F6-C6-47| from gate 4 
+12: received UDP from 46-60-C8-45-C9-DD| from gate 1 
+12: received UDP from 8E-07-1C-7D-34-D5| from gate 2 
+14: received UDP from AE-97-AE-16-33-08| from gate 6 
+12: received UDP from 5A-4B-A4-DD-0C-1D| from gate 4 
+11: received UDP from 92-2B-03-03-BC-21| from gate 2 
+11: received UDP from E2-71-4F-4F-8F-8B| from gate 3 
+14: received UDP from E6-A6-04-5E-02-B9| from gate 3 
+7: received UDP from 8E-00-1E-03-E9-C5| from gate 2 
+8: received UDP from 0A-D1-1D-09-EA-83| from gate 1 
+9: received UDP from BE-9F-28-45-51-28| from gate 2 
+12: received UDP from 1E-11-37-35-3F-E5| from gate 5 
+12: received UDP from 46-4F-23-27-28-68| from gate 7 
+13: received UDP from 66-61-9D-74-73-6C| from gate 2 
+0: received UDP from CA-5B-9F-30-F3-5C| from gate 0 
+7: received UDP from 06-08-CB-6D-85-03| from gate 1 
+8: received UDP from 6E-BB-7E-A7-F7-1F| from gate 5 
+9: received UDP from 1E-A4-F6-C7-58-59| from gate 1 
+10: received UDP from 06-12-3F-3E-E0-EF| from gate 1 
+13: received UDP from AE-FE-90-E2-E4-6D| from gate 1 
+11: received UDP from 7E-E0-9F-AD-28-8D| from gate 1 
+8: received UDP from 26-7D-62-DD-BB-D0| from gate 3 
+8: received UDP from BA-28-F4-33-87-B2| from gate 4 
+11: received UDP from E6-84-69-43-75-7D| from gate 5 
+12: received UDP from 02-E1-5C-38-FD-4A| from gate 6 
+11: received UDP from 86-3B-20-5A-87-75| from gate 4 
+12: received UDP from 56-05-B9-37-33-75| from gate 3 
+12: received UDP from 6A-65-13-53-A6-73| from gate 8 
+14: received UDP from 12-D5-5D-AD-3A-B1| from gate 1 
+14: received UDP from 5A-6D-B4-BA-51-58| from gate 2 
+14: received UDP from 86-CB-44-F6-C6-47| from gate 4 
+8: received UDP from F2-ED-99-96-25-99| from gate 2 
+11: received UDP from 92-2B-03-03-BC-21| from gate 2 
+12: received UDP from 46-60-C8-45-C9-DD| from gate 1 
+12: received UDP from 8E-07-1C-7D-34-D5| from gate 2 
+12: received UDP from 5A-4B-A4-DD-0C-1D| from gate 4 
+14: received UDP from AE-4C-13-9C-95-6D| from gate 5 
+14: received UDP from AE-97-AE-16-33-08| from gate 6 
+7: received UDP from 8E-00-1E-03-E9-C5| from gate 2 
+11: received UDP from E2-71-4F-4F-8F-8B| from gate 3 
+14: received UDP from E6-A6-04-5E-02-B9| from gate 3 
+8: received UDP from 0A-D1-1D-09-EA-83| from gate 1 
+12: received UDP from 46-4F-23-27-28-68| from gate 7 
+7: received UDP from 02-42-C0-A8-00-42| from gate 1 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: Not first UDP
+Recieved signal to send state dict from 1
+7: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker1.txt
+7: sending vector of tensors with size: 10
+12: received UDP from 1E-11-37-35-3F-E5| from gate 5 
+13: received UDP from 66-61-9D-74-73-6C| from gate 2 
+9: received UDP from 1E-A4-F6-C7-58-59| from gate 1 
+9: received UDP from BE-9F-28-45-51-28| from gate 2 
+13: received UDP from AE-FE-90-E2-E4-6D| from gate 1 
+7: received UDP from 02-42-C0-A8-00-42| from gate 2 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: Not first UDP
+Recieved signal to send state dict from 2
+7: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker2.txt
+7: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+0: received UDP from CA-5B-9F-30-F3-5C| from gate 0 
+8: received UDP from 6E-BB-7E-A7-F7-1F| from gate 5 
+10: received UDP from 06-12-3F-3E-E0-EF| from gate 1 
+7: received UDP from 06-08-CB-6D-85-03| from gate 1 
+8: received UDP from 02-42-C0-A8-00-42| from gate 5 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 7
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker7.txt
+8: sending vector of tensors with size: 10
+10: received UDP from 02-42-C0-A8-00-42| from gate 1 
+10: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+10: Not first UDP
+Recieved signal to send state dict from 10
+10: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker10.txt
+10: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+11: received UDP from 02-42-C0-A8-00-42| from gate 2 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 12
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker12.txt
+11: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 4 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 14
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker14.txt
+11: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 1 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 3
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker3.txt
+8: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 5 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 15
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker15.txt
+11: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 2 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 17
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker17.txt
+12: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 5 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 20
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker20.txt
+12: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 1 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 16
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker16.txt
+12: sending vector of tensors with size: 10
+13: received UDP from 02-42-C0-A8-00-42| from gate 1 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: Not first UDP
+Recieved signal to send state dict from 24
+13: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker24.txt
+13: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 3 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 5
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker5.txt
+8: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 2 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 27
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker27.txt
+14: sending vector of tensors with size: 10
+13: received UDP from 02-42-C0-A8-00-42| from gate 2 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: Not first UDP
+Recieved signal to send state dict from 25
+13: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker25.txt
+13: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+8: received UDP from 02-42-C0-A8-00-42| from gate 2 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 4
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker4.txt
+8: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 8 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 23
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker23.txt
+12: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 4 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 6
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker6.txt
+8: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+9: received UDP from 02-42-C0-A8-00-42| from gate 2 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: Not first UDP
+Recieved signal to send state dict from 9
+9: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker9.txt
+9: sending vector of tensors with size: 10
+9: received UDP from 02-42-C0-A8-00-42| from gate 1 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: Not first UDP
+Recieved signal to send state dict from 8
+9: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker8.txt
+9: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+12: received UDP from 02-42-C0-A8-00-42| from gate 4 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 19
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker19.txt
+12: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 1 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 11
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker11.txt
+11: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 3 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 18
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker18.txt
+12: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 3 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 13
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker13.txt
+11: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+14: received UDP from 02-42-C0-A8-00-42| from gate 4 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 29
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker29.txt
+14: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 6 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 21
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker21.txt
+12: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 7 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 22
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker22.txt
+12: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+14: received UDP from 02-42-C0-A8-00-42| from gate 6 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 31
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker31.txt
+14: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 1 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 26
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker26.txt
+14: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 3 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 28
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker28.txt
+14: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 5 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 30
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker30.txt
+14: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+0: sending signal from root to testnet.sw[7].smartL
+0: sending signal from root to testnet.sw[8].smartL
+0: sending signal from root to testnet.sw[9].smartL
+0: sending signal from root to testnet.sw[10].smartL
+0: sending signal from root to testnet.sw[11].smartL
+0: sending signal from root to testnet.sw[12].smartL
+0: sending signal from root to testnet.sw[13].smartL
+0: sending signal from root to testnet.sw[14].smartL
+7: sending messages from switch after sync
+8: sending messages from switch after sync
+9: sending messages from switch after sync
+10: sending messages from switch after sync
+11: sending messages from switch after sync
+12: sending messages from switch after sync
+13: sending messages from switch after sync
+14: sending messages from switch after sync
+3: it is our custom msg| from gate: 1
+3: message is from worker| gate : 1
+3: storing dictionary...
+3: received 1/2
+3: it is our custom msg| from gate: 2
+3: message is from worker| gate : 2
+3: storing dictionary...
+3: received 2/2
+4: it is our custom msg| from gate: 1
+4: message is from worker| gate : 1
+4: storing dictionary...
+4: received 1/2
+4: it is our custom msg| from gate: 2
+4: message is from worker| gate : 2
+4: storing dictionary...
+4: received 2/2
+5: it is our custom msg| from gate: 1
+5: message is from worker| gate : 1
+5: storing dictionary...
+5: received 1/2
+5: it is our custom msg| from gate: 2
+5: message is from worker| gate : 2
+5: storing dictionary...
+5: received 2/2
+6: it is our custom msg| from gate: 1
+6: message is from worker| gate : 1
+6: storing dictionary...
+6: received 1/2
+6: it is our custom msg| from gate: 2
+6: message is from worker| gate : 2
+6: storing dictionary...
+6: received 2/2
+1: it is our custom msg| from gate: 1
+1: message is from worker| gate : 1
+1: storing dictionary...
+1: received 1/2
+1: it is our custom msg| from gate: 2
+1: message is from worker| gate : 2
+1: storing dictionary...
+1: received 2/2
+2: it is our custom msg| from gate: 1
+2: message is from worker| gate : 1
+2: storing dictionary...
+2: received 1/2
+2: it is our custom msg| from gate: 2
+2: message is from worker| gate : 2
+2: storing dictionary...
+2: received 2/2
+11: received UDP from 7E-E0-9F-AD-28-8D| from gate 1 
+12: received UDP from 02-E1-5C-38-FD-4A| from gate 6 
+0: it is our custom msg| from gate: 1
+0: message is from worker| gate : 1
+0: storing dictionary...
+0: received 1/2
+0: it is our custom msg| from gate: 2
+0: message is from worker| gate : 2
+0: storing dictionary...
+0: received 2/2
+11: received UDP from E6-84-69-43-75-7D| from gate 5 
+8: received UDP from BA-28-F4-33-87-B2| from gate 4 
+0: received UDP from 02-42-C0-A8-00-42| from gate 0 
+0: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+0: Not first UDP
+14: received UDP from 12-D5-5D-AD-3A-B1| from gate 1 
+14: received UDP from 5A-6D-B4-BA-51-58| from gate 2 
+14: received UDP from 86-CB-44-F6-C6-47| from gate 4 
+8: received UDP from 26-7D-62-DD-BB-D0| from gate 3 
+1: it is our custom msg| from gate: 0
+1: message is from server
+1: not a leaf so broadcasting downstream
+2: it is our custom msg| from gate: 0
+2: message is from server
+2: not a leaf so broadcasting downstream
+11: received UDP from 92-2B-03-03-BC-21| from gate 2 
+12: received UDP from 46-60-C8-45-C9-DD| from gate 1 
+12: received UDP from 6A-65-13-53-A6-73| from gate 8 
+8: received UDP from F2-ED-99-96-25-99| from gate 2 
+11: received UDP from 86-3B-20-5A-87-75| from gate 4 
+12: received UDP from 56-05-B9-37-33-75| from gate 3 
+12: received UDP from 5A-4B-A4-DD-0C-1D| from gate 4 
+14: received UDP from AE-4C-13-9C-95-6D| from gate 5 
+3: it is our custom msg| from gate: 0
+3: message is from server
+3: not a leaf so broadcasting downstream
+4: it is our custom msg| from gate: 0
+4: message is from server
+4: not a leaf so broadcasting downstream
+5: it is our custom msg| from gate: 0
+5: message is from server
+5: not a leaf so broadcasting downstream
+6: it is our custom msg| from gate: 0
+6: message is from server
+6: not a leaf so broadcasting downstream
+12: received UDP from 8E-07-1C-7D-34-D5| from gate 2 
+14: received UDP from AE-97-AE-16-33-08| from gate 6 
+7: received UDP from 8E-00-1E-03-E9-C5| from gate 2 
+8: received UDP from 0A-D1-1D-09-EA-83| from gate 1 
+7: it is our custom msg| from gate: 0
+7: message is from server
+7: sending signal to hosts
+8: it is our custom msg| from gate: 0
+8: message is from server
+8: sending signal to hosts
+9: it is our custom msg| from gate: 0
+9: message is from server
+9: sending signal to hosts
+10: it is our custom msg| from gate: 0
+10: message is from server
+10: sending signal to hosts
+11: it is our custom msg| from gate: 0
+11: message is from server
+11: sending signal to hosts
+12: it is our custom msg| from gate: 0
+12: message is from server
+12: sending signal to hosts
+13: it is our custom msg| from gate: 0
+13: message is from server
+13: sending signal to hosts
+14: it is our custom msg| from gate: 0
+14: message is from server
+14: sending signal to hosts
+11: received UDP from E2-71-4F-4F-8F-8B| from gate 3 
+12: received UDP from 46-4F-23-27-28-68| from gate 7 
+14: received UDP from E6-A6-04-5E-02-B9| from gate 3 
+12: received UDP from 1E-11-37-35-3F-E5| from gate 5 
+13: received UDP from AE-FE-90-E2-E4-6D| from gate 1 
+13: received UDP from 66-61-9D-74-73-6C| from gate 2 
+9: received UDP from 1E-A4-F6-C7-58-59| from gate 1 
+9: received UDP from BE-9F-28-45-51-28| from gate 2 
+10: received UDP from 06-12-3F-3E-E0-EF| from gate 1 
+8: received UDP from 6E-BB-7E-A7-F7-1F| from gate 5 
+0: received UDP from CA-5B-9F-30-F3-5C| from gate 0 
+7: received UDP from 06-08-CB-6D-85-03| from gate 1 
+7: received UDP from 02-42-C0-A8-00-42| from gate 2 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: Not first UDP
+Recieved signal to send state dict from 2
+7: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker2.txt
+7: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 5 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 15
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker15.txt
+11: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 8 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 23
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker23.txt
+12: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 2 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 12
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker12.txt
+11: sending vector of tensors with size: 10
+13: received UDP from 02-42-C0-A8-00-42| from gate 1 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: Not first UDP
+Recieved signal to send state dict from 24
+13: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker24.txt
+13: sending vector of tensors with size: 10
+10: received UDP from 02-42-C0-A8-00-42| from gate 1 
+10: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+10: Not first UDP
+Recieved signal to send state dict from 10
+10: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker10.txt
+10: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+11: received UDP from 02-42-C0-A8-00-42| from gate 4 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 14
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker14.txt
+11: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 1 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 16
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker16.txt
+12: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 5 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 20
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker20.txt
+12: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 2 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 27
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker27.txt
+14: sending vector of tensors with size: 10
+13: received UDP from 02-42-C0-A8-00-42| from gate 2 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: Not first UDP
+Recieved signal to send state dict from 25
+13: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker25.txt
+13: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+8: received UDP from 02-42-C0-A8-00-42| from gate 5 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 7
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker7.txt
+8: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 2 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 17
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker17.txt
+12: sending vector of tensors with size: 10
+7: received UDP from 02-42-C0-A8-00-42| from gate 1 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: Not first UDP
+Recieved signal to send state dict from 1
+7: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker1.txt
+7: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+14: received UDP from 02-42-C0-A8-00-42| from gate 3 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 28
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker28.txt
+14: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 2 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 4
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker4.txt
+8: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 7 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 22
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker22.txt
+12: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 6 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 31
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker31.txt
+14: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 1 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 3
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker3.txt
+8: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 4 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 19
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker19.txt
+12: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 4 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 29
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker29.txt
+14: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 6 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 21
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker21.txt
+12: sending vector of tensors with size: 10
+9: received UDP from 02-42-C0-A8-00-42| from gate 1 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: Not first UDP
+Recieved signal to send state dict from 8
+9: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker8.txt
+9: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 3 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 18
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker18.txt
+12: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+8: received UDP from 02-42-C0-A8-00-42| from gate 3 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 5
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker5.txt
+8: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 5 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 30
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker30.txt
+14: sending vector of tensors with size: 10
+9: received UDP from 02-42-C0-A8-00-42| from gate 2 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: Not first UDP
+Recieved signal to send state dict from 9
+9: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker9.txt
+9: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+11: received UDP from 02-42-C0-A8-00-42| from gate 1 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 11
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker11.txt
+11: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 4 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 6
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker6.txt
+8: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+11: received UDP from 02-42-C0-A8-00-42| from gate 3 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 13
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker13.txt
+11: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+14: received UDP from 02-42-C0-A8-00-42| from gate 1 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 26
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker26.txt
+14: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+0: sending signal from root to testnet.sw[7].smartL
+0: sending signal from root to testnet.sw[8].smartL
+0: sending signal from root to testnet.sw[9].smartL
+0: sending signal from root to testnet.sw[10].smartL
+0: sending signal from root to testnet.sw[11].smartL
+0: sending signal from root to testnet.sw[12].smartL
+0: sending signal from root to testnet.sw[13].smartL
+0: sending signal from root to testnet.sw[14].smartL
+7: sending messages from switch after sync
+8: sending messages from switch after sync
+9: sending messages from switch after sync
+10: sending messages from switch after sync
+11: sending messages from switch after sync
+12: sending messages from switch after sync
+13: sending messages from switch after sync
+14: sending messages from switch after sync
+11: received UDP from 7E-E0-9F-AD-28-8D| from gate 1 
+3: it is our custom msg| from gate: 1
+3: message is from worker| gate : 1
+3: storing dictionary...
+3: received 1/2
+3: it is our custom msg| from gate: 2
+3: message is from worker| gate : 2
+3: storing dictionary...
+3: received 2/2
+4: it is our custom msg| from gate: 1
+4: message is from worker| gate : 1
+4: storing dictionary...
+4: received 1/2
+4: it is our custom msg| from gate: 2
+4: message is from worker| gate : 2
+4: storing dictionary...
+4: received 2/2
+5: it is our custom msg| from gate: 1
+5: message is from worker| gate : 1
+5: storing dictionary...
+5: received 1/2
+5: it is our custom msg| from gate: 2
+5: message is from worker| gate : 2
+5: storing dictionary...
+5: received 2/2
+6: it is our custom msg| from gate: 1
+6: message is from worker| gate : 1
+6: storing dictionary...
+6: received 1/2
+6: it is our custom msg| from gate: 2
+6: message is from worker| gate : 2
+6: storing dictionary...
+6: received 2/2
+12: received UDP from 02-E1-5C-38-FD-4A| from gate 6 
+1: it is our custom msg| from gate: 1
+1: message is from worker| gate : 1
+1: storing dictionary...
+1: received 1/2
+1: it is our custom msg| from gate: 2
+1: message is from worker| gate : 2
+1: storing dictionary...
+1: received 2/2
+2: it is our custom msg| from gate: 1
+2: message is from worker| gate : 1
+2: storing dictionary...
+2: received 1/2
+2: it is our custom msg| from gate: 2
+2: message is from worker| gate : 2
+2: storing dictionary...
+2: received 2/2
+8: received UDP from BA-28-F4-33-87-B2| from gate 4 
+0: it is our custom msg| from gate: 1
+0: message is from worker| gate : 1
+0: storing dictionary...
+0: received 1/2
+0: it is our custom msg| from gate: 2
+0: message is from worker| gate : 2
+0: storing dictionary...
+0: received 2/2
+11: received UDP from E6-84-69-43-75-7D| from gate 5 
+14: received UDP from 12-D5-5D-AD-3A-B1| from gate 1 
+0: received UDP from 02-42-C0-A8-00-42| from gate 0 
+0: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+0: Not first UDP
+11: received UDP from 92-2B-03-03-BC-21| from gate 2 
+14: received UDP from 5A-6D-B4-BA-51-58| from gate 2 
+14: received UDP from 86-CB-44-F6-C6-47| from gate 4 
+1: it is our custom msg| from gate: 0
+1: message is from server
+1: not a leaf so broadcasting downstream
+2: it is our custom msg| from gate: 0
+2: message is from server
+2: not a leaf so broadcasting downstream
+12: received UDP from 46-60-C8-45-C9-DD| from gate 1 
+3: it is our custom msg| from gate: 0
+3: message is from server
+3: not a leaf so broadcasting downstream
+4: it is our custom msg| from gate: 0
+4: message is from server
+4: not a leaf so broadcasting downstream
+5: it is our custom msg| from gate: 0
+5: message is from server
+5: not a leaf so broadcasting downstream
+6: it is our custom msg| from gate: 0
+6: message is from server
+6: not a leaf so broadcasting downstream
+8: received UDP from 26-7D-62-DD-BB-D0| from gate 3 
+14: received UDP from AE-4C-13-9C-95-6D| from gate 5 
+7: it is our custom msg| from gate: 0
+7: message is from server
+7: sending signal to hosts
+8: it is our custom msg| from gate: 0
+8: message is from server
+8: sending signal to hosts
+9: it is our custom msg| from gate: 0
+9: message is from server
+9: sending signal to hosts
+10: it is our custom msg| from gate: 0
+10: message is from server
+10: sending signal to hosts
+11: it is our custom msg| from gate: 0
+11: message is from server
+11: sending signal to hosts
+12: it is our custom msg| from gate: 0
+12: message is from server
+12: sending signal to hosts
+13: it is our custom msg| from gate: 0
+13: message is from server
+13: sending signal to hosts
+14: it is our custom msg| from gate: 0
+14: message is from server
+14: sending signal to hosts
+11: received UDP from 86-3B-20-5A-87-75| from gate 4 
+12: received UDP from 6A-65-13-53-A6-73| from gate 8 
+12: received UDP from 5A-4B-A4-DD-0C-1D| from gate 4 
+7: received UDP from 8E-00-1E-03-E9-C5| from gate 2 
+8: received UDP from F2-ED-99-96-25-99| from gate 2 
+8: received UDP from 0A-D1-1D-09-EA-83| from gate 1 
+14: received UDP from AE-97-AE-16-33-08| from gate 6 
+12: received UDP from 8E-07-1C-7D-34-D5| from gate 2 
+11: received UDP from E2-71-4F-4F-8F-8B| from gate 3 
+12: received UDP from 46-4F-23-27-28-68| from gate 7 
+14: received UDP from E6-A6-04-5E-02-B9| from gate 3 
+12: received UDP from 56-05-B9-37-33-75| from gate 3 
+12: received UDP from 1E-11-37-35-3F-E5| from gate 5 
+9: received UDP from 1E-A4-F6-C7-58-59| from gate 1 
+13: received UDP from AE-FE-90-E2-E4-6D| from gate 1 
+13: received UDP from 66-61-9D-74-73-6C| from gate 2 
+8: received UDP from 6E-BB-7E-A7-F7-1F| from gate 5 
+10: received UDP from 06-12-3F-3E-E0-EF| from gate 1 
+0: received UDP from CA-5B-9F-30-F3-5C| from gate 0 
+7: received UDP from 06-08-CB-6D-85-03| from gate 1 
+9: received UDP from BE-9F-28-45-51-28| from gate 2 
+14: received UDP from 02-42-C0-A8-00-42| from gate 2 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 27
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker27.txt
+14: sending vector of tensors with size: 10
+7: received UDP from 02-42-C0-A8-00-42| from gate 1 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: Not first UDP
+Recieved signal to send state dict from 1
+7: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker1.txt
+7: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 8 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 23
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker23.txt
+12: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 5 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 20
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker20.txt
+12: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 2 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 17
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker17.txt
+12: sending vector of tensors with size: 10
+10: received UDP from 02-42-C0-A8-00-42| from gate 1 
+10: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+10: Not first UDP
+Recieved signal to send state dict from 10
+10: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker10.txt
+10: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+8: received UDP from 02-42-C0-A8-00-42| from gate 5 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 7
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker7.txt
+8: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 2 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 12
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker12.txt
+11: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 1 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 16
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker16.txt
+12: sending vector of tensors with size: 10
+13: received UDP from 02-42-C0-A8-00-42| from gate 2 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: Not first UDP
+Recieved signal to send state dict from 25
+13: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker25.txt
+13: sending vector of tensors with size: 10
+7: received UDP from 02-42-C0-A8-00-42| from gate 2 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: Not first UDP
+Recieved signal to send state dict from 2
+7: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker2.txt
+7: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+11: received UDP from 02-42-C0-A8-00-42| from gate 5 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 15
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker15.txt
+11: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 4 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 14
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker14.txt
+11: sending vector of tensors with size: 10
+13: received UDP from 02-42-C0-A8-00-42| from gate 1 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: Not first UDP
+Recieved signal to send state dict from 24
+13: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker24.txt
+13: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+14: received UDP from 02-42-C0-A8-00-42| from gate 3 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 28
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker28.txt
+14: sending vector of tensors with size: 10
+9: received UDP from 02-42-C0-A8-00-42| from gate 2 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: Not first UDP
+Recieved signal to send state dict from 9
+9: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker9.txt
+9: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 3 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 18
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker18.txt
+12: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 4 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 19
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker19.txt
+12: sending vector of tensors with size: 10
+9: received UDP from 02-42-C0-A8-00-42| from gate 1 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: Not first UDP
+Recieved signal to send state dict from 8
+9: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker8.txt
+9: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+8: received UDP from 02-42-C0-A8-00-42| from gate 1 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 3
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker3.txt
+8: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 3 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 13
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker13.txt
+11: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 3 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 5
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker5.txt
+8: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 6 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 31
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker31.txt
+14: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 1 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 26
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker26.txt
+14: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 4 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 29
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker29.txt
+14: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 1 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 11
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker11.txt
+11: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+8: received UDP from 02-42-C0-A8-00-42| from gate 2 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 4
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker4.txt
+8: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 7 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 22
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker22.txt
+12: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 5 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 30
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker30.txt
+14: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+12: received UDP from 02-42-C0-A8-00-42| from gate 6 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 21
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker21.txt
+12: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+8: received UDP from 02-42-C0-A8-00-42| from gate 4 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 6
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker6.txt
+8: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+0: sending signal from root to testnet.sw[7].smartL
+0: sending signal from root to testnet.sw[8].smartL
+0: sending signal from root to testnet.sw[9].smartL
+0: sending signal from root to testnet.sw[10].smartL
+0: sending signal from root to testnet.sw[11].smartL
+0: sending signal from root to testnet.sw[12].smartL
+0: sending signal from root to testnet.sw[13].smartL
+0: sending signal from root to testnet.sw[14].smartL
+7: sending messages from switch after sync
+8: sending messages from switch after sync
+9: sending messages from switch after sync
+10: sending messages from switch after sync
+11: sending messages from switch after sync
+12: sending messages from switch after sync
+13: sending messages from switch after sync
+14: sending messages from switch after sync
+3: it is our custom msg| from gate: 1
+3: message is from worker| gate : 1
+3: storing dictionary...
+3: received 1/2
+3: it is our custom msg| from gate: 2
+3: message is from worker| gate : 2
+3: storing dictionary...
+3: received 2/2
+4: it is our custom msg| from gate: 1
+4: message is from worker| gate : 1
+4: storing dictionary...
+4: received 1/2
+4: it is our custom msg| from gate: 2
+4: message is from worker| gate : 2
+4: storing dictionary...
+4: received 2/2
+5: it is our custom msg| from gate: 1
+5: message is from worker| gate : 1
+5: storing dictionary...
+5: received 1/2
+5: it is our custom msg| from gate: 2
+5: message is from worker| gate : 2
+5: storing dictionary...
+5: received 2/2
+6: it is our custom msg| from gate: 1
+6: message is from worker| gate : 1
+6: storing dictionary...
+6: received 1/2
+6: it is our custom msg| from gate: 2
+6: message is from worker| gate : 2
+6: storing dictionary...
+6: received 2/2
+1: it is our custom msg| from gate: 1
+1: message is from worker| gate : 1
+1: storing dictionary...
+1: received 1/2
+1: it is our custom msg| from gate: 2
+1: message is from worker| gate : 2
+1: storing dictionary...
+1: received 2/2
+2: it is our custom msg| from gate: 1
+2: message is from worker| gate : 1
+2: storing dictionary...
+2: received 1/2
+2: it is our custom msg| from gate: 2
+2: message is from worker| gate : 2
+2: storing dictionary...
+2: received 2/2
+0: it is our custom msg| from gate: 1
+0: message is from worker| gate : 1
+0: storing dictionary...
+0: received 1/2
+0: it is our custom msg| from gate: 2
+0: message is from worker| gate : 2
+0: storing dictionary...
+0: received 2/2
+0: received UDP from 02-42-C0-A8-00-42| from gate 0 
+0: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+0: Not first UDP
+1: it is our custom msg| from gate: 0
+1: message is from server
+1: not a leaf so broadcasting downstream
+2: it is our custom msg| from gate: 0
+2: message is from server
+2: not a leaf so broadcasting downstream
+3: it is our custom msg| from gate: 0
+3: message is from server
+3: not a leaf so broadcasting downstream
+4: it is our custom msg| from gate: 0
+4: message is from server
+4: not a leaf so broadcasting downstream
+5: it is our custom msg| from gate: 0
+5: message is from server
+5: not a leaf so broadcasting downstream
+6: it is our custom msg| from gate: 0
+6: message is from server
+6: not a leaf so broadcasting downstream
+7: it is our custom msg| from gate: 0
+7: message is from server
+7: sending signal to hosts
+8: it is our custom msg| from gate: 0
+8: message is from server
+8: sending signal to hosts
+9: it is our custom msg| from gate: 0
+9: message is from server
+9: sending signal to hosts
+10: it is our custom msg| from gate: 0
+10: message is from server
+10: sending signal to hosts
+11: it is our custom msg| from gate: 0
+11: message is from server
+11: sending signal to hosts
+12: it is our custom msg| from gate: 0
+12: message is from server
+12: sending signal to hosts
+13: it is our custom msg| from gate: 0
+13: message is from server
+13: sending signal to hosts
+14: it is our custom msg| from gate: 0
+14: message is from server
+14: sending signal to hosts
+11: received UDP from 7E-E0-9F-AD-28-8D| from gate 1 
+12: received UDP from 02-42-C0-A8-00-42| from gate 5 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 20
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker20.txt
+12: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 5 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 15
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker15.txt
+11: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 1 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 16
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker16.txt
+12: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 2 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 12
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker12.txt
+11: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 4 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 14
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker14.txt
+11: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 8 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 23
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker23.txt
+12: sending vector of tensors with size: 10
+7: received UDP from 02-42-C0-A8-00-42| from gate 2 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: Not first UDP
+Recieved signal to send state dict from 2
+7: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker2.txt
+7: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 5 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 7
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker7.txt
+8: sending vector of tensors with size: 10
+10: received UDP from 02-42-C0-A8-00-42| from gate 1 
+10: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+10: Not first UDP
+Recieved signal to send state dict from 10
+10: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker10.txt
+10: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+13: received UDP from 02-42-C0-A8-00-42| from gate 1 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: Not first UDP
+Recieved signal to send state dict from 24
+13: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker24.txt
+13: sending vector of tensors with size: 10
+7: received UDP from 02-42-C0-A8-00-42| from gate 1 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: Not first UDP
+Recieved signal to send state dict from 1
+7: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker1.txt
+7: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+12: received UDP from 02-42-C0-A8-00-42| from gate 2 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 17
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker17.txt
+12: sending vector of tensors with size: 10
+13: received UDP from 02-42-C0-A8-00-42| from gate 2 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: Not first UDP
+Recieved signal to send state dict from 25
+13: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker25.txt
+13: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+14: received UDP from 02-42-C0-A8-00-42| from gate 2 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 27
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker27.txt
+14: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 6 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 21
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker21.txt
+12: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 4 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 19
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker19.txt
+12: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 3 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 5
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker5.txt
+8: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 1 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 26
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker26.txt
+14: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 4 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 6
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker6.txt
+8: sending vector of tensors with size: 10
+11: received UDP from 92-2B-03-03-BC-21| from gate 2 
+12: received UDP from 02-E1-5C-38-FD-4A| from gate 6 
+14: received UDP from 02-42-C0-A8-00-42| from gate 5 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 30
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker30.txt
+14: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 6 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 31
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker31.txt
+14: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 1 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 3
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker3.txt
+8: sending vector of tensors with size: 10
+9: received UDP from 02-42-C0-A8-00-42| from gate 1 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: Not first UDP
+Recieved signal to send state dict from 8
+9: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker8.txt
+9: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 7 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 22
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker22.txt
+12: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 4 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 29
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker29.txt
+14: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 3 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 18
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker18.txt
+12: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+11: received UDP from 02-42-C0-A8-00-42| from gate 3 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 13
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker13.txt
+11: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 3 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 28
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker28.txt
+14: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+9: received UDP from 02-42-C0-A8-00-42| from gate 2 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: Not first UDP
+Recieved signal to send state dict from 9
+9: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker9.txt
+9: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+8: received UDP from 02-42-C0-A8-00-42| from gate 2 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 4
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker4.txt
+8: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+11: received UDP from 02-42-C0-A8-00-42| from gate 1 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 11
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker11.txt
+11: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+0: sending signal from root to testnet.sw[7].smartL
+0: sending signal from root to testnet.sw[8].smartL
+0: sending signal from root to testnet.sw[9].smartL
+0: sending signal from root to testnet.sw[10].smartL
+0: sending signal from root to testnet.sw[11].smartL
+0: sending signal from root to testnet.sw[12].smartL
+0: sending signal from root to testnet.sw[13].smartL
+0: sending signal from root to testnet.sw[14].smartL
+7: sending messages from switch after sync
+8: sending messages from switch after sync
+9: sending messages from switch after sync
+10: sending messages from switch after sync
+11: sending messages from switch after sync
+12: sending messages from switch after sync
+13: sending messages from switch after sync
+14: sending messages from switch after sync
+3: it is our custom msg| from gate: 1
+3: message is from worker| gate : 1
+3: storing dictionary...
+3: received 1/2
+3: it is our custom msg| from gate: 2
+3: message is from worker| gate : 2
+3: storing dictionary...
+3: received 2/2
+4: it is our custom msg| from gate: 1
+4: message is from worker| gate : 1
+4: storing dictionary...
+4: received 1/2
+4: it is our custom msg| from gate: 2
+4: message is from worker| gate : 2
+4: storing dictionary...
+4: received 2/2
+5: it is our custom msg| from gate: 1
+5: message is from worker| gate : 1
+5: storing dictionary...
+5: received 1/2
+5: it is our custom msg| from gate: 2
+5: message is from worker| gate : 2
+5: storing dictionary...
+5: received 2/2
+6: it is our custom msg| from gate: 1
+6: message is from worker| gate : 1
+6: storing dictionary...
+6: received 1/2
+6: it is our custom msg| from gate: 2
+6: message is from worker| gate : 2
+6: storing dictionary...
+6: received 2/2
+1: it is our custom msg| from gate: 1
+1: message is from worker| gate : 1
+1: storing dictionary...
+1: received 1/2
+1: it is our custom msg| from gate: 2
+1: message is from worker| gate : 2
+1: storing dictionary...
+1: received 2/2
+2: it is our custom msg| from gate: 1
+2: message is from worker| gate : 1
+2: storing dictionary...
+2: received 1/2
+2: it is our custom msg| from gate: 2
+2: message is from worker| gate : 2
+2: storing dictionary...
+2: received 2/2
+0: it is our custom msg| from gate: 1
+0: message is from worker| gate : 1
+0: storing dictionary...
+0: received 1/2
+0: it is our custom msg| from gate: 2
+0: message is from worker| gate : 2
+0: storing dictionary...
+0: received 2/2
+0: received UDP from 02-42-C0-A8-00-42| from gate 0 
+0: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+0: Not first UDP
+8: received UDP from BA-28-F4-33-87-B2| from gate 4 
+14: received UDP from 12-D5-5D-AD-3A-B1| from gate 1 
+1: it is our custom msg| from gate: 0
+1: message is from server
+1: not a leaf so broadcasting downstream
+2: it is our custom msg| from gate: 0
+2: message is from server
+2: not a leaf so broadcasting downstream
+3: it is our custom msg| from gate: 0
+3: message is from server
+3: not a leaf so broadcasting downstream
+4: it is our custom msg| from gate: 0
+4: message is from server
+4: not a leaf so broadcasting downstream
+5: it is our custom msg| from gate: 0
+5: message is from server
+5: not a leaf so broadcasting downstream
+6: it is our custom msg| from gate: 0
+6: message is from server
+6: not a leaf so broadcasting downstream
+7: it is our custom msg| from gate: 0
+7: message is from server
+7: sending signal to hosts
+8: it is our custom msg| from gate: 0
+8: message is from server
+8: sending signal to hosts
+9: it is our custom msg| from gate: 0
+9: message is from server
+9: sending signal to hosts
+10: it is our custom msg| from gate: 0
+10: message is from server
+10: sending signal to hosts
+11: it is our custom msg| from gate: 0
+11: message is from server
+11: sending signal to hosts
+12: it is our custom msg| from gate: 0
+12: message is from server
+12: sending signal to hosts
+13: it is our custom msg| from gate: 0
+13: message is from server
+13: sending signal to hosts
+14: it is our custom msg| from gate: 0
+14: message is from server
+14: sending signal to hosts
+11: received UDP from E6-84-69-43-75-7D| from gate 5 
+12: received UDP from 46-60-C8-45-C9-DD| from gate 1 
+14: received UDP from 5A-6D-B4-BA-51-58| from gate 2 
+14: received UDP from 86-CB-44-F6-C6-47| from gate 4 
+14: received UDP from AE-4C-13-9C-95-6D| from gate 5 
+7: received UDP from 8E-00-1E-03-E9-C5| from gate 2 
+8: received UDP from 0A-D1-1D-09-EA-83| from gate 1 
+8: received UDP from 26-7D-62-DD-BB-D0| from gate 3 
+11: received UDP from 86-3B-20-5A-87-75| from gate 4 
+12: received UDP from 6A-65-13-53-A6-73| from gate 8 
+8: received UDP from F2-ED-99-96-25-99| from gate 2 
+11: received UDP from E2-71-4F-4F-8F-8B| from gate 3 
+12: received UDP from 8E-07-1C-7D-34-D5| from gate 2 
+12: received UDP from 5A-4B-A4-DD-0C-1D| from gate 4 
+14: received UDP from AE-97-AE-16-33-08| from gate 6 
+12: received UDP from 56-05-B9-37-33-75| from gate 3 
+14: received UDP from E6-A6-04-5E-02-B9| from gate 3 
+12: received UDP from 46-4F-23-27-28-68| from gate 7 
+12: received UDP from 1E-11-37-35-3F-E5| from gate 5 
+13: received UDP from 66-61-9D-74-73-6C| from gate 2 
+10: received UDP from 02-42-C0-A8-00-42| from gate 1 
+10: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+10: Not first UDP
+Recieved signal to send state dict from 10
+10: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker10.txt
+10: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+12: received UDP from 02-42-C0-A8-00-42| from gate 2 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 17
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker17.txt
+12: sending vector of tensors with size: 10
+13: received UDP from 02-42-C0-A8-00-42| from gate 2 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: Not first UDP
+Recieved signal to send state dict from 25
+13: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker25.txt
+13: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 5 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 15
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker15.txt
+11: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 1 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 16
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker16.txt
+12: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 8 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 23
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker23.txt
+12: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 4 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 14
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker14.txt
+11: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 5 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 20
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker20.txt
+12: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 2 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 12
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker12.txt
+11: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 5 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 7
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker7.txt
+8: sending vector of tensors with size: 10
+7: received UDP from 02-42-C0-A8-00-42| from gate 1 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: Not first UDP
+Recieved signal to send state dict from 1
+7: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker1.txt
+7: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 2 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 27
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker27.txt
+14: sending vector of tensors with size: 10
+13: received UDP from 02-42-C0-A8-00-42| from gate 1 
+13: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+13: Not first UDP
+Recieved signal to send state dict from 24
+13: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker24.txt
+13: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+7: received UDP from 02-42-C0-A8-00-42| from gate 2 
+7: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+7: Not first UDP
+Recieved signal to send state dict from 2
+7: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker2.txt
+7: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+11: received UDP from 02-42-C0-A8-00-42| from gate 1 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 11
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker11.txt
+11: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 1 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 3
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker3.txt
+8: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 2 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 4
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker4.txt
+8: sending vector of tensors with size: 10
+8: received UDP from 02-42-C0-A8-00-42| from gate 3 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 5
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker5.txt
+8: sending vector of tensors with size: 10
+11: received UDP from 02-42-C0-A8-00-42| from gate 3 
+11: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+11: Not first UDP
+Recieved signal to send state dict from 13
+11: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker13.txt
+11: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+8: received UDP from 02-42-C0-A8-00-42| from gate 4 
+8: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+8: Not first UDP
+Recieved signal to send state dict from 6
+8: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker6.txt
+8: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+14: received UDP from 02-42-C0-A8-00-42| from gate 3 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 28
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker28.txt
+14: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 7 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 22
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker22.txt
+12: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 4 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 29
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker29.txt
+14: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 4 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 19
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker19.txt
+12: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 5 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 30
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker30.txt
+14: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 3 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 18
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker18.txt
+12: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 1 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 26
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker26.txt
+14: sending vector of tensors with size: 10
+9: received UDP from 02-42-C0-A8-00-42| from gate 1 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: Not first UDP
+Recieved signal to send state dict from 8
+9: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker8.txt
+9: sending vector of tensors with size: 10
+14: received UDP from 02-42-C0-A8-00-42| from gate 6 
+14: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+14: Not first UDP
+Recieved signal to send state dict from 31
+14: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker31.txt
+14: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+9: received UDP from 1E-A4-F6-C7-58-59| from gate 1 
+13: received UDP from AE-FE-90-E2-E4-6D| from gate 1 
+9: received UDP from 02-42-C0-A8-00-42| from gate 2 
+9: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+9: Not first UDP
+Recieved signal to send state dict from 9
+9: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker9.txt
+9: sending vector of tensors with size: 10
+12: received UDP from 02-42-C0-A8-00-42| from gate 6 
+12: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+12: Not first UDP
+Recieved signal to send state dict from 21
+12: reading from /home/ubuntu/Desktop/project/dicts_to_text/worker21.txt
+12: sending vector of tensors with size: 10
+0: Received a signal from leaf! <<<<<<<<<<<<
+0: Received a signal from leaf! <<<<<<<<<<<<
+0: sending signal from root to testnet.sw[7].smartL
+0: sending signal from root to testnet.sw[8].smartL
+0: sending signal from root to testnet.sw[9].smartL
+0: sending signal from root to testnet.sw[10].smartL
+0: sending signal from root to testnet.sw[11].smartL
+0: sending signal from root to testnet.sw[12].smartL
+0: sending signal from root to testnet.sw[13].smartL
+0: sending signal from root to testnet.sw[14].smartL
+7: sending messages from switch after sync
+8: sending messages from switch after sync
+9: sending messages from switch after sync
+10: sending messages from switch after sync
+11: sending messages from switch after sync
+12: sending messages from switch after sync
+13: sending messages from switch after sync
+14: sending messages from switch after sync
+3: it is our custom msg| from gate: 1
+3: message is from worker| gate : 1
+3: storing dictionary...
+3: received 1/2
+3: it is our custom msg| from gate: 2
+3: message is from worker| gate : 2
+3: storing dictionary...
+3: received 2/2
+4: it is our custom msg| from gate: 1
+4: message is from worker| gate : 1
+4: storing dictionary...
+4: received 1/2
+4: it is our custom msg| from gate: 2
+4: message is from worker| gate : 2
+4: storing dictionary...
+4: received 2/2
+5: it is our custom msg| from gate: 1
+5: message is from worker| gate : 1
+5: storing dictionary...
+5: received 1/2
+5: it is our custom msg| from gate: 2
+5: message is from worker| gate : 2
+5: storing dictionary...
+5: received 2/2
+6: it is our custom msg| from gate: 1
+6: message is from worker| gate : 1
+6: storing dictionary...
+6: received 1/2
+6: it is our custom msg| from gate: 2
+6: message is from worker| gate : 2
+6: storing dictionary...
+6: received 2/2
+1: it is our custom msg| from gate: 1
+1: message is from worker| gate : 1
+1: storing dictionary...
+1: received 1/2
+1: it is our custom msg| from gate: 2
+1: message is from worker| gate : 2
+1: storing dictionary...
+1: received 2/2
+2: it is our custom msg| from gate: 1
+2: message is from worker| gate : 1
+2: storing dictionary...
+2: received 1/2
+2: it is our custom msg| from gate: 2
+2: message is from worker| gate : 2
+2: storing dictionary...
+2: received 2/2
+0: it is our custom msg| from gate: 1
+0: message is from worker| gate : 1
+0: storing dictionary...
+0: received 1/2
+0: it is our custom msg| from gate: 2
+0: message is from worker| gate : 2
+0: storing dictionary...
+0: received 2/2
+0: received UDP from 02-42-C0-A8-00-42| from gate 0 
+0: FILTERED FROM DOCKER : 02-42-C0-A8-00-42
+0: Not first UDP
+8: received UDP from 6E-BB-7E-A7-F7-1F| from gate 5 
+1: it is our custom msg| from gate: 0
+1: message is from server
+1: not a leaf so broadcasting downstream
+2: it is our custom msg| from gate: 0
+2: message is from server
+2: not a leaf so broadcasting downstream
+3: it is our custom msg| from gate: 0
+3: message is from server
+3: not a leaf so broadcasting downstream
+4: it is our custom msg| from gate: 0
+4: message is from server
+4: not a leaf so broadcasting downstream
+5: it is our custom msg| from gate: 0
+5: message is from server
+5: not a leaf so broadcasting downstream
+6: it is our custom msg| from gate: 0
+6: message is from server
+6: not a leaf so broadcasting downstream
+7: it is our custom msg| from gate: 0
+7: message is from server
+7: sending signal to hosts
+8: it is our custom msg| from gate: 0
+8: message is from server
+8: sending signal to hosts
+9: it is our custom msg| from gate: 0
+9: message is from server
+9: sending signal to hosts
+10: it is our custom msg| from gate: 0
+10: message is from server
+10: sending signal to hosts
+11: it is our custom msg| from gate: 0
+11: message is from server
+11: sending signal to hosts
+12: it is our custom msg| from gate: 0
+12: message is from server
+12: sending signal to hosts
+13: it is our custom msg| from gate: 0
+13: message is from server
+13: sending signal to hosts
+14: it is our custom msg| from gate: 0
+14: message is from server
+14: sending signal to hosts
+10: received UDP from 06-12-3F-3E-E0-EF| from gate 1 
+7: received UDP from 06-08-CB-6D-85-03| from gate 1 
+0: received UDP from CA-5B-9F-30-F3-5C| from gate 0 
+9: received UDP from BE-9F-28-45-51-28| from gate 2 
+0: received UDP from 62-86-DA-1F-14-6D| from gate 0 
+7: received UDP from 3A-F9-24-D2-6E-FA| from gate 1 
+7: received UDP from F2-F0-DC-E7-C5-E2| from gate 2 
+8: received UDP from C6-57-06-9D-1F-70| from gate 1 
+8: received UDP from 82-5E-70-A5-4B-79| from gate 2 
+8: received UDP from 6A-2D-61-EA-A4-6A| from gate 3 
+8: received UDP from 46-98-F3-61-32-16| from gate 4 
+8: received UDP from 66-9A-9A-D4-F6-CA| from gate 5 
+9: received UDP from D6-A5-B2-E1-EA-2F| from gate 1 
+9: received UDP from C6-98-80-69-F2-8C| from gate 2 
+10: received UDP from 36-58-48-4A-8F-60| from gate 1 
+11: received UDP from 3A-39-E0-B2-F8-A0| from gate 1 
+11: received UDP from D2-61-07-89-A5-29| from gate 2 
+11: received UDP from E6-96-D6-BC-E1-FD| from gate 3 
+11: received UDP from 7A-EB-6E-57-12-37| from gate 4 
+11: received UDP from E6-38-CD-3C-D7-6D| from gate 5 
+12: received UDP from 42-A4-E2-8C-E4-90| from gate 1 
+12: received UDP from EE-C5-F5-8D-B8-8E| from gate 2 
+12: received UDP from E6-7F-5D-8B-57-23| from gate 3 
+12: received UDP from D2-EF-16-9F-0B-D3| from gate 4 
+12: received UDP from 1A-83-36-1D-A3-AF| from gate 5 
+12: received UDP from 4A-18-03-73-02-E9| from gate 6 
+12: received UDP from CA-84-12-4E-1D-43| from gate 7 
+12: received UDP from 1E-69-1E-04-39-5C| from gate 8 
+13: received UDP from EE-9A-7A-0B-AD-42| from gate 1 
+13: received UDP from 56-89-89-A8-A2-6A| from gate 2 
+14: received UDP from AE-41-29-D3-CB-C4| from gate 1 
+14: received UDP from 92-F0-49-55-29-D9| from gate 2 
+14: received UDP from 86-DF-CD-F1-B1-D8| from gate 3 
+14: received UDP from A2-2A-09-90-35-E8| from gate 4 
+14: received UDP from BA-9C-EF-10-70-C6| from gate 5 
+14: received UDP from EA-28-05-AB-4D-43| from gate 6 
+8: received UDP from 66-9A-9A-D4-F6-CA| from gate 5 
+13: received UDP from 56-89-89-A8-A2-6A| from gate 2 
+12: received UDP from 4A-18-03-73-02-E9| from gate 6 
+14: received UDP from EA-28-05-AB-4D-43| from gate 6 
+14: received UDP from 92-F0-49-55-29-D9| from gate 2 
+11: received UDP from E6-96-D6-BC-E1-FD| from gate 3 
+11: received UDP from E6-38-CD-3C-D7-6D| from gate 5 
+12: received UDP from 1E-69-1E-04-39-5C| from gate 8 
+8: received UDP from 6A-2D-61-EA-A4-6A| from gate 3 
+12: received UDP from 1A-83-36-1D-A3-AF| from gate 5 
+11: received UDP from 7A-EB-6E-57-12-37| from gate 4 
+8: received UDP from 46-98-F3-61-32-16| from gate 4 
+12: received UDP from EE-C5-F5-8D-B8-8E| from gate 2 
+8: received UDP from 82-5E-70-A5-4B-79| from gate 2 
+12: received UDP from D2-EF-16-9F-0B-D3| from gate 4 
+7: received UDP from F2-F0-DC-E7-C5-E2| from gate 2 
+8: received UDP from 82-5E-70-A5-4B-79| from gate 2 
+11: received UDP from E6-96-D6-BC-E1-FD| from gate 3 
+0: received UDP from 62-86-DA-1F-14-6D| from gate 0 
+11: received UDP from 3A-39-E0-B2-F8-A0| from gate 1 
+14: received UDP from 86-DF-CD-F1-B1-D8| from gate 3 
+13: received UDP from EE-9A-7A-0B-AD-42| from gate 1 
+12: received UDP from E6-7F-5D-8B-57-23| from gate 3 
+13: received UDP from EE-9A-7A-0B-AD-42| from gate 1 
+8: received UDP from 66-9A-9A-D4-F6-CA| from gate 5 
+12: received UDP from CA-84-12-4E-1D-43| from gate 7 
+9: received UDP from C6-98-80-69-F2-8C| from gate 2 
+8: received UDP from 46-98-F3-61-32-16| from gate 4 
+0: received UDP from 62-86-DA-1F-14-6D| from gate 0 
+12: received UDP from 1E-69-1E-04-39-5C| from gate 8 
+11: received UDP from 3A-39-E0-B2-F8-A0| from gate 1 
+12: received UDP from 1A-83-36-1D-A3-AF| from gate 5 
+9: received UDP from C6-98-80-69-F2-8C| from gate 2 
+12: received UDP from D2-EF-16-9F-0B-D3| from gate 4 
+10: received UDP from 36-58-48-4A-8F-60| from gate 1 
+14: received UDP from EA-28-05-AB-4D-43| from gate 6 
+14: received UDP from AE-41-29-D3-CB-C4| from gate 1 
+14: received UDP from AE-41-29-D3-CB-C4| from gate 1 
+12: received UDP from 42-A4-E2-8C-E4-90| from gate 1 
+12: received UDP from CA-84-12-4E-1D-43| from gate 7 
+11: received UDP from D2-61-07-89-A5-29| from gate 2 
+11: received UDP from E6-38-CD-3C-D7-6D| from gate 5 
+14: received UDP from A2-2A-09-90-35-E8| from gate 4 
+14: received UDP from A2-2A-09-90-35-E8| from gate 4 
+14: received UDP from 86-DF-CD-F1-B1-D8| from gate 3 
+11: received UDP from D2-61-07-89-A5-29| from gate 2 
+12: received UDP from E6-7F-5D-8B-57-23| from gate 3 
+8: received UDP from C6-57-06-9D-1F-70| from gate 1 
+9: received UDP from D6-A5-B2-E1-EA-2F| from gate 1 
+8: received UDP from 6A-2D-61-EA-A4-6A| from gate 3 
+12: received UDP from 42-A4-E2-8C-E4-90| from gate 1 
+7: received UDP from 3A-F9-24-D2-6E-FA| from gate 1 
+9: received UDP from D6-A5-B2-E1-EA-2F| from gate 1 
+12: received UDP from EE-C5-F5-8D-B8-8E| from gate 2 
+12: received UDP from 4A-18-03-73-02-E9| from gate 6 
+14: received UDP from 92-F0-49-55-29-D9| from gate 2 
+11: received UDP from 7A-EB-6E-57-12-37| from gate 4 
+10: received UDP from 36-58-48-4A-8F-60| from gate 1 
+7: received UDP from F2-F0-DC-E7-C5-E2| from gate 2 
+14: received UDP from BA-9C-EF-10-70-C6| from gate 5 
+8: received UDP from C6-57-06-9D-1F-70| from gate 1 
+13: received UDP from 56-89-89-A8-A2-6A| from gate 2 
+7: received UDP from 3A-F9-24-D2-6E-FA| from gate 1 
+14: received UDP from BA-9C-EF-10-70-C6| from gate 5 
+8: received UDP from 66-9A-9A-D4-F6-CA| from gate 5 
+8: received UDP from 66-9A-9A-D4-F6-CA| from gate 5 
+8: received UDP from 66-9A-9A-D4-F6-CA| from gate 5 
+14: received UDP from 92-F0-49-55-29-D9| from gate 2 
+14: received UDP from 92-F0-49-55-29-D9| from gate 2 
+13: received UDP from 56-89-89-A8-A2-6A| from gate 2 
+13: received UDP from 56-89-89-A8-A2-6A| from gate 2 
+14: received UDP from 92-F0-49-55-29-D9| from gate 2 
+8: received UDP from 6A-2D-61-EA-A4-6A| from gate 3 
+8: received UDP from 6A-2D-61-EA-A4-6A| from gate 3 
+8: received UDP from 46-98-F3-61-32-16| from gate 4 
+8: received UDP from 46-98-F3-61-32-16| from gate 4 
+12: received UDP from EE-C5-F5-8D-B8-8E| from gate 2 
+12: received UDP from 1A-83-36-1D-A3-AF| from gate 5 
+12: received UDP from EE-C5-F5-8D-B8-8E| from gate 2 
+12: received UDP from 1A-83-36-1D-A3-AF| from gate 5 
+12: received UDP from D2-EF-16-9F-0B-D3| from gate 4 
+12: received UDP from D2-EF-16-9F-0B-D3| from gate 4 
+8: received UDP from 82-5E-70-A5-4B-79| from gate 2 
+11: received UDP from E6-96-D6-BC-E1-FD| from gate 3 
+8: received UDP from 82-5E-70-A5-4B-79| from gate 2 
+11: received UDP from E6-96-D6-BC-E1-FD| from gate 3 
+12: received UDP from E6-7F-5D-8B-57-23| from gate 3 
+12: received UDP from E6-7F-5D-8B-57-23| from gate 3 
+13: received UDP from EE-9A-7A-0B-AD-42| from gate 1 
+13: received UDP from EE-9A-7A-0B-AD-42| from gate 1 
+13: received UDP from 56-89-89-A8-A2-6A| from gate 2 
+9: received UDP from C6-98-80-69-F2-8C| from gate 2 
+9: received UDP from C6-98-80-69-F2-8C| from gate 2 
+12: received UDP from E6-7F-5D-8B-57-23| from gate 3 
+0: received UDP from 62-86-DA-1F-14-6D| from gate 0 
+12: received UDP from 1E-69-1E-04-39-5C| from gate 8 
+0: received UDP from 62-86-DA-1F-14-6D| from gate 0 
+12: received UDP from 1E-69-1E-04-39-5C| from gate 8 
+11: received UDP from 3A-39-E0-B2-F8-A0| from gate 1 
+11: received UDP from 3A-39-E0-B2-F8-A0| from gate 1 
+8: received UDP from 82-5E-70-A5-4B-79| from gate 2 
+10: received UDP from 36-58-48-4A-8F-60| from gate 1 
+10: received UDP from 36-58-48-4A-8F-60| from gate 1 
+14: received UDP from AE-41-29-D3-CB-C4| from gate 1 
+14: received UDP from EA-28-05-AB-4D-43| from gate 6 
+14: received UDP from AE-41-29-D3-CB-C4| from gate 1 
+14: received UDP from EA-28-05-AB-4D-43| from gate 6 
+11: received UDP from E6-38-CD-3C-D7-6D| from gate 5 
+12: received UDP from 42-A4-E2-8C-E4-90| from gate 1 
+11: received UDP from E6-38-CD-3C-D7-6D| from gate 5 
+12: received UDP from 42-A4-E2-8C-E4-90| from gate 1 
+12: received UDP from CA-84-12-4E-1D-43| from gate 7 
+12: received UDP from CA-84-12-4E-1D-43| from gate 7 
+11: received UDP from E6-38-CD-3C-D7-6D| from gate 5 
+14: received UDP from A2-2A-09-90-35-E8| from gate 4 
+14: received UDP from A2-2A-09-90-35-E8| from gate 4 
+14: received UDP from 86-DF-CD-F1-B1-D8| from gate 3 
+14: received UDP from 86-DF-CD-F1-B1-D8| from gate 3 
+12: received UDP from 42-A4-E2-8C-E4-90| from gate 1 
+12: received UDP from D2-EF-16-9F-0B-D3| from gate 4 
+11: received UDP from D2-61-07-89-A5-29| from gate 2 
+11: received UDP from D2-61-07-89-A5-29| from gate 2 
+8: received UDP from C6-57-06-9D-1F-70| from gate 1 
+8: received UDP from C6-57-06-9D-1F-70| from gate 1 
+8: received UDP from 46-98-F3-61-32-16| from gate 4 
+9: received UDP from D6-A5-B2-E1-EA-2F| from gate 1 
+9: received UDP from D6-A5-B2-E1-EA-2F| from gate 1 
+14: received UDP from EA-28-05-AB-4D-43| from gate 6 
+7: received UDP from 3A-F9-24-D2-6E-FA| from gate 1 
+7: received UDP from 3A-F9-24-D2-6E-FA| from gate 1 
+11: received UDP from E6-96-D6-BC-E1-FD| from gate 3 
+12: received UDP from 4A-18-03-73-02-E9| from gate 6 
+12: received UDP from 4A-18-03-73-02-E9| from gate 6 
+11: received UDP from 7A-EB-6E-57-12-37| from gate 4 
+11: received UDP from 7A-EB-6E-57-12-37| from gate 4 
+7: received UDP from F2-F0-DC-E7-C5-E2| from gate 2 
+14: received UDP from BA-9C-EF-10-70-C6| from gate 5 
+7: received UDP from F2-F0-DC-E7-C5-E2| from gate 2 
+14: received UDP from BA-9C-EF-10-70-C6| from gate 5 
+12: received UDP from 1A-83-36-1D-A3-AF| from gate 5 
+11: received UDP from 3A-39-E0-B2-F8-A0| from gate 1 
+12: received UDP from EE-C5-F5-8D-B8-8E| from gate 2 
+7: received UDP from 3A-F9-24-D2-6E-FA| from gate 1 
+12: received UDP from 1E-69-1E-04-39-5C| from gate 8 
+0: received UDP from 62-86-DA-1F-14-6D| from gate 0 
+9: received UDP from C6-98-80-69-F2-8C| from gate 2 
+8: received UDP from 6A-2D-61-EA-A4-6A| from gate 3 
+11: received UDP from D2-61-07-89-A5-29| from gate 2 
+13: received UDP from EE-9A-7A-0B-AD-42| from gate 1 
+9: received UDP from D6-A5-B2-E1-EA-2F| from gate 1 
+14: received UDP from A2-2A-09-90-35-E8| from gate 4 
+14: received UDP from 86-DF-CD-F1-B1-D8| from gate 3 
+8: received UDP from C6-57-06-9D-1F-70| from gate 1 
+10: received UDP from 36-58-48-4A-8F-60| from gate 1 
+12: received UDP from 4A-18-03-73-02-E9| from gate 6 
+12: received UDP from CA-84-12-4E-1D-43| from gate 7 
+14: received UDP from AE-41-29-D3-CB-C4| from gate 1 
+14: received UDP from BA-9C-EF-10-70-C6| from gate 5 
+7: received UDP from F2-F0-DC-E7-C5-E2| from gate 2 
+11: received UDP from 7A-EB-6E-57-12-37| from gate 4 
+8: received UDP from 6A-2D-61-EA-A4-6A| from gate 3 
+8: received UDP from 66-9A-9A-D4-F6-CA| from gate 5 
+11: received UDP from E6-96-D6-BC-E1-FD| from gate 3 
+13: received UDP from 56-89-89-A8-A2-6A| from gate 2 
+14: received UDP from 92-F0-49-55-29-D9| from gate 2 
+10: received UDP from 36-58-48-4A-8F-60| from gate 1 
+12: received UDP from EE-C5-F5-8D-B8-8E| from gate 2 
+12: received UDP from D2-EF-16-9F-0B-D3| from gate 4 
+8: received UDP from 46-98-F3-61-32-16| from gate 4 
+9: received UDP from C6-98-80-69-F2-8C| from gate 2 
+11: received UDP from D2-61-07-89-A5-29| from gate 2 
+11: received UDP from 7A-EB-6E-57-12-37| from gate 4 
+11: received UDP from E6-38-CD-3C-D7-6D| from gate 5 
+12: received UDP from 1A-83-36-1D-A3-AF| from gate 5 
+12: received UDP from CA-84-12-4E-1D-43| from gate 7 
+8: received UDP from C6-57-06-9D-1F-70| from gate 1 
+8: received UDP from 82-5E-70-A5-4B-79| from gate 2 
+11: received UDP from 3A-39-E0-B2-F8-A0| from gate 1 
+12: received UDP from 42-A4-E2-8C-E4-90| from gate 1 
+12: received UDP from E6-7F-5D-8B-57-23| from gate 3 
+12: received UDP from 4A-18-03-73-02-E9| from gate 6 
+13: received UDP from EE-9A-7A-0B-AD-42| from gate 1 
+14: received UDP from AE-41-29-D3-CB-C4| from gate 1 
+0: received UDP from 62-86-DA-1F-14-6D| from gate 0 
+7: received UDP from F2-F0-DC-E7-C5-E2| from gate 2 
+9: received UDP from D6-A5-B2-E1-EA-2F| from gate 1 
+12: received UDP from 1E-69-1E-04-39-5C| from gate 8 
+14: received UDP from 86-DF-CD-F1-B1-D8| from gate 3 
+14: received UDP from A2-2A-09-90-35-E8| from gate 4 
+14: received UDP from BA-9C-EF-10-70-C6| from gate 5 
+14: received UDP from EA-28-05-AB-4D-43| from gate 6 
+7: received UDP from 3A-F9-24-D2-6E-FA| from gate 1 

@@ -1,0 +1,96 @@
+This is a parameter server!
+.
+Sent 1 packets.
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict1.txt
+./logs/root_switch/dict0.txt
+
+aggregating received dicts...
+writing file...
+Server is sending signal for epoch 0 at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=19, tm_hour=20, tm_min=13, tm_sec=21, tm_wday=0, tm_yday=170, tm_isdst=0) or 1687205601.4917147 in seconds
+.
+Sent 1 packets.
+
+Test set: Accuracy: 9049/10000 (90%)
+
+Finished Epoch Number 1
+Average time to compute new model: 0.008412361145019531s
+Average time it takes the server to read all the new files: 0.11840510368347168
+Avergae time to test: 3.1852333545684814s
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict1.txt
+./logs/root_switch/dict0.txt
+
+aggregating received dicts...
+writing file...
+Server is sending signal for epoch 1 at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=19, tm_hour=20, tm_min=15, tm_sec=34, tm_wday=0, tm_yday=170, tm_isdst=0) or 1687205734.403171 in seconds
+.
+Sent 1 packets.
+
+Test set: Accuracy: 9358/10000 (94%)
+
+Finished Epoch Number 2
+Average time to compute new model: 0.008222341537475586s
+Average time it takes the server to read all the new files: 0.11711263656616211
+Avergae time to test: 2.9830591678619385s
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict1.txt
+./logs/root_switch/dict0.txt
+
+aggregating received dicts...
+writing file...
+Server is sending signal for epoch 2 at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=19, tm_hour=20, tm_min=17, tm_sec=47, tm_wday=0, tm_yday=170, tm_isdst=0) or 1687205867.4306922 in seconds
+.
+Sent 1 packets.
+
+Test set: Accuracy: 9495/10000 (95%)
+
+Finished Epoch Number 3
+Average time to compute new model: 0.008183638254801432s
+Average time it takes the server to read all the new files: 0.11673736572265625
+Avergae time to test: 2.9210400581359863s
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict1.txt
+./logs/root_switch/dict0.txt
+
+aggregating received dicts...
+writing file...
+Server is sending signal for epoch 3 at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=19, tm_hour=20, tm_min=20, tm_sec=0, tm_wday=0, tm_yday=170, tm_isdst=0) or 1687206000.8622904 in seconds
+.
+Sent 1 packets.
+
+Test set: Accuracy: 9586/10000 (96%)
+
+Finished Epoch Number 4
+Average time to compute new model: 0.008174896240234375s
+Average time it takes the server to read all the new files: 0.1164206862449646
+Avergae time to test: 2.898374855518341s
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict1.txt
+./logs/root_switch/dict0.txt
+
+aggregating received dicts...
+writing file...
+Server is sending signal for epoch 4 at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=19, tm_hour=20, tm_min=22, tm_sec=14, tm_wday=0, tm_yday=170, tm_isdst=0) or 1687206134.3257928 in seconds
+.
+Sent 1 packets.
+
+Test set: Accuracy: 9647/10000 (96%)
+
+Finished Epoch Number 5
+Average time to compute new model: 0.008097171783447266s
+Average time it takes the server to read all the new files: 0.11629948616027833
+Avergae time to test: 2.8661121845245363s
+Accuracies: [90.48999786376953, 93.58000183105469, 94.94999694824219, 95.86000061035156, 96.47000122070312]
+Test losses: [tensor(0.3524), tensor(0.2756), tensor(0.1561), tensor(0.1731), tensor(0.1194)]
+Simulation is done!

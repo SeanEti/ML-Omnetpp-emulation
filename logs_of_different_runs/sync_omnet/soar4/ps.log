@@ -1,0 +1,121 @@
+This is a parameter server!
+.
+Sent 1 packets.
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict3.txt
+./logs/root_switch/dict1.txt
+./logs/root_switch/dict2.txt
+./logs/root_switch/dict4.txt
+./logs/root_switch/dict5.txt
+./logs/root_switch/dict6.txt
+./logs/root_switch/dict0.txt
+
+aggregating received dicts...
+writing file...
+Server is sending signal for epoch 0 at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=19, tm_hour=19, tm_min=43, tm_sec=45, tm_wday=0, tm_yday=170, tm_isdst=0) or 1687203825.651988 in seconds
+.
+Sent 1 packets.
+
+Test set: Accuracy: 9049/10000 (90%)
+
+Finished Epoch Number 1
+Average time to compute new model: 0.019762277603149414s
+Average time it takes the server to read all the new files: 0.3549838066101074
+Avergae time to test: 2.8509936332702637s
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict3.txt
+./logs/root_switch/dict1.txt
+./logs/root_switch/dict2.txt
+./logs/root_switch/dict4.txt
+./logs/root_switch/dict5.txt
+./logs/root_switch/dict6.txt
+./logs/root_switch/dict0.txt
+
+aggregating received dicts...
+writing file...
+Server is sending signal for epoch 1 at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=19, tm_hour=19, tm_min=45, tm_sec=56, tm_wday=0, tm_yday=170, tm_isdst=0) or 1687203956.1436856 in seconds
+.
+Sent 1 packets.
+
+Test set: Accuracy: 9358/10000 (94%)
+
+Finished Epoch Number 2
+Average time to compute new model: 0.019692540168762207s
+Average time it takes the server to read all the new files: 0.37114250659942627
+Avergae time to test: 3.035376191139221s
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict3.txt
+./logs/root_switch/dict1.txt
+./logs/root_switch/dict2.txt
+./logs/root_switch/dict4.txt
+./logs/root_switch/dict5.txt
+./logs/root_switch/dict6.txt
+./logs/root_switch/dict0.txt
+
+aggregating received dicts...
+writing file...
+Server is sending signal for epoch 2 at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=19, tm_hour=19, tm_min=48, tm_sec=6, tm_wday=0, tm_yday=170, tm_isdst=0) or 1687204086.712574 in seconds
+.
+Sent 1 packets.
+
+Test set: Accuracy: 9495/10000 (95%)
+
+Finished Epoch Number 3
+Average time to compute new model: 0.019672711690266926s
+Average time it takes the server to read all the new files: 0.36595884958902997
+Avergae time to test: 3.126974582672119s
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict3.txt
+./logs/root_switch/dict1.txt
+./logs/root_switch/dict2.txt
+./logs/root_switch/dict4.txt
+./logs/root_switch/dict5.txt
+./logs/root_switch/dict6.txt
+./logs/root_switch/dict0.txt
+
+aggregating received dicts...
+writing file...
+Server is sending signal for epoch 3 at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=19, tm_hour=19, tm_min=50, tm_sec=17, tm_wday=0, tm_yday=170, tm_isdst=0) or 1687204217.2843933 in seconds
+.
+Sent 1 packets.
+
+Test set: Accuracy: 9586/10000 (96%)
+
+Finished Epoch Number 4
+Average time to compute new model: 0.019640564918518066s
+Average time it takes the server to read all the new files: 0.36491650342941284
+Avergae time to test: 3.1903951168060303s
+wating for a signal...
+reading files...
+files to read from:
+./logs/root_switch/dict3.txt
+./logs/root_switch/dict1.txt
+./logs/root_switch/dict2.txt
+./logs/root_switch/dict4.txt
+./logs/root_switch/dict5.txt
+./logs/root_switch/dict6.txt
+./logs/root_switch/dict0.txt
+
+aggregating received dicts...
+writing file...
+Server is sending signal for epoch 4 at time.struct_time(tm_year=2023, tm_mon=6, tm_mday=19, tm_hour=19, tm_min=52, tm_sec=27, tm_wday=0, tm_yday=170, tm_isdst=0) or 1687204347.7912135 in seconds
+.
+Sent 1 packets.
+
+Test set: Accuracy: 9647/10000 (96%)
+
+Finished Epoch Number 5
+Average time to compute new model: 0.019611501693725587s
+Average time it takes the server to read all the new files: 0.36434159278869627
+Avergae time to test: 3.230384922027588s
+Accuracies: [90.48999786376953, 93.58000183105469, 94.94999694824219, 95.86000061035156, 96.47000122070312]
+Test losses: [tensor(0.3735), tensor(0.2360), tensor(0.1423), tensor(0.1258), tensor(0.1156)]
+Simulation is done!

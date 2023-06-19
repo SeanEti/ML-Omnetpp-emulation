@@ -1,0 +1,7 @@
+scp raz@132.72.107.111:/home/ubuntu/Downloads/omnetpp-6.0.1/samples/test2/simulations/results/All-#0.vec /home/ubuntu/Desktop/project/logs_of_different_runs/sync_omnet/vecs/
+scp -r raz@132.72.107.111:/home/ubuntu/Desktop/project/logs/ /home/ubuntu/Desktop/project/logs_of_different_runs/sync_omnet/<run-name>/
+
+
+nano /home/ubuntu/Downloads/omnetpp-6.0.1/samples/test2/simulations/test.ned
+
+
